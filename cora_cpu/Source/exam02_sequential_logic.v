@@ -498,7 +498,7 @@ endmodule
 module register_Nbit_p_alltime #(parameter N = 8)(
         input [N-1:0] d,
         input clk, reset_p, wr_en, rd_en,
-        output register_data, // 상시 출력
+        output [N-1:0] register_data, // 상시 출력
         output [N-1:0] q
     );
 

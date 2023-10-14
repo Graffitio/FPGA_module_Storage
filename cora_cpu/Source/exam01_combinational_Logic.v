@@ -53,6 +53,58 @@ module half_adder_dataflow(   ///// 데이터플로우 모델링
 endmodule // 앞으로 half addr는 이 것을 자주 사용할 것.
 //////////////////////////////////////////////////////////////////////////////////
 
+module half_adder_4bit(
+    // load_data 에 1만 더해주는 기능을 한다.
+    // 하프 에더이기 때문에 0 또는 1씩만 더해줄 수 있다.
+    // 1씩 증가하는 카운터를 이 걸로 만들어줄 수 있음.
+    input inc,
+    input [3:0] load_data, 
+    output [3:0] sum
+    );
+    
+    // half adder 3개로 만들어보자.
+//    wire [3:0] carry_out;
+//    half_adder_dataflow ha0(.A(inc), .B(load_data[0]), .sum(sum[0]), .carry(carry_out[0]));
+//    half_adder_dataflow ha1(.A(carry_out[0]), .B(load_data[1]), .sum(sum[1]), .carry(carry_out[1]));
+//    half_adder_dataflow ha2(.A(carry_out[1]), .B(load_data[2]), .sum(sum[2]), .carry(carry_out[2]));
+//    half_adder_dataflow ha3(.A(carry_out[2]), .B(load_data[3]), .sum(sum[3]), .carry(carry_out[3]));
+    
+    // 위 코드를 for문으로 만들어보자.
+    wire [3:0] carry_out;
+    half_adder_dataflow ha0(.A(inc), .B(load_data[0]), .sum(sum[0]), .carry(carry_out[0]));
+    // for문으로 구조적 모델링할 떄
+    genvar i; // 얘는 회로로 안 만들어진다. 단순히 for문에서만 쓸 변수
+    generate
+        for(i = 1 ; i < 4 ; i = i + 1) begin
+            half_adder_dataflow ha(.A(carry_out[i-1]), .B(load_data[i]), .sum(sum[i]), .carry(carry_out[i]));
+        end
+    endgenerate
+endmodule
+
+
+module half_adder_N_bit #(parameter N = 8)(
+    // load_data 에 1만 더해주는 기능을 한다.
+    // 하프 에더이기 때문에 0 또는 1씩만 더해줄 수 있다.
+    // 1씩 증가하는 카운터를 이 걸로 만들어줄 수 있음.
+    input inc,
+    input [N-1:0] load_data, 
+    output [N-1:0] sum
+    );
+
+    wire [N-1:0] carry_out;
+    half_adder_dataflow ha0(.A(inc), .B(load_data[0]), .sum(sum[0]), .carry(carry_out[0]));
+    // for문으로 구조적 모델링할 떄
+    genvar i; // 얘는 회로로 안 만들어진다. 단순히 for문에서만 쓸 변수
+    generate
+        for(i = 1 ; i < N ; i = i + 1) begin
+            half_adder_dataflow ha(.A(carry_out[i-1]), .B(load_data[i]), .sum(sum[i]), .carry(carry_out[i]));
+        end
+    endgenerate
+endmodule
+
+
+
+
 module half_adder_behaviaral(   ///// 동작적 모델링(always 문 사용)
     input A,
     input B,
@@ -181,7 +233,7 @@ module fadd_sub_4bit_d( /// d : data flow modeling
                                   /// s = 0(거짓)이면, : 뒤의 값이 s로 들어간다.
                                   /// s = 1(참)이면, : 앞의 갚이 s로 들어간다.
     assign sum = temp[3:0];
-    assign carry = temp[4];
+    assign carry = s ? ~temp[4] : temp[4];
     
 endmodule
 
