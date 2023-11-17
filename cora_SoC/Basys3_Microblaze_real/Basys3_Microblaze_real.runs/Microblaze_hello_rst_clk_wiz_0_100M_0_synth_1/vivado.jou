@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Nov 16 16:38:01 2023
+# Process ID: 18932
+# Current directory: F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/Microblaze_hello_rst_clk_wiz_0_100M_0_synth_1
+# Command line: vivado.exe -log Microblaze_hello_rst_clk_wiz_0_100M_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Microblaze_hello_rst_clk_wiz_0_100M_0.tcl
+# Log file: F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/Microblaze_hello_rst_clk_wiz_0_100M_0_synth_1/Microblaze_hello_rst_clk_wiz_0_100M_0.vds
+# Journal file: F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/Microblaze_hello_rst_clk_wiz_0_100M_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source Microblaze_hello_rst_clk_wiz_0_100M_0.tcl -notrace

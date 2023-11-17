@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Nov 16 15:33:42 2023
+# Process ID: 2916
+# Current directory: F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/basys3_SoC/basys3_SoC.runs/impl_1
+# Command line: vivado.exe -log FND_4digit_cntr.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source FND_4digit_cntr.tcl -notrace
+# Log file: F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/basys3_SoC/basys3_SoC.runs/impl_1/FND_4digit_cntr.vdi
+# Journal file: F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/basys3_SoC/basys3_SoC.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source FND_4digit_cntr.tcl -notrace
