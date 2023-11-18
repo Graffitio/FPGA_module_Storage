@@ -1,0 +1,18 @@
+timestamp=[2023-11-17 09:17:59], mode=WORKBENCH_START, duration=0:00:14.880, duration_ms=14880, data={}
+timestamp=[2023-11-17 09:18:00], mode=WORKBENCH_UI_INIT, duration=0:00:01.044, duration_ms=1044, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2023-11-17 09:23:04], mode=PLATFORM_CREATION, duration=0:00:15.262, duration_ms=15262, data={platform_source=dsa, os=standalone, processor=microblaze, platform=null}
+timestamp=[2023-11-17 09:35:12], mode=PLATFORM_GENERATION, duration=0:00:15.755, duration_ms=15755, data={name=mBlaze_hello}
+timestamp=[2023-11-17 09:38:09], mode=APP_CREATION, duration=0:00:01.774, duration_ms=1774, data={name=mBlaze_hello_app, project_type=sdk, os=standalone, processor=microblaze_0, runtime=C/C++, platform=mBlaze_hello, application_type=application}
+timestamp=[2023-11-17 09:40:22], mode=APP_CREATION, duration=0:00:01.098, duration_ms=1098, data={name=mBlaze__hello_app, project_type=sdk, os=standalone, processor=microblaze_0, runtime=C/C++, platform=mBlaze_hello, application_type=application}
+timestamp=[2023-11-17 11:13:14], mode=PLATFORM_CREATION, duration=0:00:09.061, duration_ms=9061, data={platform_source=dsa, os=standalone, processor=microblaze, platform=null}
+timestamp=[2023-11-17 11:13:40], mode=PLATFORM_GENERATION, duration=0:00:23.359, duration_ms=23359, data={name=mblaze_led_hw}
+timestamp=[2023-11-17 11:16:01], mode=APP_CREATION, duration=0:00:01.249, duration_ms=1249, data={name=mblaze_led_app, project_type=sdk, os=standalone, processor=microblaze_0, runtime=C/C++, platform=mblaze_led_hw, application_type=application}
+timestamp=[2023-11-17 12:32:40], mode=PLATFORM_CREATION, duration=0:00:02.172, duration_ms=2172, data={platform_source=dsa, os=standalone, processor=microblaze, platform=null}
+timestamp=[2023-11-17 12:33:04], mode=PLATFORM_GENERATION, duration=0:00:15.918, duration_ms=15918, data={name=mblaze_led_switch_hw}
+timestamp=[2023-11-17 12:33:46], mode=APP_CREATION, duration=0:00:00.825, duration_ms=825, data={name=mblaze_led_switch_app, project_type=sdk, os=standalone, processor=microblaze_0, runtime=C/C++, platform=mblaze_led_switch_hw, application_type=application}
+timestamp=[2023-11-17 13:54:47], mode=PLATFORM_CREATION, duration=0:00:15.598, duration_ms=15598, data={platform_source=dsa, os=standalone, processor=microblaze, platform=null}
+timestamp=[2023-11-17 13:55:11], mode=PLATFORM_GENERATION, duration=0:00:21.481, duration_ms=21481, data={name=mblaze_led_switch_hw_r}
+timestamp=[2023-11-17 13:55:52], mode=APP_CREATION, duration=0:00:01.200, duration_ms=1200, data={name=mblaze_led_switch_r_app, project_type=sdk, os=standalone, processor=microblaze_0, runtime=C/C++, platform=mblaze_led_switch_hw_r, application_type=application}
+timestamp=[2023-11-17 14:18:13], mode=PLATFORM_CREATION, duration=0:00:01.749, duration_ms=1749, data={platform_source=dsa, os=standalone, processor=microblaze, platform=null}
+timestamp=[2023-11-17 14:18:32], mode=PLATFORM_GENERATION, duration=0:00:11.887, duration_ms=11887, data={name=mblaze_FND_led_swtich_hw}
+timestamp=[2023-11-17 14:19:07], mode=APP_CREATION, duration=0:00:00.817, duration_ms=817, data={name=mblaze_FND_led_switch_app, project_type=sdk, os=standalone, processor=microblaze_0, runtime=C/C++, platform=mblaze_FND_led_swtich_hw, application_type=application}

@@ -1,0 +1,6 @@
+2023-11-17T11:21:03.944057300255-11:21:03 **** Build of configuration Debug for project mblaze_led_app_system ****
+000-make all 
+000-Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+00255-
+11:21:04 Build Finished (took 229ms)
+

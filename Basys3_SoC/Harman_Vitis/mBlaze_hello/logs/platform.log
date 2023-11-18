@@ -1,0 +1,1010 @@
+TRACE::2023-11-17.09:22:50::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:50::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:50::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:52::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:22:52::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:52::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:22:52::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-11-17.09:22:52::SCWPlatform::Opened new HwDB with name Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:22:52::SCWWriter::formatted JSON is {
+	"platformName":	"mBlaze_hello",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mBlaze_hello",
+	"platHandOff":	"F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Microblaze_hello.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Microblaze_hello.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2023-11-17.09:22:52::SCWWriter::formatted JSON is {
+	"platformName":	"mBlaze_hello",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mBlaze_hello",
+	"platHandOff":	"F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Microblaze_hello.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Microblaze_hello.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mBlaze_hello",
+	"systems":	[{
+			"systemName":	"mBlaze_hello",
+			"systemDesc":	"mBlaze_hello",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mBlaze_hello"
+		}]
+}
+TRACE::2023-11-17.09:22:52::SCWPlatform::Boot application domains not present, creating them
+TRACE::2023-11-17.09:22:52::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2023-11-17.09:22:52::SCWWriter::formatted JSON is {
+	"platformName":	"mBlaze_hello",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mBlaze_hello",
+	"platHandOff":	"F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Microblaze_hello.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Microblaze_hello.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mBlaze_hello",
+	"systems":	[{
+			"systemName":	"mBlaze_hello",
+			"systemDesc":	"mBlaze_hello",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mBlaze_hello"
+		}]
+}
+TRACE::2023-11-17.09:22:52::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:52::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:52::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:52::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:22:52::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:52::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:22:52::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:22:52::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:22:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:22:52::SCWDomain::checking for install qemu data   : 
+TRACE::2023-11-17.09:22:52::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:52::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:52::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:52::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:22:52::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:52::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:22:52::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:22:52::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:22:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:22:52::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:52::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:52::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:52::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:22:52::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:52::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:22:52::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:22:52::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:22:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:22:52::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:22:52::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-11-17.09:22:52::SCWMssOS::No sw design opened at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:22:52::SCWMssOS::mss does not exists at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:22:52::SCWMssOS::Creating sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:22:52::SCWMssOS::Adding the swdes entry, created swdb F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss with des name F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:22:52::SCWMssOS::updating the scw layer changes to swdes at   F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:22:52::SCWMssOS::Writing mss at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:22:52::SCWMssOS::Completed writing the mss file at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp
+TRACE::2023-11-17.09:22:52::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2023-11-17.09:22:52::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2023-11-17.09:22:52::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:52::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:52::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:52::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:22:52::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:52::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:22:52::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:22:52::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:22:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:22:52::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:22:52::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss|F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2023-11-17.09:22:52::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:22:52::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:52::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:52::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:52::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:22:52::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:52::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:22:52::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:22:52::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:22:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:22:52::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:22:52::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss|F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2023-11-17.09:22:52::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:22:52::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:52::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:52::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:52::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:22:52::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:52::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:22:52::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:22:52::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:22:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:22:52::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:22:52::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss|F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2023-11-17.09:22:52::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:22:52::SCWWriter::formatted JSON is {
+	"platformName":	"mBlaze_hello",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mBlaze_hello",
+	"platHandOff":	"F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Microblaze_hello.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Microblaze_hello.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mBlaze_hello",
+	"systems":	[{
+			"systemName":	"mBlaze_hello",
+			"systemDesc":	"mBlaze_hello",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mBlaze_hello",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-11-17.09:22:52::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:52::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:52::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:52::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:22:52::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:22:52::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:22:52::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:22:52::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:22:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:22:52::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:22:52::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss|F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2023-11-17.09:22:52::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:22:52::SCWMssOS::Completed writing the mss file at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp
+TRACE::2023-11-17.09:22:52::SCWMssOS::Forcing BSP Sources regeneration.
+LOG::2023-11-17.09:23:04::SCWPlatform::Started generating the artifacts platform mBlaze_hello
+TRACE::2023-11-17.09:23:04::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-11-17.09:23:04::SCWPlatform::Started generating the artifacts for system configuration mBlaze_hello
+LOG::2023-11-17.09:23:04::SCWSystem::Checking the domain standalone_domain
+LOG::2023-11-17.09:23:04::SCWSystem::Not a boot domain 
+LOG::2023-11-17.09:23:04::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-11-17.09:23:04::SCWDomain::Generating domain artifcats
+TRACE::2023-11-17.09:23:04::SCWMssOS::Generating standalone artifcats
+TRACE::2023-11-17.09:23:04::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:23:04::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss|F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss||
+
+KEYINFO::2023-11-17.09:23:04::SCWMssOS::Could not open the swdb for F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+KEYINFO::2023-11-17.09:23:04::SCWMssOS::Could not open the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss is not found
+
+TRACE::2023-11-17.09:23:04::SCWMssOS::Cleared the swdb table entry
+TRACE::2023-11-17.09:23:04::SCWMssOS::No sw design opened at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWMssOS::mss exists loading the mss file  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWMssOS::Opened the sw design from mss  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWMssOS::Adding the swdes entry F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2023-11-17.09:23:04::SCWMssOS::updating the scw layer about changes
+TRACE::2023-11-17.09:23:04::SCWMssOS::Opened the sw design.  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWMssOS::Completed writing the mss file at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp
+TRACE::2023-11-17.09:23:04::SCWMssOS::Mss edits present, copying mssfile into export location F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-11-17.09:23:04::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-11-17.09:23:04::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2023-11-17.09:23:04::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-11-17.09:23:04::SCWMssOS::Copying to export directory.
+TRACE::2023-11-17.09:23:04::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-11-17.09:23:04::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-11-17.09:23:04::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-11-17.09:23:04::SCWSystem::Completed Processing the sysconfig mBlaze_hello
+LOG::2023-11-17.09:23:04::SCWPlatform::Completed generating the artifacts for system configuration mBlaze_hello
+TRACE::2023-11-17.09:23:04::SCWPlatform::Started preparing the platform 
+TRACE::2023-11-17.09:23:04::SCWSystem::Writing the bif file for system config mBlaze_hello
+TRACE::2023-11-17.09:23:04::SCWSystem::dir created 
+TRACE::2023-11-17.09:23:04::SCWSystem::Writing the bif 
+TRACE::2023-11-17.09:23:04::SCWPlatform::Started writing the spfm file 
+TRACE::2023-11-17.09:23:04::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-11-17.09:23:04::SCWPlatform::Completed generating the platform
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:23:04::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-17.09:23:04::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:23:04::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-17.09:23:04::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:23:04::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-17.09:23:04::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWWriter::formatted JSON is {
+	"platformName":	"mBlaze_hello",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mBlaze_hello",
+	"platHandOff":	"F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Microblaze_hello.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Microblaze_hello.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mBlaze_hello",
+	"systems":	[{
+			"systemName":	"mBlaze_hello",
+			"systemDesc":	"mBlaze_hello",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mBlaze_hello",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"5d3f763607621b7f855126e82b103be6",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-11-17.09:23:04::SCWPlatform::updated the xpfm file.
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:23:04::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-17.09:23:04::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:23:04::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-17.09:23:04::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:23:04::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-17.09:23:04::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:23:04::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-17.09:23:04::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWWriter::formatted JSON is {
+	"platformName":	"mBlaze_hello",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mBlaze_hello",
+	"platHandOff":	"F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Microblaze_hello.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Microblaze_hello.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mBlaze_hello",
+	"systems":	[{
+			"systemName":	"mBlaze_hello",
+			"systemDesc":	"mBlaze_hello",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mBlaze_hello",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"5d3f763607621b7f855126e82b103be6",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:23:04::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-17.09:23:04::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:23:04::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-17.09:23:04::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:23:04::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-17.09:23:04::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:23:04::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-17.09:23:04::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:23:04::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-17.09:23:04::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:23:04::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-17.09:23:04::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWWriter::formatted JSON is {
+	"platformName":	"mBlaze_hello",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mBlaze_hello",
+	"platHandOff":	"F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Microblaze_hello.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Microblaze_hello.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mBlaze_hello",
+	"systems":	[{
+			"systemName":	"mBlaze_hello",
+			"systemDesc":	"mBlaze_hello",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mBlaze_hello",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"5d3f763607621b7f855126e82b103be6",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:23:04::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-17.09:23:04::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:23:04::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-17.09:23:04::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:04::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_0
+TRACE::2023-11-17.09:23:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:23:04::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-17.09:23:04::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:04::SCWWriter::formatted JSON is {
+	"platformName":	"mBlaze_hello",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mBlaze_hello",
+	"platHandOff":	"F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Microblaze_hello.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Microblaze_hello.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mBlaze_hello",
+	"systems":	[{
+			"systemName":	"mBlaze_hello",
+			"systemDesc":	"mBlaze_hello",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mBlaze_hello",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"5d3f763607621b7f855126e82b103be6",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-11-17.09:23:05::SCWPlatform::Clearing the existing platform
+TRACE::2023-11-17.09:23:05::SCWSystem::Clearing the existing sysconfig
+TRACE::2023-11-17.09:23:05::SCWMssOS::Removing the swdes entry for  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:05::SCWSystem::Clearing the domains completed.
+TRACE::2023-11-17.09:23:05::SCWPlatform::Clearing the opened hw db.
+TRACE::2023-11-17.09:23:05::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:05::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:05::SCWPlatform:: Platform location is F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:23:05::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:05::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:23:05::SCWPlatform::Removing the HwDB with name F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:05::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:05::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:05::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:05::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:23:05::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:05::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:23:05::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-11-17.09:23:05::SCWPlatform::Opened new HwDB with name Microblaze_hello_wrapper_1
+TRACE::2023-11-17.09:23:05::SCWReader::Active system found as  mBlaze_hello
+TRACE::2023-11-17.09:23:05::SCWReader::Handling sysconfig mBlaze_hello
+TRACE::2023-11-17.09:23:05::SCWDomain::checking for install qemu data   : 
+TRACE::2023-11-17.09:23:05::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:05::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:05::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:05::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:23:05::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:05::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:23:05::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_1
+TRACE::2023-11-17.09:23:05::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_1
+TRACE::2023-11-17.09:23:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:23:05::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:05::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:05::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:05::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:23:05::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:05::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:23:05::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_1
+TRACE::2023-11-17.09:23:05::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_1
+TRACE::2023-11-17.09:23:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:23:05::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:05::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:05::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:05::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:23:05::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:05::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:23:05::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_1
+TRACE::2023-11-17.09:23:05::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_1
+TRACE::2023-11-17.09:23:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:23:05::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:05::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-11-17.09:23:05::SCWMssOS::No sw design opened at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:05::SCWMssOS::mss exists loading the mss file  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:05::SCWMssOS::Opened the sw design from mss  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:05::SCWMssOS::Adding the swdes entry F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2023-11-17.09:23:05::SCWMssOS::updating the scw layer about changes
+TRACE::2023-11-17.09:23:05::SCWMssOS::Opened the sw design.  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:05::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-11-17.09:23:05::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-11-17.09:23:05::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:05::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:05::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:05::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:23:05::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:05::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:23:05::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_1
+TRACE::2023-11-17.09:23:05::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_1
+TRACE::2023-11-17.09:23:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:23:05::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:05::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-17.09:23:05::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:05::SCWReader::No isolation master present  
+TRACE::2023-11-17.09:23:05::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:05::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:05::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:05::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:23:05::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:05::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:23:05::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_1
+TRACE::2023-11-17.09:23:05::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_1
+TRACE::2023-11-17.09:23:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:23:05::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:05::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-17.09:23:05::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:06::SCWMssOS::In reload Mss file.
+TRACE::2023-11-17.09:23:06::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:06::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:06::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:06::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:23:06::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:06::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:23:06::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_1
+TRACE::2023-11-17.09:23:06::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_1
+TRACE::2023-11-17.09:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:23:06::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:06::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+KEYINFO::2023-11-17.09:23:06::SCWMssOS::Could not open the swdb for system
+KEYINFO::2023-11-17.09:23:06::SCWMssOS::Could not open the sw design at  system
+ERROR: [Hsi 55-1558] Software Design system is not found
+
+TRACE::2023-11-17.09:23:06::SCWMssOS::Cleared the swdb table entry
+TRACE::2023-11-17.09:23:06::SCWMssOS::No sw design opened at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:06::SCWMssOS::mss exists loading the mss file  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:06::SCWMssOS::Opened the sw design from mss  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:06::SCWMssOS::Adding the swdes entry F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2023-11-17.09:23:06::SCWMssOS::updating the scw layer about changes
+TRACE::2023-11-17.09:23:06::SCWMssOS::Opened the sw design.  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:06::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:06::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:06::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:06::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:23:06::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:23:06::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:23:06::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_1
+TRACE::2023-11-17.09:23:06::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_1
+TRACE::2023-11-17.09:23:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:23:06::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:06::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-17.09:23:06::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:23:06::SCWMssOS::Removing the swdes entry for  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+LOG::2023-11-17.09:34:59::SCWPlatform::Started generating the artifacts platform mBlaze_hello
+TRACE::2023-11-17.09:34:59::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-11-17.09:34:59::SCWPlatform::Started generating the artifacts for system configuration mBlaze_hello
+LOG::2023-11-17.09:34:59::SCWSystem::Checking the domain standalone_domain
+LOG::2023-11-17.09:34:59::SCWSystem::Not a boot domain 
+LOG::2023-11-17.09:34:59::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-11-17.09:34:59::SCWDomain::Generating domain artifcats
+TRACE::2023-11-17.09:34:59::SCWMssOS::Generating standalone artifcats
+TRACE::2023-11-17.09:34:59::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-11-17.09:34:59::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:34:59::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:34:59::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:34:59::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:34:59::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:34:59::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:34:59::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_1
+TRACE::2023-11-17.09:34:59::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_1
+TRACE::2023-11-17.09:34:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:34:59::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:34:59::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-11-17.09:34:59::SCWMssOS::No sw design opened at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:34:59::SCWMssOS::mss exists loading the mss file  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:34:59::SCWMssOS::Opened the sw design from mss  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:34:59::SCWMssOS::Adding the swdes entry F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2023-11-17.09:34:59::SCWMssOS::updating the scw layer about changes
+TRACE::2023-11-17.09:34:59::SCWMssOS::Opened the sw design.  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:34:59::SCWMssOS::Completed writing the mss file at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp
+TRACE::2023-11-17.09:34:59::SCWMssOS::Mss edits present, copying mssfile into export location F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:34:59::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-11-17.09:34:59::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-11-17.09:34:59::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2023-11-17.09:34:59::SCWMssOS::doing bsp build ... 
+TRACE::2023-11-17.09:34:59::SCWMssOS::System Command Ran  F: & cd  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp & make 
+TRACE::2023-11-17.09:34:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2023-11-17.09:34:59::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-11-17.09:34:59::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2023-11-17.09:34:59::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2023-11-17.09:34:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2023-11-17.09:34:59::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-11-17.09:34:59::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2023-11-17.09:34:59::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2023-11-17.09:34:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_1/src"
+
+TRACE::2023-11-17.09:34:59::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2023-11-17.09:34:59::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EX
+TRACE::2023-11-17.09:34:59::SCWMssOS::TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2023-11-17.09:35:00::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2023-11-17.09:35:00::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2023-11-17.09:35:00::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTR
+TRACE::2023-11-17.09:35:00::SCWMssOS::A_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2023-11-17.09:35:00::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2023-11-17.09:35:00::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-11-17.09:35:00::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
+TRACE::2023-11-17.09:35:00::SCWMssOS::LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2023-11-17.09:35:00::SCWMssOS::"Compiling bram"
+
+TRACE::2023-11-17.09:35:04::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2023-11-17.09:35:04::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-11-17.09:35:04::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
+TRACE::2023-11-17.09:35:04::SCWMssOS::LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2023-11-17.09:35:04::SCWMssOS::"Compiling cpu"
+
+TRACE::2023-11-17.09:35:05::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_1/src"
+
+TRACE::2023-11-17.09:35:05::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2023-11-17.09:35:05::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+TRACE::2023-11-17.09:35:05::SCWMssOS::_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2023-11-17.09:35:05::SCWMssOS::"Compiling standalone";
+
+TRACE::2023-11-17.09:35:10::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2023-11-17.09:35:10::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2023-11-17.09:35:10::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2023-11-17.09:35:10::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2023-11-17.09:35:10::SCWMssOS::"Compiling uartlite"
+
+TRACE::2023-11-17.09:35:11::SCWMssOS::'Finished building libraries'
+
+TRACE::2023-11-17.09:35:11::SCWMssOS::Copying to export directory.
+TRACE::2023-11-17.09:35:11::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-11-17.09:35:11::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-11-17.09:35:11::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-11-17.09:35:11::SCWSystem::Completed Processing the sysconfig mBlaze_hello
+LOG::2023-11-17.09:35:11::SCWPlatform::Completed generating the artifacts for system configuration mBlaze_hello
+TRACE::2023-11-17.09:35:11::SCWPlatform::Started preparing the platform 
+TRACE::2023-11-17.09:35:11::SCWSystem::Writing the bif file for system config mBlaze_hello
+TRACE::2023-11-17.09:35:11::SCWSystem::dir created 
+TRACE::2023-11-17.09:35:11::SCWSystem::Writing the bif 
+TRACE::2023-11-17.09:35:11::SCWPlatform::Started writing the spfm file 
+TRACE::2023-11-17.09:35:11::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-11-17.09:35:11::SCWPlatform::Completed generating the platform
+TRACE::2023-11-17.09:35:11::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:35:11::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:35:11::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:35:11::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:35:11::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:35:11::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:35:11::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_1
+TRACE::2023-11-17.09:35:11::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_1
+TRACE::2023-11-17.09:35:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:35:11::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:35:11::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-17.09:35:11::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:35:11::SCWWriter::formatted JSON is {
+	"platformName":	"mBlaze_hello",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mBlaze_hello",
+	"platHandOff":	"F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Microblaze_hello.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Microblaze_hello.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mBlaze_hello",
+	"systems":	[{
+			"systemName":	"mBlaze_hello",
+			"systemDesc":	"mBlaze_hello",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mBlaze_hello",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"5d3f763607621b7f855126e82b103be6",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-11-17.09:35:11::SCWPlatform::updated the xpfm file.
+TRACE::2023-11-17.09:35:11::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:35:11::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:35:11::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:35:11::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw
+TRACE::2023-11-17.09:35:11::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/hw/Microblaze_hello.xsa
+TRACE::2023-11-17.09:35:11::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-17.09:35:11::SCWPlatform::Trying to set the existing hwdb with name Microblaze_hello_wrapper_1
+TRACE::2023-11-17.09:35:11::SCWPlatform::Opened existing hwdb Microblaze_hello_wrapper_1
+TRACE::2023-11-17.09:35:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-17.09:35:11::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-17.09:35:11::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-17.09:35:11::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss

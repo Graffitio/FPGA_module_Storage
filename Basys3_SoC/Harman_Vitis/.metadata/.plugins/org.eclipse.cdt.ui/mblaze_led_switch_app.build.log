@@ -1,0 +1,6 @@
+12:59:22 **** Incremental Build of configuration Debug for project mblaze_led_switch_app ****
+make all 
+make: Nothing to be done for 'all'.
+
+12:59:23 Build Finished (took 235ms)
+
