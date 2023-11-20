@@ -1,2 +1,2 @@
    text	   data	    bss	    dec	    hex	filename
-   3980	    320	   3116	   7416	   1cf8	mblaze_FND_led_switch_app.elf
+   4288	    400	   3128	   7816	   1e88	mblaze_FND_led_switch_app.elf

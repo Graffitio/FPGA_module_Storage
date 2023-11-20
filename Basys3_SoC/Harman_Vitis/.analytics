@@ -16,3 +16,11 @@ timestamp=[2023-11-17 13:55:52], mode=APP_CREATION, duration=0:00:01.200, durati
 timestamp=[2023-11-17 14:18:13], mode=PLATFORM_CREATION, duration=0:00:01.749, duration_ms=1749, data={platform_source=dsa, os=standalone, processor=microblaze, platform=null}
 timestamp=[2023-11-17 14:18:32], mode=PLATFORM_GENERATION, duration=0:00:11.887, duration_ms=11887, data={name=mblaze_FND_led_swtich_hw}
 timestamp=[2023-11-17 14:19:07], mode=APP_CREATION, duration=0:00:00.817, duration_ms=817, data={name=mblaze_FND_led_switch_app, project_type=sdk, os=standalone, processor=microblaze_0, runtime=C/C++, platform=mblaze_FND_led_swtich_hw, application_type=application}
+timestamp=[2023-11-20 09:24:42], mode=WORKBENCH_START, duration=0:01:01.544, duration_ms=61544, data={}
+timestamp=[2023-11-20 09:24:48], mode=WORKBENCH_UI_INIT, duration=0:00:06.706, duration_ms=6706, data={editors_count=5, platform_editors_count=1, projects_count=16, platform_projects_count=5, active_platform_editor=false, projects=RemoteSystemsTempFiles,mBlaze__hello_app,mBlaze__hello_app_system,mBlaze_hello,mblaze_FND_led_switch_app,mblaze_FND_led_switch_app_system,mblaze_FND_led_swtich_hw,mblaze_led_app,mblaze_led_app_system,mblaze_led_hw,mblaze_led_switch_app,mblaze_led_switch_app_system,mblaze_led_switch_hw,mblaze_led_switch_hw_r,mblaze_led_switch_r_app,mblaze_led_switch_r_app_system}
+timestamp=[2023-11-20 15:17:17], mode=PLATFORM_CREATION, duration=0:00:23.230, duration_ms=23230, data={platform_source=dsa, os=standalone, processor=microblaze, platform=null}
+timestamp=[2023-11-20 15:17:49], mode=PLATFORM_GENERATION, duration=0:00:18.059, duration_ms=18059, data={name=mblaze_FND_cntr_hw}
+timestamp=[2023-11-20 15:18:16], mode=APP_CREATION, duration=0:00:01.796, duration_ms=1796, data={name=mblaze_FND_cntr_app, project_type=sdk, os=standalone, processor=microblaze_0, runtime=C/C++, platform=mblaze_FND_cntr_hw, application_type=application}
+timestamp=[2023-11-20 16:27:18], mode=PLATFORM_CREATION, duration=0:00:01.615, duration_ms=1615, data={platform_source=dsa, os=standalone, processor=microblaze, platform=null}
+timestamp=[2023-11-20 16:28:32], mode=PLATFORM_GENERATION, duration=0:00:10.563, duration_ms=10563, data={name=mblaze_FND_cntr_real}
+timestamp=[2023-11-20 16:28:58], mode=PLATFORM_GENERATION, duration=0:00:01.913, duration_ms=1913, data={name=mblaze_FND_cntr_real}

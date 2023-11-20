@@ -12,7 +12,8 @@ src/helloworld.o src/helloworld.o: ../src/helloworld.c ../src/platform.h \
  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_swtich_hw/export/mblaze_FND_led_swtich_hw/sw/mblaze_FND_led_swtich_hw/standalone_domain/bspinclude/include/xil_io.h \
  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_swtich_hw/export/mblaze_FND_led_swtich_hw/sw/mblaze_FND_led_swtich_hw/standalone_domain/bspinclude/include/xil_printf.h \
  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_swtich_hw/export/mblaze_FND_led_swtich_hw/sw/mblaze_FND_led_swtich_hw/standalone_domain/bspinclude/include/mb_interface.h \
- F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_swtich_hw/export/mblaze_FND_led_swtich_hw/sw/mblaze_FND_led_swtich_hw/standalone_domain/bspinclude/include/xil_exception.h
+ F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_swtich_hw/export/mblaze_FND_led_swtich_hw/sw/mblaze_FND_led_swtich_hw/standalone_domain/bspinclude/include/xil_exception.h \
+ ../src/FND.h
 
 ../src/platform.h:
 
@@ -43,3 +44,5 @@ F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_swtich_hw/export/mblaze_FND_le
 F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_swtich_hw/export/mblaze_FND_led_swtich_hw/sw/mblaze_FND_led_swtich_hw/standalone_domain/bspinclude/include/mb_interface.h:
 
 F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_swtich_hw/export/mblaze_FND_led_swtich_hw/sw/mblaze_FND_led_swtich_hw/standalone_domain/bspinclude/include/xil_exception.h:
+
+../src/FND.h:

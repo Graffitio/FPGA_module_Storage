@@ -2179,3 +2179,682 @@ con
 
 16:12:03 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\debugger_mblaze_fnd_led_switch_app-default.tcl'
 16:45:32 INFO  : Disconnected from the channel tcfchan#65.
+09:24:32 INFO  : Launching XSCT server: xsct.bat -n  -interactive F:\Ian_Jung\workplace\Harman_Vitis\temp_xsdb_launch_script.tcl
+09:24:47 INFO  : XSCT server has started successfully.
+09:24:47 INFO  : plnx-install-location is set to ''
+09:24:47 INFO  : Successfully done setting XSCT server connection channel  
+09:24:47 INFO  : Successfully done setting workspace for the tool. 
+09:24:55 INFO  : Registering command handlers for Vitis TCF services
+09:25:00 INFO  : Successfully done query RDI_DATADIR 
+09:30:20 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_FND_led_switch_app'...
+09:30:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:30:47 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+09:30:47 INFO  : 'jtag frequency' command is executed.
+09:30:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+09:30:48 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/_ide/bitstream/mblaze_FND_led_switch.bit"
+09:30:49 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:30:49 INFO  : Context for processor 'microblaze_0' is selected.
+09:30:49 INFO  : System reset is completed.
+09:30:52 INFO  : 'after 3000' command is executed.
+09:30:53 INFO  : Context for processor 'microblaze_0' is selected.
+09:30:53 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/Debug/mblaze_FND_led_switch_app.elf' is downloaded to processor 'microblaze_0'.
+09:30:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/_ide/bitstream/mblaze_FND_led_switch.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/Debug/mblaze_FND_led_switch_app.elf
+----------------End of Script----------------
+
+09:30:54 INFO  : Memory regions updated for context MicroBlaze #0
+09:30:54 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+09:30:55 INFO  : Context for processor 'microblaze_0' is selected.
+09:30:55 INFO  : 'con' command is executed.
+09:30:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:30:55 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\debugger_mblaze_fnd_led_switch_app-default.tcl'
+09:31:41 INFO  : Disconnected from the channel tcfchan#1.
+09:31:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:31:43 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+09:31:43 INFO  : 'jtag frequency' command is executed.
+09:31:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+09:31:43 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/_ide/bitstream/mblaze_FND_led_switch.bit"
+09:31:44 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:31:44 INFO  : Context for processor 'microblaze_0' is selected.
+09:31:44 INFO  : System reset is completed.
+09:31:47 INFO  : 'after 3000' command is executed.
+09:31:47 INFO  : Context for processor 'microblaze_0' is selected.
+09:31:47 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/Debug/mblaze_FND_led_switch_app.elf' is downloaded to processor 'microblaze_0'.
+09:31:47 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/_ide/bitstream/mblaze_FND_led_switch.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/Debug/mblaze_FND_led_switch_app.elf
+----------------End of Script----------------
+
+09:31:47 INFO  : Memory regions updated for context MicroBlaze #0
+09:31:47 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+09:31:47 INFO  : Context for processor 'microblaze_0' is selected.
+09:31:47 INFO  : 'con' command is executed.
+09:31:47 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:31:47 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\debugger_mblaze_fnd_led_switch_app-default.tcl'
+10:47:03 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_FND_led_switch_app'...
+10:47:08 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_FND_led_switch_app'...
+10:47:12 INFO  : Disconnected from the channel tcfchan#2.
+10:47:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:47:13 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+10:47:13 INFO  : 'jtag frequency' command is executed.
+10:47:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+10:47:14 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/_ide/bitstream/mblaze_FND_led_switch.bit"
+10:47:14 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:47:14 INFO  : Context for processor 'microblaze_0' is selected.
+10:47:14 INFO  : System reset is completed.
+10:47:17 INFO  : 'after 3000' command is executed.
+10:47:17 INFO  : Context for processor 'microblaze_0' is selected.
+10:47:17 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/Debug/mblaze_FND_led_switch_app.elf' is downloaded to processor 'microblaze_0'.
+10:47:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/_ide/bitstream/mblaze_FND_led_switch.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/Debug/mblaze_FND_led_switch_app.elf
+----------------End of Script----------------
+
+10:47:17 INFO  : Memory regions updated for context MicroBlaze #0
+10:47:17 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+10:47:17 INFO  : Context for processor 'microblaze_0' is selected.
+10:47:17 INFO  : 'con' command is executed.
+10:47:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:47:17 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\debugger_mblaze_fnd_led_switch_app-default.tcl'
+10:53:10 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_FND_led_switch_app'...
+10:57:33 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_FND_led_switch_app'...
+10:57:37 INFO  : Disconnected from the channel tcfchan#3.
+10:57:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:57:39 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+10:57:39 INFO  : 'jtag frequency' command is executed.
+10:57:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+10:57:39 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/_ide/bitstream/mblaze_FND_led_switch.bit"
+10:57:39 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:57:39 INFO  : Context for processor 'microblaze_0' is selected.
+10:57:39 INFO  : System reset is completed.
+10:57:42 INFO  : 'after 3000' command is executed.
+10:57:42 INFO  : Context for processor 'microblaze_0' is selected.
+10:57:42 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/Debug/mblaze_FND_led_switch_app.elf' is downloaded to processor 'microblaze_0'.
+10:57:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/_ide/bitstream/mblaze_FND_led_switch.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/Debug/mblaze_FND_led_switch_app.elf
+----------------End of Script----------------
+
+10:57:42 INFO  : Memory regions updated for context MicroBlaze #0
+10:57:42 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+10:57:43 INFO  : Context for processor 'microblaze_0' is selected.
+10:57:43 INFO  : 'con' command is executed.
+10:57:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:57:43 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\debugger_mblaze_fnd_led_switch_app-default.tcl'
+11:17:15 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_FND_led_switch_app'...
+11:17:20 INFO  : Disconnected from the channel tcfchan#4.
+11:17:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:17:22 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+11:17:22 INFO  : 'jtag frequency' command is executed.
+11:17:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+11:17:22 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/_ide/bitstream/mblaze_FND_led_switch.bit"
+11:17:22 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:17:22 INFO  : Context for processor 'microblaze_0' is selected.
+11:17:22 INFO  : System reset is completed.
+11:17:25 INFO  : 'after 3000' command is executed.
+11:17:25 INFO  : Context for processor 'microblaze_0' is selected.
+11:17:25 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/Debug/mblaze_FND_led_switch_app.elf' is downloaded to processor 'microblaze_0'.
+11:17:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/_ide/bitstream/mblaze_FND_led_switch.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/Debug/mblaze_FND_led_switch_app.elf
+----------------End of Script----------------
+
+11:17:25 INFO  : Memory regions updated for context MicroBlaze #0
+11:17:25 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+11:17:26 INFO  : Context for processor 'microblaze_0' is selected.
+11:17:26 INFO  : 'con' command is executed.
+11:17:26 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:17:26 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\debugger_mblaze_fnd_led_switch_app-default.tcl'
+11:42:27 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_FND_led_switch_app'...
+11:42:32 INFO  : Disconnected from the channel tcfchan#5.
+11:42:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:42:33 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+11:42:33 INFO  : 'jtag frequency' command is executed.
+11:42:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+11:42:33 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/_ide/bitstream/mblaze_FND_led_switch.bit"
+11:42:33 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:42:33 INFO  : Context for processor 'microblaze_0' is selected.
+11:42:33 INFO  : System reset is completed.
+11:42:36 INFO  : 'after 3000' command is executed.
+11:42:36 INFO  : Context for processor 'microblaze_0' is selected.
+11:42:36 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/Debug/mblaze_FND_led_switch_app.elf' is downloaded to processor 'microblaze_0'.
+11:42:36 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/_ide/bitstream/mblaze_FND_led_switch.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/Debug/mblaze_FND_led_switch_app.elf
+----------------End of Script----------------
+
+11:42:36 INFO  : Memory regions updated for context MicroBlaze #0
+11:42:36 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+11:42:37 INFO  : Context for processor 'microblaze_0' is selected.
+11:42:37 INFO  : 'con' command is executed.
+11:42:37 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:42:37 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\debugger_mblaze_fnd_led_switch_app-default.tcl'
+11:42:57 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_FND_led_switch_app'...
+11:43:14 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_FND_led_switch_app'...
+11:43:19 INFO  : Disconnected from the channel tcfchan#6.
+11:43:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:43:20 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+11:43:20 INFO  : 'jtag frequency' command is executed.
+11:43:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+11:43:20 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/_ide/bitstream/mblaze_FND_led_switch.bit"
+11:43:20 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:43:20 INFO  : Context for processor 'microblaze_0' is selected.
+11:43:20 INFO  : System reset is completed.
+11:43:23 INFO  : 'after 3000' command is executed.
+11:43:23 INFO  : Context for processor 'microblaze_0' is selected.
+11:43:23 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/Debug/mblaze_FND_led_switch_app.elf' is downloaded to processor 'microblaze_0'.
+11:43:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/_ide/bitstream/mblaze_FND_led_switch.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/Debug/mblaze_FND_led_switch_app.elf
+----------------End of Script----------------
+
+11:43:24 INFO  : Memory regions updated for context MicroBlaze #0
+11:43:24 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+11:43:24 INFO  : Context for processor 'microblaze_0' is selected.
+11:43:24 INFO  : 'con' command is executed.
+11:43:24 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:43:24 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\debugger_mblaze_fnd_led_switch_app-default.tcl'
+11:43:50 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_FND_led_switch_app'...
+11:43:54 INFO  : Disconnected from the channel tcfchan#7.
+11:43:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:43:55 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+11:43:55 INFO  : 'jtag frequency' command is executed.
+11:43:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+11:43:56 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/_ide/bitstream/mblaze_FND_led_switch.bit"
+11:43:56 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:43:56 INFO  : Context for processor 'microblaze_0' is selected.
+11:43:56 INFO  : System reset is completed.
+11:43:59 INFO  : 'after 3000' command is executed.
+11:43:59 INFO  : Context for processor 'microblaze_0' is selected.
+11:43:59 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/Debug/mblaze_FND_led_switch_app.elf' is downloaded to processor 'microblaze_0'.
+11:43:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/_ide/bitstream/mblaze_FND_led_switch.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/Debug/mblaze_FND_led_switch_app.elf
+----------------End of Script----------------
+
+11:43:59 INFO  : Memory regions updated for context MicroBlaze #0
+11:43:59 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+11:43:59 INFO  : Context for processor 'microblaze_0' is selected.
+11:43:59 INFO  : 'con' command is executed.
+11:43:59 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:43:59 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\debugger_mblaze_fnd_led_switch_app-default.tcl'
+11:44:36 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_FND_led_switch_app'...
+11:44:41 INFO  : Disconnected from the channel tcfchan#8.
+11:44:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:44:42 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+11:44:42 INFO  : 'jtag frequency' command is executed.
+11:44:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+11:44:43 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/_ide/bitstream/mblaze_FND_led_switch.bit"
+11:44:43 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:44:43 INFO  : Context for processor 'microblaze_0' is selected.
+11:44:43 INFO  : System reset is completed.
+11:44:46 INFO  : 'after 3000' command is executed.
+11:44:46 INFO  : Context for processor 'microblaze_0' is selected.
+11:44:46 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/Debug/mblaze_FND_led_switch_app.elf' is downloaded to processor 'microblaze_0'.
+11:44:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/_ide/bitstream/mblaze_FND_led_switch.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/Debug/mblaze_FND_led_switch_app.elf
+----------------End of Script----------------
+
+11:44:46 INFO  : Memory regions updated for context MicroBlaze #0
+11:44:46 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+11:44:46 INFO  : Context for processor 'microblaze_0' is selected.
+11:44:46 INFO  : 'con' command is executed.
+11:44:46 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:44:46 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\debugger_mblaze_fnd_led_switch_app-default.tcl'
+11:45:13 INFO  : Disconnected from the channel tcfchan#9.
+11:45:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:45:14 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+11:45:14 INFO  : 'jtag frequency' command is executed.
+11:45:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+11:45:15 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/_ide/bitstream/mblaze_FND_led_switch.bit"
+11:45:15 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:45:15 INFO  : Context for processor 'microblaze_0' is selected.
+11:45:15 INFO  : System reset is completed.
+11:45:17 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_FND_led_switch_app'...
+11:45:18 INFO  : 'after 3000' command is executed.
+11:45:18 INFO  : Context for processor 'microblaze_0' is selected.
+11:45:18 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/Debug/mblaze_FND_led_switch_app.elf' is downloaded to processor 'microblaze_0'.
+11:45:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/_ide/bitstream/mblaze_FND_led_switch.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/Debug/mblaze_FND_led_switch_app.elf
+----------------End of Script----------------
+
+11:45:18 INFO  : Memory regions updated for context MicroBlaze #0
+11:45:18 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+11:45:18 INFO  : Context for processor 'microblaze_0' is selected.
+11:45:18 INFO  : 'con' command is executed.
+11:45:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:45:18 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\debugger_mblaze_fnd_led_switch_app-default.tcl'
+11:45:37 INFO  : Disconnected from the channel tcfchan#10.
+11:45:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:45:38 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+11:45:38 INFO  : 'jtag frequency' command is executed.
+11:45:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+11:45:38 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/_ide/bitstream/mblaze_FND_led_switch.bit"
+11:45:38 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:45:38 INFO  : Context for processor 'microblaze_0' is selected.
+11:45:38 INFO  : System reset is completed.
+11:45:41 INFO  : 'after 3000' command is executed.
+11:45:41 INFO  : Context for processor 'microblaze_0' is selected.
+11:45:41 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/Debug/mblaze_FND_led_switch_app.elf' is downloaded to processor 'microblaze_0'.
+11:45:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/_ide/bitstream/mblaze_FND_led_switch.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/Debug/mblaze_FND_led_switch_app.elf
+----------------End of Script----------------
+
+11:45:41 INFO  : Memory regions updated for context MicroBlaze #0
+11:45:41 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+11:45:42 INFO  : Context for processor 'microblaze_0' is selected.
+11:45:42 INFO  : 'con' command is executed.
+11:45:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:45:42 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\debugger_mblaze_fnd_led_switch_app-default.tcl'
+11:57:30 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_FND_led_switch_app'...
+11:57:36 INFO  : Disconnected from the channel tcfchan#11.
+11:57:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:57:37 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+11:57:37 INFO  : 'jtag frequency' command is executed.
+11:57:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+11:57:37 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/_ide/bitstream/mblaze_FND_led_switch.bit"
+11:57:37 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:57:37 INFO  : Context for processor 'microblaze_0' is selected.
+11:57:37 INFO  : System reset is completed.
+11:57:40 INFO  : 'after 3000' command is executed.
+11:57:40 INFO  : Context for processor 'microblaze_0' is selected.
+11:57:40 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/Debug/mblaze_FND_led_switch_app.elf' is downloaded to processor 'microblaze_0'.
+11:57:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/_ide/bitstream/mblaze_FND_led_switch.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/Debug/mblaze_FND_led_switch_app.elf
+----------------End of Script----------------
+
+11:57:40 INFO  : Memory regions updated for context MicroBlaze #0
+11:57:40 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+11:57:41 INFO  : Context for processor 'microblaze_0' is selected.
+11:57:41 INFO  : 'con' command is executed.
+11:57:41 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:57:41 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\debugger_mblaze_fnd_led_switch_app-default.tcl'
+12:14:25 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_FND_led_switch_app'...
+12:14:30 INFO  : Disconnected from the channel tcfchan#12.
+12:14:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:14:31 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+12:14:31 INFO  : 'jtag frequency' command is executed.
+12:14:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+12:14:32 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/_ide/bitstream/mblaze_FND_led_switch.bit"
+12:14:32 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:14:32 INFO  : Context for processor 'microblaze_0' is selected.
+12:14:32 INFO  : System reset is completed.
+12:14:35 INFO  : 'after 3000' command is executed.
+12:14:35 INFO  : Context for processor 'microblaze_0' is selected.
+12:14:35 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/Debug/mblaze_FND_led_switch_app.elf' is downloaded to processor 'microblaze_0'.
+12:14:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/_ide/bitstream/mblaze_FND_led_switch.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/Debug/mblaze_FND_led_switch_app.elf
+----------------End of Script----------------
+
+12:14:35 INFO  : Memory regions updated for context MicroBlaze #0
+12:14:35 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+12:14:35 INFO  : Context for processor 'microblaze_0' is selected.
+12:14:35 INFO  : 'con' command is executed.
+12:14:35 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:14:35 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\debugger_mblaze_fnd_led_switch_app-default.tcl'
+12:24:19 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_FND_led_switch_app'...
+12:24:24 INFO  : Disconnected from the channel tcfchan#13.
+12:24:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:24:25 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+12:24:25 INFO  : 'jtag frequency' command is executed.
+12:24:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+12:24:25 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/_ide/bitstream/mblaze_FND_led_switch.bit"
+12:24:25 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:24:25 INFO  : Context for processor 'microblaze_0' is selected.
+12:24:25 INFO  : System reset is completed.
+12:24:28 INFO  : 'after 3000' command is executed.
+12:24:28 INFO  : Context for processor 'microblaze_0' is selected.
+12:24:28 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/Debug/mblaze_FND_led_switch_app.elf' is downloaded to processor 'microblaze_0'.
+12:24:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/_ide/bitstream/mblaze_FND_led_switch.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/Debug/mblaze_FND_led_switch_app.elf
+----------------End of Script----------------
+
+12:24:28 INFO  : Memory regions updated for context MicroBlaze #0
+12:24:28 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+12:24:28 INFO  : Context for processor 'microblaze_0' is selected.
+12:24:28 INFO  : 'con' command is executed.
+12:24:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:24:28 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\debugger_mblaze_fnd_led_switch_app-default.tcl'
+12:24:50 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_FND_led_switch_app'...
+12:24:55 INFO  : Disconnected from the channel tcfchan#14.
+12:24:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:24:56 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+12:24:56 INFO  : 'jtag frequency' command is executed.
+12:24:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+12:24:57 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/_ide/bitstream/mblaze_FND_led_switch.bit"
+12:24:57 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:24:57 INFO  : Context for processor 'microblaze_0' is selected.
+12:24:57 INFO  : System reset is completed.
+12:25:00 INFO  : 'after 3000' command is executed.
+12:25:00 INFO  : Context for processor 'microblaze_0' is selected.
+12:25:00 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/Debug/mblaze_FND_led_switch_app.elf' is downloaded to processor 'microblaze_0'.
+12:25:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/_ide/bitstream/mblaze_FND_led_switch.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_switch_app/Debug/mblaze_FND_led_switch_app.elf
+----------------End of Script----------------
+
+12:25:00 INFO  : Memory regions updated for context MicroBlaze #0
+12:25:00 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+12:25:00 INFO  : Context for processor 'microblaze_0' is selected.
+12:25:00 INFO  : 'con' command is executed.
+12:25:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:25:00 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\debugger_mblaze_fnd_led_switch_app-default.tcl'
+15:17:19 INFO  : Successfully done sdx_reload_mss "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss"
+15:35:51 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_FND_cntr_app'...
+15:36:05 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_FND_cntr_app'...
+15:36:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:36:19 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+15:36:19 INFO  : 'jtag frequency' command is executed.
+15:36:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+15:36:20 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_app/_ide/bitstream/mblaze_FND_cntr.bit"
+15:36:20 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:36:20 INFO  : Context for processor 'microblaze_0' is selected.
+15:36:20 INFO  : System reset is completed.
+15:36:23 INFO  : 'after 3000' command is executed.
+15:36:23 INFO  : Context for processor 'microblaze_0' is selected.
+15:36:23 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_app/Debug/mblaze_FND_cntr_app.elf' is downloaded to processor 'microblaze_0'.
+15:36:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_app/_ide/bitstream/mblaze_FND_cntr.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_app/Debug/mblaze_FND_cntr_app.elf
+----------------End of Script----------------
+
+15:36:23 INFO  : Memory regions updated for context MicroBlaze #0
+15:36:23 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+15:36:23 INFO  : Context for processor 'microblaze_0' is selected.
+15:36:23 INFO  : 'con' command is executed.
+15:36:23 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:36:23 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\debugger_mblaze_fnd_cntr_app-default.tcl'
+15:36:30 INFO  : Disconnected from the channel tcfchan#15.
+15:36:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:36:31 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+15:36:31 INFO  : 'jtag frequency' command is executed.
+15:36:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+15:36:31 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_app/_ide/bitstream/mblaze_FND_cntr.bit"
+15:36:31 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:36:31 INFO  : Context for processor 'microblaze_0' is selected.
+15:36:31 INFO  : System reset is completed.
+15:36:34 INFO  : 'after 3000' command is executed.
+15:36:34 INFO  : Context for processor 'microblaze_0' is selected.
+15:36:34 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_app/Debug/mblaze_FND_cntr_app.elf' is downloaded to processor 'microblaze_0'.
+15:36:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_app/_ide/bitstream/mblaze_FND_cntr.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_app/Debug/mblaze_FND_cntr_app.elf
+----------------End of Script----------------
+
+15:36:34 INFO  : Memory regions updated for context MicroBlaze #0
+15:36:34 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+15:36:34 INFO  : Context for processor 'microblaze_0' is selected.
+15:36:34 INFO  : 'con' command is executed.
+15:36:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:36:34 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\debugger_mblaze_fnd_cntr_app-default.tcl'
+15:39:08 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_FND_cntr_app'...
+15:39:16 WARN  : channel "tcfchan#15" closed
+15:39:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:39:18 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+15:39:18 INFO  : 'jtag frequency' command is executed.
+15:39:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+15:39:18 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_app/_ide/bitstream/mblaze_FND_cntr.bit"
+15:39:18 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:39:18 INFO  : Context for processor 'microblaze_0' is selected.
+15:39:18 INFO  : System reset is completed.
+15:39:21 INFO  : 'after 3000' command is executed.
+15:39:21 INFO  : Context for processor 'microblaze_0' is selected.
+15:39:21 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_app/Debug/mblaze_FND_cntr_app.elf' is downloaded to processor 'microblaze_0'.
+15:39:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_app/_ide/bitstream/mblaze_FND_cntr.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_app/Debug/mblaze_FND_cntr_app.elf
+----------------End of Script----------------
+
+15:39:21 INFO  : Memory regions updated for context MicroBlaze #0
+15:39:21 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+15:39:22 INFO  : Context for processor 'microblaze_0' is selected.
+15:39:22 INFO  : 'con' command is executed.
+15:39:22 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:39:22 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_fnd_cntr_app_system_standalone.tcl'
+16:27:19 INFO  : Successfully done sdx_reload_mss "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss"
+16:29:06 INFO  : The hardware specfication used by project 'mblaze_FND_cntr_app' is out of sync with the platform. Resource files extracted from the hardware specfiication will be updated.
+16:29:06 INFO  : The file 'F:\Ian_Jung\workplace\Harman_Vitis\mblaze_FND_cntr_app\_ide\bitstream\mblaze_FND_cntr.bit' stored in project is removed.
+16:29:06 INFO  : The file 'F:\Ian_Jung\workplace\Harman_Vitis\mblaze_FND_cntr_app\_ide\bitstream\mblaze_FND_cntr.mmi' stored in project is removed.
+16:29:06 INFO  : The updated bitstream files are copied from platform to folder 'F:\Ian_Jung\workplace\Harman_Vitis\mblaze_FND_cntr_app\_ide\bitstream' in project 'mblaze_FND_cntr_app'.
+16:29:16 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_FND_cntr_app'...
+16:29:24 INFO  : Disconnected from the channel tcfchan#17.
+16:29:25 WARN  : channel "tcfchan#17" closed
+16:29:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:29:26 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+16:29:26 INFO  : 'jtag frequency' command is executed.
+16:29:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+16:29:27 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_app/_ide/bitstream/mblaze_FND_cntr_real.bit"
+16:29:27 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:29:27 INFO  : Context for processor 'microblaze_0' is selected.
+16:29:27 INFO  : System reset is completed.
+16:29:30 INFO  : 'after 3000' command is executed.
+16:29:30 INFO  : Context for processor 'microblaze_0' is selected.
+16:29:30 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_app/Debug/mblaze_FND_cntr_app.elf' is downloaded to processor 'microblaze_0'.
+16:29:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_app/_ide/bitstream/mblaze_FND_cntr_real.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_app/Debug/mblaze_FND_cntr_app.elf
+----------------End of Script----------------
+
+16:29:30 INFO  : Memory regions updated for context MicroBlaze #0
+16:29:30 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+16:29:30 INFO  : Context for processor 'microblaze_0' is selected.
+16:29:30 INFO  : 'con' command is executed.
+16:29:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:29:30 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_fnd_cntr_app_system_standalone.tcl'
+16:44:21 INFO  : Disconnected from the channel tcfchan#20.

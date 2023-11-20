@@ -3,52 +3,46 @@
 
 # XDC: imports/digilent-xdc-master/Basys-3-Master.xdc
 
-# Block Designs: bd/mblaze_led/mblaze_led.bd
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_led || ORIG_REF_NAME==mblaze_led} -quiet] -quiet
+# Block Designs: bd/mblaze_FND_cntr/mblaze_FND_cntr.bd
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_FND_cntr || ORIG_REF_NAME==mblaze_FND_cntr} -quiet] -quiet
 
-# IP: bd/mblaze_led/ip/mblaze_led_clk_wiz_0_0/mblaze_led_clk_wiz_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_led_clk_wiz_0_0 || ORIG_REF_NAME==mblaze_led_clk_wiz_0_0} -quiet] -quiet
+# IP: bd/mblaze_FND_cntr/ip/mblaze_FND_cntr_clk_wiz_0_0/mblaze_FND_cntr_clk_wiz_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_FND_cntr_clk_wiz_0_0 || ORIG_REF_NAME==mblaze_FND_cntr_clk_wiz_0_0} -quiet] -quiet
 
-# IP: bd/mblaze_led/ip/mblaze_led_microblaze_0_0/mblaze_led_microblaze_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_led_microblaze_0_0 || ORIG_REF_NAME==mblaze_led_microblaze_0_0} -quiet] -quiet
+# IP: bd/mblaze_FND_cntr/ip/mblaze_FND_cntr_microblaze_0_0/mblaze_FND_cntr_microblaze_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_FND_cntr_microblaze_0_0 || ORIG_REF_NAME==mblaze_FND_cntr_microblaze_0_0} -quiet] -quiet
 
-# IP: bd/mblaze_led/ip/mblaze_led_dlmb_v10_0/mblaze_led_dlmb_v10_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_led_dlmb_v10_0 || ORIG_REF_NAME==mblaze_led_dlmb_v10_0} -quiet] -quiet
+# IP: bd/mblaze_FND_cntr/ip/mblaze_FND_cntr_dlmb_v10_0/mblaze_FND_cntr_dlmb_v10_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_FND_cntr_dlmb_v10_0 || ORIG_REF_NAME==mblaze_FND_cntr_dlmb_v10_0} -quiet] -quiet
 
-# IP: bd/mblaze_led/ip/mblaze_led_ilmb_v10_0/mblaze_led_ilmb_v10_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_led_ilmb_v10_0 || ORIG_REF_NAME==mblaze_led_ilmb_v10_0} -quiet] -quiet
+# IP: bd/mblaze_FND_cntr/ip/mblaze_FND_cntr_ilmb_v10_0/mblaze_FND_cntr_ilmb_v10_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_FND_cntr_ilmb_v10_0 || ORIG_REF_NAME==mblaze_FND_cntr_ilmb_v10_0} -quiet] -quiet
 
-# IP: bd/mblaze_led/ip/mblaze_led_dlmb_bram_if_cntlr_0/mblaze_led_dlmb_bram_if_cntlr_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_led_dlmb_bram_if_cntlr_0 || ORIG_REF_NAME==mblaze_led_dlmb_bram_if_cntlr_0} -quiet] -quiet
+# IP: bd/mblaze_FND_cntr/ip/mblaze_FND_cntr_dlmb_bram_if_cntlr_0/mblaze_FND_cntr_dlmb_bram_if_cntlr_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_FND_cntr_dlmb_bram_if_cntlr_0 || ORIG_REF_NAME==mblaze_FND_cntr_dlmb_bram_if_cntlr_0} -quiet] -quiet
 
-# IP: bd/mblaze_led/ip/mblaze_led_ilmb_bram_if_cntlr_0/mblaze_led_ilmb_bram_if_cntlr_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_led_ilmb_bram_if_cntlr_0 || ORIG_REF_NAME==mblaze_led_ilmb_bram_if_cntlr_0} -quiet] -quiet
+# IP: bd/mblaze_FND_cntr/ip/mblaze_FND_cntr_ilmb_bram_if_cntlr_0/mblaze_FND_cntr_ilmb_bram_if_cntlr_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_FND_cntr_ilmb_bram_if_cntlr_0 || ORIG_REF_NAME==mblaze_FND_cntr_ilmb_bram_if_cntlr_0} -quiet] -quiet
 
-# IP: bd/mblaze_led/ip/mblaze_led_lmb_bram_0/mblaze_led_lmb_bram_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_led_lmb_bram_0 || ORIG_REF_NAME==mblaze_led_lmb_bram_0} -quiet] -quiet
+# IP: bd/mblaze_FND_cntr/ip/mblaze_FND_cntr_lmb_bram_0/mblaze_FND_cntr_lmb_bram_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_FND_cntr_lmb_bram_0 || ORIG_REF_NAME==mblaze_FND_cntr_lmb_bram_0} -quiet] -quiet
 
-# IP: bd/mblaze_led/ip/mblaze_led_mdm_1_0/mblaze_led_mdm_1_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_led_mdm_1_0 || ORIG_REF_NAME==mblaze_led_mdm_1_0} -quiet] -quiet
+# IP: bd/mblaze_FND_cntr/ip/mblaze_FND_cntr_mdm_1_0/mblaze_FND_cntr_mdm_1_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_FND_cntr_mdm_1_0 || ORIG_REF_NAME==mblaze_FND_cntr_mdm_1_0} -quiet] -quiet
 
-# IP: bd/mblaze_led/ip/mblaze_led_rst_clk_wiz_0_100M_0/mblaze_led_rst_clk_wiz_0_100M_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_led_rst_clk_wiz_0_100M_0 || ORIG_REF_NAME==mblaze_led_rst_clk_wiz_0_100M_0} -quiet] -quiet
+# IP: bd/mblaze_FND_cntr/ip/mblaze_FND_cntr_rst_clk_wiz_0_100M_0/mblaze_FND_cntr_rst_clk_wiz_0_100M_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_FND_cntr_rst_clk_wiz_0_100M_0 || ORIG_REF_NAME==mblaze_FND_cntr_rst_clk_wiz_0_100M_0} -quiet] -quiet
 
-# IP: bd/mblaze_led/ip/mblaze_led_axi_uartlite_0_0/mblaze_led_axi_uartlite_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_led_axi_uartlite_0_0 || ORIG_REF_NAME==mblaze_led_axi_uartlite_0_0} -quiet] -quiet
+# IP: bd/mblaze_FND_cntr/ip/mblaze_FND_cntr_axi_uartlite_0_0/mblaze_FND_cntr_axi_uartlite_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_FND_cntr_axi_uartlite_0_0 || ORIG_REF_NAME==mblaze_FND_cntr_axi_uartlite_0_0} -quiet] -quiet
 
-# IP: bd/mblaze_led/ip/mblaze_led_axi_gpio_0_0/mblaze_led_axi_gpio_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_led_axi_gpio_0_0 || ORIG_REF_NAME==mblaze_led_axi_gpio_0_0} -quiet] -quiet
+# IP: bd/mblaze_FND_cntr/ip/mblaze_FND_cntr_xbar_0/mblaze_FND_cntr_xbar_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_FND_cntr_xbar_0 || ORIG_REF_NAME==mblaze_FND_cntr_xbar_0} -quiet] -quiet
 
-# IP: bd/mblaze_led/ip/mblaze_led_xbar_0/mblaze_led_xbar_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_led_xbar_0 || ORIG_REF_NAME==mblaze_led_xbar_0} -quiet] -quiet
+# IP: bd/mblaze_FND_cntr/ip/mblaze_FND_cntr_microblaze_0_axi_periph_0/mblaze_FND_cntr_microblaze_0_axi_periph_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_FND_cntr_microblaze_0_axi_periph_0 || ORIG_REF_NAME==mblaze_FND_cntr_microblaze_0_axi_periph_0} -quiet] -quiet
 
-# IP: bd/mblaze_led/ip/mblaze_led_microblaze_0_axi_periph_0/mblaze_led_microblaze_0_axi_periph_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_led_microblaze_0_axi_periph_0 || ORIG_REF_NAME==mblaze_led_microblaze_0_axi_periph_0} -quiet] -quiet
+# IP: bd/mblaze_FND_cntr/ip/mblaze_FND_cntr_myip_FND_cntr_0_0/mblaze_FND_cntr_myip_FND_cntr_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_FND_cntr_myip_FND_cntr_0_0 || ORIG_REF_NAME==mblaze_FND_cntr_myip_FND_cntr_0_0} -quiet] -quiet
 
-# IP: bd/mblaze_led/ip/mblaze_led_axi_gpio_1_0/mblaze_led_axi_gpio_1_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_led_axi_gpio_1_0 || ORIG_REF_NAME==mblaze_led_axi_gpio_1_0} -quiet] -quiet
-
-# IP: bd/mblaze_led/ip/mblaze_led_axi_gpio_0_1/mblaze_led_axi_gpio_0_1.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_led_axi_gpio_0_1 || ORIG_REF_NAME==mblaze_led_axi_gpio_0_1} -quiet] -quiet
-
-# XDC: bd/mblaze_led/mblaze_led_ooc.xdc
+# XDC: bd/mblaze_FND_cntr/mblaze_FND_cntr_ooc.xdc
