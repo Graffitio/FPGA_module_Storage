@@ -1,10 +1,15 @@
-12:24:50 **** Incremental Build of configuration Debug for project mblaze_FND_led_switch_app ****
+14:13:52 **** Incremental Build of configuration Debug for project mblaze_FND_led_switch_app ****
 make all 
+'Building file: ../src/FND.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FND.o" -IF:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_swtich_hw/export/mblaze_FND_led_swtich_hw/sw/mblaze_FND_led_swtich_hw/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/FND.d" -MT"src/FND.o" -o "src/FND.o" "../src/FND.c"
+'Finished building: ../src/FND.c'
+' '
 'Building file: ../src/helloworld.c'
 'Invoking: MicroBlaze gcc compiler'
 mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IF:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_swtich_hw/export/mblaze_FND_led_swtich_hw/sw/mblaze_FND_led_swtich_hw/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
 ../src/helloworld.c: In function 'main':
-../src/helloworld.c:234:7: warning: implicit declaration of function 'MB_Sleep'; did you mean 'mb_sleep'? [-Wimplicit-function-declaration]
+../src/helloworld.c:229:7: warning: implicit declaration of function 'MB_Sleep'; did you mean 'mb_sleep'? [-Wimplicit-function-declaration]
        MB_Sleep(1);
        ^~~~~~~~
        mb_sleep
@@ -13,10 +18,10 @@ mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IF:/Ian_Jung/w
         ^~~~~~~~~
 In file included from ../src/helloworld.c:158:
 ../src/helloworld.c: At top level:
-../src/FND.h:21:14: warning: array 'FND_FONT' assumed to have one element
+../src/FND.h:26:14: warning: array 'FND_FONT' assumed to have one element
  unsigned int FND_FONT[];
               ^~~~~~~~
-../src/FND.h:22:14: warning: array 'FND_digit' assumed to have one element
+../src/FND.h:27:14: warning: array 'FND_digit' assumed to have one element
  unsigned int FND_digit[];
               ^~~~~~~~~
 'Finished building: ../src/helloworld.c'
@@ -33,5 +38,5 @@ mb-size mblaze_FND_led_switch_app.elf  |tee "mblaze_FND_led_switch_app.elf.size"
 'Finished building: mblaze_FND_led_switch_app.elf.size'
 ' '
 
-12:24:52 Build Finished (took 1s.500ms)
+14:13:55 Build Finished (took 3s.169ms)
 

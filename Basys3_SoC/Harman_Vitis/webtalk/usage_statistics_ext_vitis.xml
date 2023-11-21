@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<webTalkData  fileName='usage_statistics_ext_vitis.xml'  majorVersion='1' minorVersion='0' timeStamp='Mon Nov 20 16:44:29 2023'>
+<webTalkData  fileName='usage_statistics_ext_vitis.xml'  majorVersion='1' minorVersion='0' timeStamp='Tue Nov 21 16:12:19 2023'>
 <section name="__ROOT__" level="0" order="1" description="">
  <section name="software_version_and_target_device" level="1" order="1" description="">
   <keyValuePair key="beta" value="false" description="" />
   <keyValuePair key="build_version" value="2019.2" description="" />
-  <keyValuePair key="date_generated" value="2023-11-20 16:44:21" description="" />
+  <keyValuePair key="date_generated" value="2023-11-21 16:12:13" description="" />
   <keyValuePair key="os_platform" value="amd64" description="" />
   <keyValuePair key="product_version" value="Vitis v2019.2" description="" />
-  <keyValuePair key="project_id" value="2019.2_2" description="" />
-  <keyValuePair key="project_iteration" value="2" description="" />
-  <keyValuePair key="random_id" value="gjanncm0uvgp4sddqomoodbct4" description="" />
+  <keyValuePair key="project_id" value="2019.2_3" description="" />
+  <keyValuePair key="project_iteration" value="3" description="" />
+  <keyValuePair key="random_id" value="9q91q5e9crr17jaho3sukmeimq" description="" />
   <keyValuePair key="registration_id" value="NA" description="" />
   <keyValuePair key="route_design" value="NA" description="" />
   <keyValuePair key="target_device" value="NA" description="" />
@@ -27,7 +27,7 @@
   <keyValuePair key="total_processors" value="1" description="" />
  </section>
  <section name="vitis" level="1" order="3" description="">
-  <section name="application/1700461095040" level="2" order="1" description="">
+  <section name="application/1700533770883" level="2" order="1" description="">
    <keyValuePair key="application_type" value="application" description="" />
    <keyValuePair key="device_family" value="artix7" description="" />
    <keyValuePair key="fpga" value="xc7a35t" description="" />
@@ -39,24 +39,122 @@
    <keyValuePair key="project_type" value="sdk" description="" />
    <keyValuePair key="runtime" value="C/C++" description="" />
    <keyValuePair key="template" value="sdk" description="" />
-   <keyValuePair key="uid" value="1700461095040" description="" />
+   <keyValuePair key="uid" value="1700533770883" description="" />
   </section>
-  <section name="platform/1700461014908" level="2" order="2" description="">
+  <section name="application/1700542765667" level="2" order="2" description="">
+   <keyValuePair key="application_type" value="application" description="" />
+   <keyValuePair key="device_family" value="artix7" description="" />
+   <keyValuePair key="fpga" value="xc7a35t" description="" />
+   <keyValuePair key="os" value="standalone" description="" />
+   <keyValuePair key="platform" value="custom" description="" />
+   <keyValuePair key="platform_source" value="platform" description="" />
+   <keyValuePair key="platform_type" value="fixed" description="" />
+   <keyValuePair key="processor" value="microblaze_0" description="" />
+   <keyValuePair key="project_type" value="sdk" description="" />
+   <keyValuePair key="runtime" value="C/C++" description="" />
+   <keyValuePair key="template" value="sdk" description="" />
+   <keyValuePair key="uid" value="1700542765667" description="" />
+  </section>
+  <section name="application/1700545543766" level="2" order="3" description="">
+   <keyValuePair key="application_type" value="application" description="" />
+   <keyValuePair key="device_family" value="artix7" description="" />
+   <keyValuePair key="fpga" value="xc7a35t" description="" />
+   <keyValuePair key="os" value="standalone" description="" />
+   <keyValuePair key="platform" value="custom" description="" />
+   <keyValuePair key="platform_source" value="platform" description="" />
+   <keyValuePair key="platform_type" value="fixed" description="" />
+   <keyValuePair key="processor" value="microblaze_0" description="" />
+   <keyValuePair key="project_type" value="sdk" description="" />
+   <keyValuePair key="runtime" value="C/C++" description="" />
+   <keyValuePair key="template" value="sdk" description="" />
+   <keyValuePair key="uid" value="1700545543766" description="" />
+  </section>
+  <section name="application/1700547075749" level="2" order="4" description="">
+   <keyValuePair key="application_type" value="application" description="" />
+   <keyValuePair key="device_family" value="artix7" description="" />
+   <keyValuePair key="fpga" value="xc7a35t" description="" />
+   <keyValuePair key="os" value="standalone" description="" />
+   <keyValuePair key="platform" value="custom" description="" />
+   <keyValuePair key="platform_source" value="platform" description="" />
+   <keyValuePair key="platform_type" value="fixed" description="" />
+   <keyValuePair key="processor" value="microblaze_0" description="" />
+   <keyValuePair key="project_type" value="sdk" description="" />
+   <keyValuePair key="runtime" value="C/C++" description="" />
+   <keyValuePair key="template" value="sdk" description="" />
+   <keyValuePair key="uid" value="1700547075749" description="" />
+  </section>
+  <section name="application/1700549987938" level="2" order="5" description="">
+   <keyValuePair key="application_type" value="application" description="" />
+   <keyValuePair key="device_family" value="artix7" description="" />
+   <keyValuePair key="fpga" value="xc7a35t" description="" />
+   <keyValuePair key="os" value="standalone" description="" />
+   <keyValuePair key="platform" value="custom" description="" />
+   <keyValuePair key="platform_source" value="platform" description="" />
+   <keyValuePair key="platform_type" value="fixed" description="" />
+   <keyValuePair key="processor" value="microblaze_0" description="" />
+   <keyValuePair key="project_type" value="sdk" description="" />
+   <keyValuePair key="runtime" value="C/C++" description="" />
+   <keyValuePair key="template" value="sdk" description="" />
+   <keyValuePair key="uid" value="1700549987938" description="" />
+  </section>
+  <section name="platform/1700533652416" level="2" order="6" description="">
    <keyValuePair key="os" value="standalone" description="" />
    <keyValuePair key="platform" value="NA" description="" />
    <keyValuePair key="platform_source" value="dsa" description="" />
    <keyValuePair key="processor" value="microblaze" description="" />
-   <keyValuePair key="uid" value="1700461014908" description="" />
+   <keyValuePair key="uid" value="1700533652416" description="" />
   </section>
-  <section name="platform/1700465236853" level="2" order="3" description="">
+  <section name="platform/1700542702424" level="2" order="7" description="">
    <keyValuePair key="os" value="standalone" description="" />
    <keyValuePair key="platform" value="NA" description="" />
    <keyValuePair key="platform_source" value="dsa" description="" />
    <keyValuePair key="processor" value="microblaze" description="" />
-   <keyValuePair key="uid" value="1700465236853" description="" />
+   <keyValuePair key="uid" value="1700542702424" description="" />
   </section>
-  <section name="tool/1700466261396" level="2" order="4" description="">
-   <keyValuePair key="application_platform_change_count" value="1" description="" />
+  <section name="platform/1700544552414" level="2" order="8" description="">
+   <keyValuePair key="os" value="standalone" description="" />
+   <keyValuePair key="platform" value="NA" description="" />
+   <keyValuePair key="platform_source" value="dsa" description="" />
+   <keyValuePair key="processor" value="microblaze" description="" />
+   <keyValuePair key="uid" value="1700544552414" description="" />
+  </section>
+  <section name="platform/1700545324838" level="2" order="9" description="">
+   <keyValuePair key="os" value="standalone" description="" />
+   <keyValuePair key="platform" value="NA" description="" />
+   <keyValuePair key="platform_source" value="dsa" description="" />
+   <keyValuePair key="processor" value="microblaze" description="" />
+   <keyValuePair key="uid" value="1700545324838" description="" />
+  </section>
+  <section name="platform/1700545500457" level="2" order="10" description="">
+   <keyValuePair key="os" value="standalone" description="" />
+   <keyValuePair key="platform" value="NA" description="" />
+   <keyValuePair key="platform_source" value="dsa" description="" />
+   <keyValuePair key="processor" value="microblaze" description="" />
+   <keyValuePair key="uid" value="1700545500457" description="" />
+  </section>
+  <section name="platform/1700546320929" level="2" order="11" description="">
+   <keyValuePair key="os" value="standalone" description="" />
+   <keyValuePair key="platform" value="NA" description="" />
+   <keyValuePair key="platform_source" value="dsa" description="" />
+   <keyValuePair key="processor" value="microblaze" description="" />
+   <keyValuePair key="uid" value="1700546320929" description="" />
+  </section>
+  <section name="platform/1700547025259" level="2" order="12" description="">
+   <keyValuePair key="os" value="standalone" description="" />
+   <keyValuePair key="platform" value="NA" description="" />
+   <keyValuePair key="platform_source" value="dsa" description="" />
+   <keyValuePair key="processor" value="microblaze" description="" />
+   <keyValuePair key="uid" value="1700547025259" description="" />
+  </section>
+  <section name="platform/1700549942090" level="2" order="13" description="">
+   <keyValuePair key="os" value="standalone" description="" />
+   <keyValuePair key="platform" value="NA" description="" />
+   <keyValuePair key="platform_source" value="dsa" description="" />
+   <keyValuePair key="processor" value="microblaze" description="" />
+   <keyValuePair key="uid" value="1700549942090" description="" />
+  </section>
+  <section name="tool/1700550733614" level="2" order="14" description="">
+   <keyValuePair key="application_platform_change_count" value="3" description="" />
    <keyValuePair key="application_sys_config_change_count" value="0" description="" />
    <keyValuePair key="bootgen_count" value="0" description="" />
    <keyValuePair key="cross_trigger_count" value="0" description="" />
@@ -71,12 +169,12 @@
    <keyValuePair key="sdx_build_count" value="0" description="" />
    <keyValuePair key="sdx_export_count" value="0" description="" />
    <keyValuePair key="sdx_import_count" value="0" description="" />
-   <keyValuePair key="sdx_no_op_build_count" value="2" description="" />
+   <keyValuePair key="sdx_no_op_build_count" value="35" description="" />
    <keyValuePair key="spm_analysis_count" value="0" description="" />
    <keyValuePair key="system_platform_change_count" value="0" description="" />
-   <keyValuePair key="tcf_app_debug_count" value="19" description="" />
+   <keyValuePair key="tcf_app_debug_count" value="27" description="" />
    <keyValuePair key="tcf_profiler_count" value="0" description="" />
-   <keyValuePair key="tcf_system_debug_count" value="2" description="" />
+   <keyValuePair key="tcf_system_debug_count" value="27" description="" />
    <keyValuePair key="uid" value="NA" description="" />
   </section>
  </section>

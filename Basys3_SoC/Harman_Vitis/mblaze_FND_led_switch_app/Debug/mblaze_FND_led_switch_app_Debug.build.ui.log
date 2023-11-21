@@ -1,10 +1,15 @@
-2023-11-20T12:24:50.725987600255-12:24:50 **** Incremental Build of configuration Debug for project mblaze_FND_led_switch_app ****
+2023-11-21T14:13:52.704961700255-14:13:52 **** Incremental Build of configuration Debug for project mblaze_FND_led_switch_app ****
 000-make all 
+000-'Building file: ../src/FND.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FND.o" -IF:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_swtich_hw/export/mblaze_FND_led_swtich_hw/sw/mblaze_FND_led_swtich_hw/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/FND.d" -MT"src/FND.o" -o "src/FND.o" "../src/FND.c"
+000-'Finished building: ../src/FND.c'
+000-' '
 000-'Building file: ../src/helloworld.c'
 000-'Invoking: MicroBlaze gcc compiler'
 000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IF:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_led_swtich_hw/export/mblaze_FND_led_swtich_hw/sw/mblaze_FND_led_swtich_hw/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
 000-../src/helloworld.c: In function 'main':
-000/mblaze_FND_led_switch_app/src/helloworld.c234-1-1implicit declaration of function 'MB_Sleep'; did you mean 'mb_sleep'? [-Wimplicit-function-declaration]1-../src/helloworld.c:234:7: warning: implicit declaration of function 'MB_Sleep'; did you mean 'mb_sleep'? [-Wimplicit-function-declaration]
+000/mblaze_FND_led_switch_app/src/helloworld.c229-1-1implicit declaration of function 'MB_Sleep'; did you mean 'mb_sleep'? [-Wimplicit-function-declaration]1-../src/helloworld.c:229:7: warning: implicit declaration of function 'MB_Sleep'; did you mean 'mb_sleep'? [-Wimplicit-function-declaration]
 000-       MB_Sleep(1);
 000-       ^~~~~~~~
 000-       mb_sleep
@@ -13,10 +18,10 @@
 000-        ^~~~~~~~~
 000-In file included from ../src/helloworld.c:158:
 000-../src/helloworld.c: At top level:
-000/mblaze_FND_led_switch_app/src/FND.h21-1-1array 'FND_FONT' assumed to have one element1-../src/FND.h:21:14: warning: array 'FND_FONT' assumed to have one element
+000/mblaze_FND_led_switch_app/src/FND.h26-1-1array 'FND_FONT' assumed to have one element1-../src/FND.h:26:14: warning: array 'FND_FONT' assumed to have one element
 000- unsigned int FND_FONT[];
 000-              ^~~~~~~~
-000/mblaze_FND_led_switch_app/src/FND.h22-1-1array 'FND_digit' assumed to have one element1-../src/FND.h:22:14: warning: array 'FND_digit' assumed to have one element
+000/mblaze_FND_led_switch_app/src/FND.h27-1-1array 'FND_digit' assumed to have one element1-../src/FND.h:27:14: warning: array 'FND_digit' assumed to have one element
 000- unsigned int FND_digit[];
 000-              ^~~~~~~~~
 000-'Finished building: ../src/helloworld.c'
@@ -33,5 +38,5 @@
 000-'Finished building: mblaze_FND_led_switch_app.elf.size'
 000-' '
 00255-
-12:24:52 Build Finished (took 1s.500ms)
+14:13:55 Build Finished (took 3s.169ms)
 

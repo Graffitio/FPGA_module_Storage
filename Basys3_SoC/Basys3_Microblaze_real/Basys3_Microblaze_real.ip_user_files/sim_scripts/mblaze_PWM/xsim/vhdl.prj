@@ -1,0 +1,11 @@
+vhdl xil_defaultlib  \
+"../../../bd/mblaze_PWM/ip/mblaze_PWM_microblaze_0_0/sim/mblaze_PWM_microblaze_0_0.vhd" \
+"../../../bd/mblaze_PWM/ip/mblaze_PWM_dlmb_v10_0/sim/mblaze_PWM_dlmb_v10_0.vhd" \
+"../../../bd/mblaze_PWM/ip/mblaze_PWM_ilmb_v10_0/sim/mblaze_PWM_ilmb_v10_0.vhd" \
+"../../../bd/mblaze_PWM/ip/mblaze_PWM_dlmb_bram_if_cntlr_0/sim/mblaze_PWM_dlmb_bram_if_cntlr_0.vhd" \
+"../../../bd/mblaze_PWM/ip/mblaze_PWM_ilmb_bram_if_cntlr_0/sim/mblaze_PWM_ilmb_bram_if_cntlr_0.vhd" \
+"../../../bd/mblaze_PWM/ip/mblaze_PWM_mdm_1_0/sim/mblaze_PWM_mdm_1_0.vhd" \
+"../../../bd/mblaze_PWM/ip/mblaze_PWM_rst_clk_wiz_0_100M_0/sim/mblaze_PWM_rst_clk_wiz_0_100M_0.vhd" \
+"../../../bd/mblaze_PWM/ip/mblaze_PWM_axi_uartlite_0_0/sim/mblaze_PWM_axi_uartlite_0_0.vhd" \
+
+nosort

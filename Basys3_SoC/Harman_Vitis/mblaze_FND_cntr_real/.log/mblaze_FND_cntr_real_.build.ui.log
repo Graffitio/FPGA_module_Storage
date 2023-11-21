@@ -1,2 +1,6 @@
-2023-11-20T16:29:16.2207528000-Nothing to build in platform 'mblaze_FND_cntr_real'
+2023-11-21T14:13:46.350962600255-14:13:46 **** Incremental Build of project mblaze_FND_cntr_real ****
+000-buildplatform.bat 64366 mblaze_FND_cntr_real no_domain_build 
+000-XSDB Server Channel: tcfchan#6
+00255-
+14:13:50 Build Finished (took 4s.340ms)
 

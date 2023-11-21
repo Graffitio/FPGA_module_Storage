@@ -1454,3 +1454,288 @@ TRACE::2023-11-20.16:28:58::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/
 F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss|system_0||
 
 TRACE::2023-11-20.16:28:58::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:11::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.11:27:11::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.11:27:11::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.11:27:11::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw
+TRACE::2023-11-21.11:27:11::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.11:27:11::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:11::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-11-21.11:27:11::SCWPlatform::Opened new HwDB with name mblaze_FND_cntr_wrapper_0
+TRACE::2023-11-21.11:27:11::SCWReader::Active system found as  mblaze_FND_cntr_real
+TRACE::2023-11-21.11:27:11::SCWReader::Handling sysconfig mblaze_FND_cntr_real
+TRACE::2023-11-21.11:27:11::SCWDomain::checking for install qemu data   : 
+TRACE::2023-11-21.11:27:11::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.11:27:11::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.11:27:11::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.11:27:11::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw
+TRACE::2023-11-21.11:27:11::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.11:27:11::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:11::SCWPlatform::Trying to set the existing hwdb with name mblaze_FND_cntr_wrapper_0
+TRACE::2023-11-21.11:27:11::SCWPlatform::Opened existing hwdb mblaze_FND_cntr_wrapper_0
+TRACE::2023-11-21.11:27:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:11::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.11:27:11::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.11:27:11::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.11:27:11::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw
+TRACE::2023-11-21.11:27:11::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.11:27:11::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:11::SCWPlatform::Trying to set the existing hwdb with name mblaze_FND_cntr_wrapper_0
+TRACE::2023-11-21.11:27:11::SCWPlatform::Opened existing hwdb mblaze_FND_cntr_wrapper_0
+TRACE::2023-11-21.11:27:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:11::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.11:27:11::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.11:27:11::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.11:27:11::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw
+TRACE::2023-11-21.11:27:11::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.11:27:11::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:11::SCWPlatform::Trying to set the existing hwdb with name mblaze_FND_cntr_wrapper_0
+TRACE::2023-11-21.11:27:11::SCWPlatform::Opened existing hwdb mblaze_FND_cntr_wrapper_0
+TRACE::2023-11-21.11:27:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:11::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:11::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-21.11:27:11::SCWMssOS::No sw design opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:11::SCWMssOS::mss exists loading the mss file  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:11::SCWMssOS::Opened the sw design from mss  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:11::SCWMssOS::Adding the swdes entry F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2023-11-21.11:27:11::SCWMssOS::updating the scw layer about changes
+TRACE::2023-11-21.11:27:11::SCWMssOS::Opened the sw design.  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:11::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-11-21.11:27:11::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-11-21.11:27:11::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.11:27:11::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.11:27:11::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.11:27:11::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw
+TRACE::2023-11-21.11:27:11::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.11:27:11::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:11::SCWPlatform::Trying to set the existing hwdb with name mblaze_FND_cntr_wrapper_0
+TRACE::2023-11-21.11:27:11::SCWPlatform::Opened existing hwdb mblaze_FND_cntr_wrapper_0
+TRACE::2023-11-21.11:27:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:11::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:11::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2023-11-21.11:27:11::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:11::SCWReader::No isolation master present  
+TRACE::2023-11-21.11:27:11::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.11:27:11::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.11:27:11::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.11:27:11::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw
+TRACE::2023-11-21.11:27:11::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.11:27:11::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:11::SCWPlatform::Trying to set the existing hwdb with name mblaze_FND_cntr_wrapper_0
+TRACE::2023-11-21.11:27:11::SCWPlatform::Opened existing hwdb mblaze_FND_cntr_wrapper_0
+TRACE::2023-11-21.11:27:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:11::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:11::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2023-11-21.11:27:11::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:11::SCWWriter::formatted JSON is {
+	"platformName":	"mblaze_FND_cntr_real",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mblaze_FND_cntr_real",
+	"platHandOff":	"F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/mblaze_FND_cntr_real.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mblaze_FND_cntr_real.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mblaze_FND_cntr_real",
+	"systems":	[{
+			"systemName":	"mblaze_FND_cntr_real",
+			"systemDesc":	"mblaze_FND_cntr_real",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mblaze_FND_cntr_real",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"d3a9560710cd57b4d248e7b47481bae8",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-11-21.11:27:11::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.11:27:11::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.11:27:11::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.11:27:11::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw
+TRACE::2023-11-21.11:27:11::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.11:27:11::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:11::SCWPlatform::Trying to set the existing hwdb with name mblaze_FND_cntr_wrapper_0
+TRACE::2023-11-21.11:27:11::SCWPlatform::Opened existing hwdb mblaze_FND_cntr_wrapper_0
+TRACE::2023-11-21.11:27:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:11::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:11::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2023-11-21.11:27:11::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:11::SCWMssOS::Removing the swdes entry for  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss
+LOG::2023-11-21.14:13:47::SCWPlatform::Started generating the artifacts platform mblaze_FND_cntr_real
+TRACE::2023-11-21.14:13:48::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-11-21.14:13:49::SCWPlatform::Started generating the artifacts for system configuration mblaze_FND_cntr_real
+LOG::2023-11-21.14:13:49::SCWSystem::Checking the domain standalone_domain
+LOG::2023-11-21.14:13:49::SCWSystem::Not a boot domain 
+LOG::2023-11-21.14:13:49::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-11-21.14:13:49::SCWDomain::Generating domain artifcats
+TRACE::2023-11-21.14:13:49::SCWMssOS::Generating standalone artifcats
+TRACE::2023-11-21.14:13:49::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-11-21.14:13:49::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.14:13:49::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.14:13:49::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.14:13:49::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw
+TRACE::2023-11-21.14:13:49::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.14:13:49::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.14:13:49::SCWPlatform::Trying to set the existing hwdb with name mblaze_FND_cntr_wrapper_0
+TRACE::2023-11-21.14:13:49::SCWPlatform::Opened existing hwdb mblaze_FND_cntr_wrapper_0
+TRACE::2023-11-21.14:13:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.14:13:49::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.14:13:49::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss|system_2||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_PWM_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2023-11-21.14:13:49::SCWMssOS::No sw design opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.14:13:49::SCWMssOS::mss exists loading the mss file  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.14:13:49::SCWMssOS::Opened the sw design from mss  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.14:13:49::SCWMssOS::Adding the swdes entry F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss with des name system_3
+TRACE::2023-11-21.14:13:49::SCWMssOS::updating the scw layer about changes
+TRACE::2023-11-21.14:13:49::SCWMssOS::Opened the sw design.  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.14:13:49::SCWMssOS::Completed writing the mss file at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp
+TRACE::2023-11-21.14:13:49::SCWMssOS::Mss edits present, copying mssfile into export location F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.14:13:49::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-11-21.14:13:49::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-11-21.14:13:49::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2023-11-21.14:13:49::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-11-21.14:13:49::SCWMssOS::Copying to export directory.
+TRACE::2023-11-21.14:13:50::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-11-21.14:13:50::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-11-21.14:13:50::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-11-21.14:13:50::SCWSystem::Completed Processing the sysconfig mblaze_FND_cntr_real
+LOG::2023-11-21.14:13:50::SCWPlatform::Completed generating the artifacts for system configuration mblaze_FND_cntr_real
+TRACE::2023-11-21.14:13:50::SCWPlatform::Started preparing the platform 
+TRACE::2023-11-21.14:13:50::SCWSystem::Writing the bif file for system config mblaze_FND_cntr_real
+TRACE::2023-11-21.14:13:50::SCWSystem::dir created 
+TRACE::2023-11-21.14:13:50::SCWSystem::Writing the bif 
+TRACE::2023-11-21.14:13:50::SCWPlatform::Started writing the spfm file 
+TRACE::2023-11-21.14:13:50::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-11-21.14:13:50::SCWPlatform::Completed generating the platform
+TRACE::2023-11-21.14:13:50::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.14:13:50::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.14:13:50::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.14:13:50::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw
+TRACE::2023-11-21.14:13:50::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.14:13:50::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.14:13:50::SCWPlatform::Trying to set the existing hwdb with name mblaze_FND_cntr_wrapper_0
+TRACE::2023-11-21.14:13:50::SCWPlatform::Opened existing hwdb mblaze_FND_cntr_wrapper_0
+TRACE::2023-11-21.14:13:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.14:13:50::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.14:13:50::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss|system_2||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss|system_3||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_PWM_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2023-11-21.14:13:50::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.14:13:50::SCWWriter::formatted JSON is {
+	"platformName":	"mblaze_FND_cntr_real",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mblaze_FND_cntr_real",
+	"platHandOff":	"F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/mblaze_FND_cntr_real.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mblaze_FND_cntr_real.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mblaze_FND_cntr_real",
+	"systems":	[{
+			"systemName":	"mblaze_FND_cntr_real",
+			"systemDesc":	"mblaze_FND_cntr_real",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mblaze_FND_cntr_real",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"d3a9560710cd57b4d248e7b47481bae8",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-11-21.14:13:50::SCWPlatform::updated the xpfm file.
+TRACE::2023-11-21.14:13:50::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.14:13:50::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.14:13:50::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.14:13:50::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw
+TRACE::2023-11-21.14:13:50::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/hw/mblaze_FND_cntr_real.xsa
+TRACE::2023-11-21.14:13:50::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.14:13:50::SCWPlatform::Trying to set the existing hwdb with name mblaze_FND_cntr_wrapper_0
+TRACE::2023-11-21.14:13:50::SCWPlatform::Opened existing hwdb mblaze_FND_cntr_wrapper_0
+TRACE::2023-11-21.14:13:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.14:13:50::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.14:13:50::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mBlaze_hello/microblaze_0/standalone_domain/bsp/system.mss|system_2||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss|system_3||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_PWM_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2023-11-21.14:13:50::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/microblaze_0/standalone_domain/bsp/system.mss

@@ -1,7 +1,7 @@
 //Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-//Date        : Fri Nov 17 14:10:48 2023
+//Date        : Tue Nov 21 11:20:57 2023
 //Host        : DESKTOP-CPLDPO1 running 64-bit major release  (build 9200)
 //Command     : generate_target mblaze_led_wrapper.bd
 //Design      : mblaze_led_wrapper
@@ -12,6 +12,7 @@
 module mblaze_led_wrapper
    (dip_switches_16bits_tri_i,
     led_16bits_tri_o,
+    push_buttons_4bits_tri_i,
     reset,
     seven_seg_led_an_tri_o,
     seven_seg_led_disp_tri_o,
@@ -20,6 +21,7 @@ module mblaze_led_wrapper
     usb_uart_txd);
   input [15:0]dip_switches_16bits_tri_i;
   output [15:0]led_16bits_tri_o;
+  input [3:0]push_buttons_4bits_tri_i;
   input reset;
   output [3:0]seven_seg_led_an_tri_o;
   output [7:0]seven_seg_led_disp_tri_o;
@@ -29,6 +31,7 @@ module mblaze_led_wrapper
 
   wire [15:0]dip_switches_16bits_tri_i;
   wire [15:0]led_16bits_tri_o;
+  wire [3:0]push_buttons_4bits_tri_i;
   wire reset;
   wire [3:0]seven_seg_led_an_tri_o;
   wire [7:0]seven_seg_led_disp_tri_o;
@@ -39,6 +42,7 @@ module mblaze_led_wrapper
   mblaze_led mblaze_led_i
        (.dip_switches_16bits_tri_i(dip_switches_16bits_tri_i),
         .led_16bits_tri_o(led_16bits_tri_o),
+        .push_buttons_4bits_tri_i(push_buttons_4bits_tri_i),
         .reset(reset),
         .seven_seg_led_an_tri_o(seven_seg_led_an_tri_o),
         .seven_seg_led_disp_tri_o(seven_seg_led_disp_tri_o),

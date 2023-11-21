@@ -2,11 +2,11 @@
 # Vivado v2019.2 (64-bit)
 # SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
 # IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
-# Start of session at: Mon Nov 20 16:23:29 2023
-# Process ID: 21096
+# Start of session at: Tue Nov 21 15:55:11 2023
+# Process ID: 22056
 # Current directory: F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1
-# Command line: vivado.exe -log mblaze_FND_cntr_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mblaze_FND_cntr_wrapper.tcl
-# Log file: F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/mblaze_FND_cntr_wrapper.vds
+# Command line: vivado.exe -log mblaze_PWM_1000x_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mblaze_PWM_1000x_wrapper.tcl
+# Log file: F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/mblaze_PWM_1000x_wrapper.vds
 # Journal file: F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
-source mblaze_FND_cntr_wrapper.tcl -notrace
+source mblaze_PWM_1000x_wrapper.tcl -notrace

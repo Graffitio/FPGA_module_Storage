@@ -1,0 +1,1054 @@
+TRACE::2023-11-21.11:27:32::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:32::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:32::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-11-21.11:27:32::SCWPlatform::Opened new HwDB with name mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:32::SCWWriter::formatted JSON is {
+	"platformName":	"mblaze_gpio_btn_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mblaze_gpio_btn_hw",
+	"platHandOff":	"F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/mblaze_gpio_btn.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mblaze_gpio_btn.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2023-11-21.11:27:32::SCWWriter::formatted JSON is {
+	"platformName":	"mblaze_gpio_btn_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mblaze_gpio_btn_hw",
+	"platHandOff":	"F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/mblaze_gpio_btn.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mblaze_gpio_btn.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mblaze_gpio_btn_hw",
+	"systems":	[{
+			"systemName":	"mblaze_gpio_btn_hw",
+			"systemDesc":	"mblaze_gpio_btn_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mblaze_gpio_btn_hw"
+		}]
+}
+TRACE::2023-11-21.11:27:32::SCWPlatform::Boot application domains not present, creating them
+TRACE::2023-11-21.11:27:32::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2023-11-21.11:27:32::SCWWriter::formatted JSON is {
+	"platformName":	"mblaze_gpio_btn_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mblaze_gpio_btn_hw",
+	"platHandOff":	"F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/mblaze_gpio_btn.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mblaze_gpio_btn.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mblaze_gpio_btn_hw",
+	"systems":	[{
+			"systemName":	"mblaze_gpio_btn_hw",
+			"systemDesc":	"mblaze_gpio_btn_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mblaze_gpio_btn_hw"
+		}]
+}
+TRACE::2023-11-21.11:27:32::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:32::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:32::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:32::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:32::SCWDomain::checking for install qemu data   : 
+TRACE::2023-11-21.11:27:32::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:32::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:32::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:32::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:32::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:32::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:32::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:32::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:32::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:32::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-21.11:27:32::SCWMssOS::No sw design opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:32::SCWMssOS::mss does not exists at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:32::SCWMssOS::Creating sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:32::SCWMssOS::Adding the swdes entry, created swdb F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss with des name F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:32::SCWMssOS::updating the scw layer changes to swdes at   F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:32::SCWMssOS::Writing mss at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:32::SCWMssOS::Completed writing the mss file at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp
+TRACE::2023-11-21.11:27:32::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2023-11-21.11:27:32::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2023-11-21.11:27:32::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:32::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:32::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:32::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:32::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:32::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2023-11-21.11:27:32::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:32::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:32::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:32::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:32::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:32::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:32::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2023-11-21.11:27:32::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:32::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:32::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:32::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:32::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:32::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:32::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2023-11-21.11:27:32::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:32::SCWWriter::formatted JSON is {
+	"platformName":	"mblaze_gpio_btn_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mblaze_gpio_btn_hw",
+	"platHandOff":	"F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/mblaze_gpio_btn.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mblaze_gpio_btn.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mblaze_gpio_btn_hw",
+	"systems":	[{
+			"systemName":	"mblaze_gpio_btn_hw",
+			"systemDesc":	"mblaze_gpio_btn_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mblaze_gpio_btn_hw",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-11-21.11:27:32::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:32::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:32::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:32::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:32::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:32::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:32::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2023-11-21.11:27:32::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:32::SCWMssOS::Completed writing the mss file at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp
+TRACE::2023-11-21.11:27:32::SCWMssOS::Forcing BSP Sources regeneration.
+LOG::2023-11-21.11:27:46::SCWPlatform::Started generating the artifacts platform mblaze_gpio_btn_hw
+TRACE::2023-11-21.11:27:46::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-11-21.11:27:46::SCWPlatform::Started generating the artifacts for system configuration mblaze_gpio_btn_hw
+LOG::2023-11-21.11:27:46::SCWSystem::Checking the domain standalone_domain
+LOG::2023-11-21.11:27:46::SCWSystem::Not a boot domain 
+LOG::2023-11-21.11:27:46::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-11-21.11:27:46::SCWDomain::Generating domain artifcats
+TRACE::2023-11-21.11:27:46::SCWMssOS::Generating standalone artifcats
+TRACE::2023-11-21.11:27:46::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:46::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss||
+
+KEYINFO::2023-11-21.11:27:46::SCWMssOS::Could not open the swdb for F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+KEYINFO::2023-11-21.11:27:46::SCWMssOS::Could not open the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss is not found
+
+TRACE::2023-11-21.11:27:46::SCWMssOS::Cleared the swdb table entry
+TRACE::2023-11-21.11:27:46::SCWMssOS::No sw design opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWMssOS::mss exists loading the mss file  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWMssOS::Opened the sw design from mss  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWMssOS::Adding the swdes entry F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2023-11-21.11:27:46::SCWMssOS::updating the scw layer about changes
+TRACE::2023-11-21.11:27:46::SCWMssOS::Opened the sw design.  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWMssOS::Completed writing the mss file at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp
+TRACE::2023-11-21.11:27:46::SCWMssOS::Mss edits present, copying mssfile into export location F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-11-21.11:27:46::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-11-21.11:27:46::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2023-11-21.11:27:46::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-11-21.11:27:46::SCWMssOS::Copying to export directory.
+TRACE::2023-11-21.11:27:46::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-11-21.11:27:46::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-11-21.11:27:46::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-11-21.11:27:46::SCWSystem::Completed Processing the sysconfig mblaze_gpio_btn_hw
+LOG::2023-11-21.11:27:46::SCWPlatform::Completed generating the artifacts for system configuration mblaze_gpio_btn_hw
+TRACE::2023-11-21.11:27:46::SCWPlatform::Started preparing the platform 
+TRACE::2023-11-21.11:27:46::SCWSystem::Writing the bif file for system config mblaze_gpio_btn_hw
+TRACE::2023-11-21.11:27:46::SCWSystem::dir created 
+TRACE::2023-11-21.11:27:46::SCWSystem::Writing the bif 
+TRACE::2023-11-21.11:27:46::SCWPlatform::Started writing the spfm file 
+TRACE::2023-11-21.11:27:46::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-11-21.11:27:46::SCWPlatform::Completed generating the platform
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:46::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2023-11-21.11:27:46::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:46::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2023-11-21.11:27:46::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:46::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2023-11-21.11:27:46::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWWriter::formatted JSON is {
+	"platformName":	"mblaze_gpio_btn_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mblaze_gpio_btn_hw",
+	"platHandOff":	"F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/mblaze_gpio_btn.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mblaze_gpio_btn.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mblaze_gpio_btn_hw",
+	"systems":	[{
+			"systemName":	"mblaze_gpio_btn_hw",
+			"systemDesc":	"mblaze_gpio_btn_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mblaze_gpio_btn_hw",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"963c098fff96d7f88948511a416146e0",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-11-21.11:27:46::SCWPlatform::updated the xpfm file.
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:46::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2023-11-21.11:27:46::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:46::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2023-11-21.11:27:46::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:46::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2023-11-21.11:27:46::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:46::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2023-11-21.11:27:46::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWWriter::formatted JSON is {
+	"platformName":	"mblaze_gpio_btn_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mblaze_gpio_btn_hw",
+	"platHandOff":	"F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/mblaze_gpio_btn.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mblaze_gpio_btn.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mblaze_gpio_btn_hw",
+	"systems":	[{
+			"systemName":	"mblaze_gpio_btn_hw",
+			"systemDesc":	"mblaze_gpio_btn_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mblaze_gpio_btn_hw",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"963c098fff96d7f88948511a416146e0",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:46::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2023-11-21.11:27:46::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:46::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2023-11-21.11:27:46::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:46::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2023-11-21.11:27:46::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:46::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2023-11-21.11:27:46::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:46::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2023-11-21.11:27:46::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:46::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2023-11-21.11:27:46::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWWriter::formatted JSON is {
+	"platformName":	"mblaze_gpio_btn_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mblaze_gpio_btn_hw",
+	"platHandOff":	"F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/mblaze_gpio_btn.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mblaze_gpio_btn.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mblaze_gpio_btn_hw",
+	"systems":	[{
+			"systemName":	"mblaze_gpio_btn_hw",
+			"systemDesc":	"mblaze_gpio_btn_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mblaze_gpio_btn_hw",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"963c098fff96d7f88948511a416146e0",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:46::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2023-11-21.11:27:46::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:46::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2023-11-21.11:27:46::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:46::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_0
+TRACE::2023-11-21.11:27:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:46::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2023-11-21.11:27:46::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:46::SCWWriter::formatted JSON is {
+	"platformName":	"mblaze_gpio_btn_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mblaze_gpio_btn_hw",
+	"platHandOff":	"F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/mblaze_gpio_btn.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mblaze_gpio_btn.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mblaze_gpio_btn_hw",
+	"systems":	[{
+			"systemName":	"mblaze_gpio_btn_hw",
+			"systemDesc":	"mblaze_gpio_btn_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mblaze_gpio_btn_hw",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"963c098fff96d7f88948511a416146e0",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-11-21.11:27:47::SCWPlatform::Clearing the existing platform
+TRACE::2023-11-21.11:27:47::SCWSystem::Clearing the existing sysconfig
+TRACE::2023-11-21.11:27:47::SCWMssOS::Removing the swdes entry for  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:47::SCWSystem::Clearing the domains completed.
+TRACE::2023-11-21.11:27:47::SCWPlatform::Clearing the opened hw db.
+TRACE::2023-11-21.11:27:47::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:47::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:47::SCWPlatform:: Platform location is F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:47::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:47::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:47::SCWPlatform::Removing the HwDB with name F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:47::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:47::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:47::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:47::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:47::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:47::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:47::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-11-21.11:27:47::SCWPlatform::Opened new HwDB with name mblaze_led_wrapper_1
+TRACE::2023-11-21.11:27:47::SCWReader::Active system found as  mblaze_gpio_btn_hw
+TRACE::2023-11-21.11:27:47::SCWReader::Handling sysconfig mblaze_gpio_btn_hw
+TRACE::2023-11-21.11:27:47::SCWDomain::checking for install qemu data   : 
+TRACE::2023-11-21.11:27:47::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:47::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:47::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:47::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:47::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:47::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:47::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_1
+TRACE::2023-11-21.11:27:47::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_1
+TRACE::2023-11-21.11:27:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:47::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:47::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:47::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:47::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:47::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:47::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:47::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_1
+TRACE::2023-11-21.11:27:47::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_1
+TRACE::2023-11-21.11:27:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:47::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:47::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:47::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:47::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:47::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:47::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:47::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_1
+TRACE::2023-11-21.11:27:47::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_1
+TRACE::2023-11-21.11:27:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:47::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:47::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-21.11:27:47::SCWMssOS::No sw design opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:47::SCWMssOS::mss exists loading the mss file  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:47::SCWMssOS::Opened the sw design from mss  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:47::SCWMssOS::Adding the swdes entry F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2023-11-21.11:27:47::SCWMssOS::updating the scw layer about changes
+TRACE::2023-11-21.11:27:47::SCWMssOS::Opened the sw design.  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:47::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-11-21.11:27:47::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-11-21.11:27:47::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:47::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:47::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:47::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:47::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:47::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:47::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_1
+TRACE::2023-11-21.11:27:47::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_1
+TRACE::2023-11-21.11:27:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:47::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:47::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2023-11-21.11:27:47::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:47::SCWReader::No isolation master present  
+TRACE::2023-11-21.11:27:47::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:47::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:47::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:47::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:47::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:47::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:47::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_1
+TRACE::2023-11-21.11:27:47::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_1
+TRACE::2023-11-21.11:27:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:47::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:47::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2023-11-21.11:27:47::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:48::SCWMssOS::In reload Mss file.
+TRACE::2023-11-21.11:27:48::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:48::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:48::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:48::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:48::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:48::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:48::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_1
+TRACE::2023-11-21.11:27:48::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_1
+TRACE::2023-11-21.11:27:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:48::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:48::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+KEYINFO::2023-11-21.11:27:48::SCWMssOS::Could not open the swdb for system_0
+KEYINFO::2023-11-21.11:27:48::SCWMssOS::Could not open the sw design at  system_0
+ERROR: [Hsi 55-1558] Software Design system_0 is not found
+
+TRACE::2023-11-21.11:27:48::SCWMssOS::Cleared the swdb table entry
+TRACE::2023-11-21.11:27:48::SCWMssOS::No sw design opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:48::SCWMssOS::mss exists loading the mss file  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:48::SCWMssOS::Opened the sw design from mss  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:48::SCWMssOS::Adding the swdes entry F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2023-11-21.11:27:48::SCWMssOS::updating the scw layer about changes
+TRACE::2023-11-21.11:27:48::SCWMssOS::Opened the sw design.  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:48::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:48::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:48::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:48::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:27:48::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:27:48::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:27:48::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_1
+TRACE::2023-11-21.11:27:48::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_1
+TRACE::2023-11-21.11:27:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:27:48::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:48::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2023-11-21.11:27:48::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:27:48::SCWMssOS::Removing the swdes entry for  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+LOG::2023-11-21.11:28:03::SCWPlatform::Started generating the artifacts platform mblaze_gpio_btn_hw
+TRACE::2023-11-21.11:28:03::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-11-21.11:28:03::SCWPlatform::Started generating the artifacts for system configuration mblaze_gpio_btn_hw
+LOG::2023-11-21.11:28:03::SCWSystem::Checking the domain standalone_domain
+LOG::2023-11-21.11:28:03::SCWSystem::Not a boot domain 
+LOG::2023-11-21.11:28:03::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-11-21.11:28:03::SCWDomain::Generating domain artifcats
+TRACE::2023-11-21.11:28:03::SCWMssOS::Generating standalone artifcats
+TRACE::2023-11-21.11:28:03::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-11-21.11:28:03::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:28:03::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:28:03::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:28:03::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:28:03::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:28:03::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:28:03::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_1
+TRACE::2023-11-21.11:28:03::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_1
+TRACE::2023-11-21.11:28:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:28:03::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:28:03::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-21.11:28:03::SCWMssOS::No sw design opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:28:03::SCWMssOS::mss exists loading the mss file  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:28:03::SCWMssOS::Opened the sw design from mss  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:28:03::SCWMssOS::Adding the swdes entry F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2023-11-21.11:28:03::SCWMssOS::updating the scw layer about changes
+TRACE::2023-11-21.11:28:03::SCWMssOS::Opened the sw design.  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:28:03::SCWMssOS::Completed writing the mss file at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp
+TRACE::2023-11-21.11:28:03::SCWMssOS::Mss edits present, copying mssfile into export location F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:28:03::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-11-21.11:28:03::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-11-21.11:28:03::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2023-11-21.11:28:03::SCWMssOS::doing bsp build ... 
+TRACE::2023-11-21.11:28:03::SCWMssOS::System Command Ran  F: & cd  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp & make 
+TRACE::2023-11-21.11:28:03::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2023-11-21.11:28:03::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-11-21.11:28:03::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-11-21.11:28:03::SCWMssOS::-Wextra"
+
+TRACE::2023-11-21.11:28:04::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2023-11-21.11:28:04::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-11-21.11:28:04::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-11-21.11:28:04::SCWMssOS::-Wextra"
+
+TRACE::2023-11-21.11:28:04::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_5/src"
+
+TRACE::2023-11-21.11:28:04::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-11-21.11:28:04::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-11-21.11:28:04::SCWMssOS::-Wextra"
+
+TRACE::2023-11-21.11:28:04::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_1/src"
+
+TRACE::2023-11-21.11:28:04::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2023-11-21.11:28:04::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2023-11-21.11:28:04::SCWMssOS::-Wall -Wextra"
+
+TRACE::2023-11-21.11:28:05::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2023-11-21.11:28:05::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2023-11-21.11:28:05::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2023-11-21.11:28:05::SCWMssOS::all -Wextra"
+
+TRACE::2023-11-21.11:28:05::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2023-11-21.11:28:05::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-11-21.11:28:05::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-11-21.11:28:05::SCWMssOS::xtra"
+
+TRACE::2023-11-21.11:28:05::SCWMssOS::"Compiling bram"
+
+TRACE::2023-11-21.11:28:09::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2023-11-21.11:28:09::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-11-21.11:28:09::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-11-21.11:28:09::SCWMssOS::xtra"
+
+TRACE::2023-11-21.11:28:09::SCWMssOS::"Compiling cpu"
+
+TRACE::2023-11-21.11:28:10::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_5/src"
+
+TRACE::2023-11-21.11:28:10::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-11-21.11:28:10::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-11-21.11:28:10::SCWMssOS::xtra"
+
+TRACE::2023-11-21.11:28:10::SCWMssOS::"Compiling gpio"
+
+TRACE::2023-11-21.11:28:11::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_1/src"
+
+TRACE::2023-11-21.11:28:11::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2023-11-21.11:28:11::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2023-11-21.11:28:11::SCWMssOS::ll -Wextra"
+
+TRACE::2023-11-21.11:28:11::SCWMssOS::"Compiling standalone";
+
+TRACE::2023-11-21.11:28:16::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2023-11-21.11:28:16::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2023-11-21.11:28:16::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2023-11-21.11:28:16::SCWMssOS:: -Wextra"
+
+TRACE::2023-11-21.11:28:16::SCWMssOS::"Compiling uartlite"
+
+TRACE::2023-11-21.11:28:18::SCWMssOS::'Finished building libraries'
+
+TRACE::2023-11-21.11:28:18::SCWMssOS::Copying to export directory.
+TRACE::2023-11-21.11:28:18::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-11-21.11:28:18::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-11-21.11:28:18::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-11-21.11:28:18::SCWSystem::Completed Processing the sysconfig mblaze_gpio_btn_hw
+LOG::2023-11-21.11:28:18::SCWPlatform::Completed generating the artifacts for system configuration mblaze_gpio_btn_hw
+TRACE::2023-11-21.11:28:18::SCWPlatform::Started preparing the platform 
+TRACE::2023-11-21.11:28:18::SCWSystem::Writing the bif file for system config mblaze_gpio_btn_hw
+TRACE::2023-11-21.11:28:18::SCWSystem::dir created 
+TRACE::2023-11-21.11:28:18::SCWSystem::Writing the bif 
+TRACE::2023-11-21.11:28:18::SCWPlatform::Started writing the spfm file 
+TRACE::2023-11-21.11:28:18::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-11-21.11:28:18::SCWPlatform::Completed generating the platform
+TRACE::2023-11-21.11:28:18::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:28:18::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:28:18::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:28:18::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:28:18::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:28:18::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:28:18::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_1
+TRACE::2023-11-21.11:28:18::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_1
+TRACE::2023-11-21.11:28:18::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:28:18::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:28:18::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2023-11-21.11:28:18::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:28:18::SCWWriter::formatted JSON is {
+	"platformName":	"mblaze_gpio_btn_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mblaze_gpio_btn_hw",
+	"platHandOff":	"F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/mblaze_gpio_btn.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mblaze_gpio_btn.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mblaze_gpio_btn_hw",
+	"systems":	[{
+			"systemName":	"mblaze_gpio_btn_hw",
+			"systemDesc":	"mblaze_gpio_btn_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mblaze_gpio_btn_hw",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"963c098fff96d7f88948511a416146e0",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-11-21.11:28:18::SCWPlatform::updated the xpfm file.
+TRACE::2023-11-21.11:28:18::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:28:18::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:28:18::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:28:18::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw
+TRACE::2023-11-21.11:28:18::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/hw/mblaze_gpio_btn.xsa
+TRACE::2023-11-21.11:28:18::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-21.11:28:18::SCWPlatform::Trying to set the existing hwdb with name mblaze_led_wrapper_1
+TRACE::2023-11-21.11:28:18::SCWPlatform::Opened existing hwdb mblaze_led_wrapper_1
+TRACE::2023-11-21.11:28:18::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-21.11:28:18::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-21.11:28:18::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2023-11-21.11:28:18::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_gpio_btn_hw/microblaze_0/standalone_domain/bsp/system.mss

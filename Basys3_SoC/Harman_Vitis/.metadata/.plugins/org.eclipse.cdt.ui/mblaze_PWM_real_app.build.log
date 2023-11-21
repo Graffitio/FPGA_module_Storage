@@ -1,0 +1,25 @@
+15:00:27 **** Incremental Build of configuration Debug for project mblaze_PWM_real_app ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IF:/Ian_Jung/workplace/Harman_Vitis/mblaze_PWM_final/export/mblaze_PWM_final/sw/mblaze_PWM_final/standalone_domain/bspinclude/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:73:5: warning: implicit declaration of function 'MB_Sleep' [-Wimplicit-function-declaration]
+     MB_Sleep(10000);
+     ^~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: mblaze_PWM_real_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LF:/Ian_Jung/workplace/Harman_Vitis/mblaze_PWM_final/export/mblaze_PWM_final/sw/mblaze_PWM_final/standalone_domain/bsplib/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mblaze_PWM_real_app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mblaze_PWM_real_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mblaze_PWM_real_app.elf  |tee "mblaze_PWM_real_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  61436	   1672	   3172	  66280	  102e8	mblaze_PWM_real_app.elf
+'Finished building: mblaze_PWM_real_app.elf.size'
+' '
+
+15:00:28 Build Finished (took 1s.502ms)
+

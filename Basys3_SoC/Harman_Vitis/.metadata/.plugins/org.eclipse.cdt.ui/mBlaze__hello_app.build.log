@@ -1,4 +1,4 @@
-09:44:54 **** Build of configuration Debug for project mBlaze__hello_app ****
+14:13:36 **** Build of configuration Debug for project mBlaze__hello_app ****
 make all 
 'Building file: ../src/helloworld.c'
 'Invoking: MicroBlaze gcc compiler'
@@ -26,5 +26,5 @@ mb-size mBlaze__hello_app.elf  |tee "mBlaze__hello_app.elf.size"
 'Finished building: mBlaze__hello_app.elf.size'
 ' '
 
-09:44:58 Build Finished (took 3s.476ms)
+14:13:40 Build Finished (took 3s.827ms)
 

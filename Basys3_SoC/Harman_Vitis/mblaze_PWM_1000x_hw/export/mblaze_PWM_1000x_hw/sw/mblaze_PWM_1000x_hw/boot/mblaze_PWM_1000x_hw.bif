@@ -1,0 +1,6 @@
+/*mblaze_PWM_1000x_hw*/
+the_ROM_image:
+{
+   <bitstream> 
+   <elf> 
+}

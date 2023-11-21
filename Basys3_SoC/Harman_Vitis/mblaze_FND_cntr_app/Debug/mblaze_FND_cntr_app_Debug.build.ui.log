@@ -1,30 +1,6 @@
-2023-11-20T16:29:16.309481800255-16:29:16 **** Incremental Build of configuration Debug for project mblaze_FND_cntr_app ****
+2023-11-21T14:13:51.296755100255-14:13:51 **** Incremental Build of configuration Debug for project mblaze_FND_cntr_app ****
 000-make all 
-000-'Building file: ../src/helloworld.c'
-000-'Invoking: MicroBlaze gcc compiler'
-000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IF:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/export/mblaze_FND_cntr_real/sw/mblaze_FND_cntr_real/standalone_domain/bspinclude/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-000-../src/helloworld.c: In function 'main':
-000/mblaze_FND_cntr_app/src/helloworld.c69-1-1implicit declaration of function 'MB_Sleep' [-Wimplicit-function-declaration]1-../src/helloworld.c:69:6: warning: implicit declaration of function 'MB_Sleep' [-Wimplicit-function-declaration]
-000-      MB_Sleep(100);
-000-      ^~~~~~~~
-000-'Finished building: ../src/helloworld.c'
-000-' '
-000-'Building file: ../src/platform.c'
-000-'Invoking: MicroBlaze gcc compiler'
-000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IF:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/export/mblaze_FND_cntr_real/sw/mblaze_FND_cntr_real/standalone_domain/bspinclude/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
-000-'Finished building: ../src/platform.c'
-000-' '
-000-'Building target: mblaze_FND_cntr_app.elf'
-000-'Invoking: MicroBlaze gcc linker'
-000-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LF:/Ian_Jung/workplace/Harman_Vitis/mblaze_FND_cntr_real/export/mblaze_FND_cntr_real/sw/mblaze_FND_cntr_real/standalone_domain/bsplib/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mblaze_FND_cntr_app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-000-'Finished building target: mblaze_FND_cntr_app.elf'
-000-' '
-000-'Invoking: MicroBlaze Print Size'
-000-mb-size mblaze_FND_cntr_app.elf  |tee "mblaze_FND_cntr_app.elf.size"
-000-   text	   data	    bss	    dec	    hex	filename
-000-   6204	    632	   3108	   9944	   26d8	mblaze_FND_cntr_app.elf
-000-'Finished building: mblaze_FND_cntr_app.elf.size'
-000-' '
+000-make: Nothing to be done for 'all'.
 00255-
-16:29:18 Build Finished (took 1s.911ms)
+14:13:51 Build Finished (took 255ms)
 

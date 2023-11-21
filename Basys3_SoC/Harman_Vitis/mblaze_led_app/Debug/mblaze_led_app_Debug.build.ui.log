@@ -1,4 +1,4 @@
-2023-11-17T12:31:02.770665600255-12:31:02 **** Incremental Build of configuration Debug for project mblaze_led_app ****
+2023-11-21T14:14:27.080008500255-14:14:27 **** Build of configuration Debug for project mblaze_led_app ****
 000-make all 
 000-'Building file: ../src/helloworld.c'
 000-'Invoking: MicroBlaze gcc compiler'
@@ -9,6 +9,11 @@
 000-      ^~~~~~~~
 000-      mb_sleep
 000-'Finished building: ../src/helloworld.c'
+000-' '
+000-'Building file: ../src/platform.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IF:/Ian_Jung/workplace/Harman_Vitis/mblaze_led_hw/export/mblaze_led_hw/sw/mblaze_led_hw/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+000-'Finished building: ../src/platform.c'
 000-' '
 000-'Building target: mblaze_led_app.elf'
 000-'Invoking: MicroBlaze gcc linker'
@@ -22,5 +27,5 @@
 000-'Finished building: mblaze_led_app.elf.size'
 000-' '
 00255-
-12:31:04 Build Finished (took 1s.557ms)
+14:14:29 Build Finished (took 2s.867ms)
 

@@ -1,0 +1,6 @@
+2023-11-21T15:00:29.349993300255-15:00:29 **** Incremental Build of configuration Debug for project mblaze_PWM_real_app_system ****
+000-make all 
+000-Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+00255-
+15:00:29 Build Finished (took 229ms)
+

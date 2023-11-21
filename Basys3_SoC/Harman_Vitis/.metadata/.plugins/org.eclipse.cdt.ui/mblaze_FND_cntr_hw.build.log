@@ -1,2 +1,6 @@
-Nothing to build in platform 'mblaze_FND_cntr_hw'
+14:13:41 **** Incremental Build of project mblaze_FND_cntr_hw ****
+buildplatform.bat 64366 mblaze_FND_cntr_hw no_domain_build 
+XSDB Server Channel: tcfchan#5
+
+14:13:46 Build Finished (took 4s.597ms)
 
