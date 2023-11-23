@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Nov 23 10:40:35 2023
+# Process ID: 21708
+# Current directory: F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.sim/sim_1/behav/xsim/xsim.dir/tb_FND_IP_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.sim/sim_1/behav/xsim/xsim.dir/tb_FND_IP_behav/webtalk/xsim_webtalk.tcl -notrace

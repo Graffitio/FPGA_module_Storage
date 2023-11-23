@@ -1,0 +1,25 @@
+2023-11-22T14:19:19.978047300255-14:19:19 **** Incremental Build of configuration Debug for project mblaze_DHT11_app ****
+000-make all 
+000-'Building file: ../src/helloworld.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IF:/Ian_Jung/workplace/Harman_Vitis/mblaze_DHT11_w/export/mblaze_DHT11_w/sw/mblaze_DHT11_w/standalone_domain/bspinclude/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+000-../src/helloworld.c: In function 'main':
+000/mblaze_DHT11_app/src/helloworld.c65-1-1implicit declaration of function 'MB_Sleep' [-Wimplicit-function-declaration]1-../src/helloworld.c:65:6: warning: implicit declaration of function 'MB_Sleep' [-Wimplicit-function-declaration]
+000-      MB_Sleep(1000);
+000-      ^~~~~~~~
+000-'Finished building: ../src/helloworld.c'
+000-' '
+000-'Building target: mblaze_DHT11_app.elf'
+000-'Invoking: MicroBlaze gcc linker'
+000-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LF:/Ian_Jung/workplace/Harman_Vitis/mblaze_DHT11_w/export/mblaze_DHT11_w/sw/mblaze_DHT11_w/standalone_domain/bsplib/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mblaze_DHT11_app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: mblaze_DHT11_app.elf'
+000-' '
+000-'Invoking: MicroBlaze Print Size'
+000-mb-size mblaze_DHT11_app.elf  |tee "mblaze_DHT11_app.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  63460	   1672	   3172	  68304	  10ad0	mblaze_DHT11_app.elf
+000-'Finished building: mblaze_DHT11_app.elf.size'
+000-' '
+00255-
+14:19:21 Build Finished (took 1s.774ms)
+

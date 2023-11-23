@@ -1,0 +1,6 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+XilinxAXIVIP: Found at Path: tb_FND_IP.DUT.FND_IP_test_i.axi_vip_0.inst
+ERROR: 105 ns tb_FND_IP.DUT.FND_IP_test_i.axi_vip_0.inst.IF  : XILINX_RESET_PULSE_WIDTH: Holding AXI ARESETN asserted for 16 cycles of the slowest AXI clock is generally a sufficient reset pulse width for Xilinx IP. --UG1037. To downgrade, use <hierarchy_path to VIP>.IF.set_xilinx_reset_check_to_warn(), or filter using clr_xilinx_reset_check().
+$stop called at time : 635 ns : File "F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sim_1/new/tb_FND_IP.sv" Line 63
+Executing Axi4 End Of Simulation checks

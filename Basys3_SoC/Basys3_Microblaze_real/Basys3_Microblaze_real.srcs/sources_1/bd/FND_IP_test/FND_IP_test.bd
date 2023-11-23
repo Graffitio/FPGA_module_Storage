@@ -1,0 +1,160 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x763B2A5A5CFF7B8F",
+      "device": "xc7a35tcpg236-1",
+      "name": "FND_IP_test",
+      "synth_flow_mode": "None",
+      "tool_version": "2019.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "axi_vip_0": "",
+      "myip_FND_cntr_0": ""
+    },
+    "ports": {
+      "com_0": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "seg_7_0": {
+        "direction": "O",
+        "left": "7",
+        "right": "0"
+      },
+      "aclk_0": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "aresetn_0",
+            "value_src": "default"
+          },
+          "CLK_DOMAIN": {
+            "value": "FND_IP_test_aclk_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "aresetn_0": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_LOW",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "components": {
+      "axi_vip_0": {
+        "vlnv": "xilinx.com:ip:axi_vip:1.1",
+        "xci_name": "FND_IP_test_axi_vip_0_0",
+        "parameters": {
+          "ADDR_WIDTH": {
+            "value": "32"
+          },
+          "DATA_WIDTH": {
+            "value": "32"
+          },
+          "HAS_BRESP": {
+            "value": "1"
+          },
+          "HAS_PROT": {
+            "value": "1"
+          },
+          "HAS_RRESP": {
+            "value": "1"
+          },
+          "HAS_WSTRB": {
+            "value": "1"
+          },
+          "INTERFACE_MODE": {
+            "value": "MASTER"
+          },
+          "PROTOCOL": {
+            "value": "AXI4LITE"
+          },
+          "READ_WRITE_MODE": {
+            "value": "READ_WRITE"
+          }
+        }
+      },
+      "myip_FND_cntr_0": {
+        "vlnv": "xilinx.com:user:myip_FND_cntr:1.0",
+        "xci_name": "FND_IP_test_myip_FND_cntr_0_0"
+      }
+    },
+    "interface_nets": {
+      "axi_vip_0_M_AXI": {
+        "interface_ports": [
+          "myip_FND_cntr_0/S00_AXI",
+          "axi_vip_0/M_AXI"
+        ]
+      }
+    },
+    "nets": {
+      "myip_FND_cntr_0_com": {
+        "ports": [
+          "myip_FND_cntr_0/com",
+          "com_0"
+        ]
+      },
+      "myip_FND_cntr_0_seg_7": {
+        "ports": [
+          "myip_FND_cntr_0/seg_7",
+          "seg_7_0"
+        ]
+      },
+      "aclk_0_1": {
+        "ports": [
+          "aclk_0",
+          "axi_vip_0/aclk",
+          "myip_FND_cntr_0/s00_axi_aclk"
+        ]
+      },
+      "aresetn_0_1": {
+        "ports": [
+          "aresetn_0",
+          "axi_vip_0/aresetn",
+          "myip_FND_cntr_0/s00_axi_aresetn"
+        ]
+      }
+    },
+    "addressing": {
+      "/axi_vip_0": {
+        "address_spaces": {
+          "Master_AXI": {
+            "range": "4G",
+            "width": "32",
+            "segments": {
+              "SEG_myip_FND_cntr_0_S00_AXI_reg": {
+                "address_block": "/myip_FND_cntr_0/S00_AXI/S00_AXI_reg",
+                "offset": "0x44A00000",
+                "range": "64K"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

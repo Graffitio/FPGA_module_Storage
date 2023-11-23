@@ -1,0 +1,6 @@
+11:44:43 **** Incremental Build of configuration Debug for project mblaze_UltraSonic_app_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+
+11:44:43 Build Finished (took 853ms)
+

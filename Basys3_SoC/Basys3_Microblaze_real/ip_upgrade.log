@@ -1,6 +1,279 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Nov 23 12:52:32 2023
+| Host         : DESKTOP-CPLDPO1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mblaze_FND_cntr_myip_FND_cntr_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mblaze_FND_cntr_myip_FND_cntr_0_0 (xilinx.com:user:myip_FND_cntr:1.0) from (Rev. 7) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Nov 23 12:52:30 2023
+| Host         : DESKTOP-CPLDPO1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'FND_IP_test_myip_FND_cntr_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of FND_IP_test_myip_FND_cntr_0_0 (xilinx.com:user:myip_FND_cntr:1.0) from (Rev. 7) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Nov 23 12:38:27 2023
+| Host         : DESKTOP-CPLDPO1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mblaze_FND_cntr_myip_FND_cntr_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mblaze_FND_cntr_myip_FND_cntr_0_0 (xilinx.com:user:myip_FND_cntr:1.0) from (Rev. 6) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Nov 23 12:38:24 2023
+| Host         : DESKTOP-CPLDPO1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'FND_IP_test_myip_FND_cntr_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of FND_IP_test_myip_FND_cntr_0_0 (xilinx.com:user:myip_FND_cntr:1.0) from (Rev. 6) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Nov 23 12:24:26 2023
+| Host         : DESKTOP-CPLDPO1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mblaze_FND_cntr_myip_FND_cntr_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mblaze_FND_cntr_myip_FND_cntr_0_0 (xilinx.com:user:myip_FND_cntr:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Nov 23 12:24:23 2023
+| Host         : DESKTOP-CPLDPO1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'FND_IP_test_myip_FND_cntr_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of FND_IP_test_myip_FND_cntr_0_0 (xilinx.com:user:myip_FND_cntr:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Nov 23 12:07:48 2023
+| Host         : DESKTOP-CPLDPO1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mblaze_FND_cntr_myip_FND_cntr_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mblaze_FND_cntr_myip_FND_cntr_0_0 (xilinx.com:user:myip_FND_cntr:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Nov 23 12:07:47 2023
+| Host         : DESKTOP-CPLDPO1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'FND_IP_test_myip_FND_cntr_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of FND_IP_test_myip_FND_cntr_0_0 (xilinx.com:user:myip_FND_cntr:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Nov 23 11:35:25 2023
+| Host         : DESKTOP-CPLDPO1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mblaze_FND_cntr_myip_FND_cntr_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mblaze_FND_cntr_myip_FND_cntr_0_0 (xilinx.com:user:myip_FND_cntr:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Nov 23 11:30:18 2023
+| Host         : DESKTOP-CPLDPO1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'FND_IP_test_myip_FND_cntr_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of FND_IP_test_myip_FND_cntr_0_0 (xilinx.com:user:myip_FND_cntr:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Nov 23 11:20:51 2023
+| Host         : DESKTOP-CPLDPO1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mblaze_FND_cntr_myip_FND_cntr_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mblaze_FND_cntr_myip_FND_cntr_0_0 (xilinx.com:user:myip_FND_cntr:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Nov 23 11:20:46 2023
+| Host         : DESKTOP-CPLDPO1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'FND_IP_test_myip_FND_cntr_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of FND_IP_test_myip_FND_cntr_0_0 (xilinx.com:user:myip_FND_cntr:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Wed Nov 22 12:30:07 2023
+| Host         : DESKTOP-CPLDPO1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mblaze_DHT11_myip_DHT11_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mblaze_DHT11_myip_DHT11_0_0 (xilinx.com:user:myip_DHT11:1.0) from (Rev. 2) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
 | Date         : Tue Nov 21 15:49:28 2023
 | Host         : DESKTOP-CPLDPO1 running 64-bit major release  (build 9200)
 | Command      : upgrade_ip

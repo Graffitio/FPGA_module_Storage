@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="mblaze_switch_intc_app" location="F:/Ian_Jung/workplace/Harman_Vitis/mblaze_switch_intc_app" platform="F:/Ian_Jung/workplace/Harman_Vitis/mblaze_switch_intc_hw/export/mblaze_switch_intc_hw/mblaze_switch_intc_hw.xpfm" platformUID="xilinx:basys3::0.0(custom)" systemProject="mblaze_switch_intc_app_system" sysConfig="mblaze_switch_intc_hw" runtime="C/C++" cpu="standalone_domain" cpuInstance="microblaze_0" os="standalone" mssSignature="7b09007a9bc218820e8784948915813c">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.658738276">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.288535211" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

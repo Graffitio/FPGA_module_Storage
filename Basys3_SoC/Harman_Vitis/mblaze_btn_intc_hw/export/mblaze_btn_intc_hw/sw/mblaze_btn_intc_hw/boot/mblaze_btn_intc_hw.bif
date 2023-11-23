@@ -1,0 +1,6 @@
+/*mblaze_btn_intc_hw*/
+the_ROM_image:
+{
+   <bitstream> 
+   <elf> 
+}

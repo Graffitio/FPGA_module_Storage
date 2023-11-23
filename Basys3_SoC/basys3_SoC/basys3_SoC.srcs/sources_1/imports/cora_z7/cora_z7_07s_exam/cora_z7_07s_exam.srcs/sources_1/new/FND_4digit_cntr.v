@@ -26,8 +26,8 @@ module FND_4digit_cntr( //// ring counter top module 생성 ---- 16bit의 값을 받아
     output [3:0] com,
     output [7:0] seg_7
 );
-    reg [16:0] clk_1ms;//// 8ns * 2^17 = 1,048,576ns = 1048㎲ = 1.048ms
-    always @(posedge clk) clk_1ms = clk_1ms + 1 ;
+    reg [16:0] clk_1ms = 17'b0_0000_0000_0000_0000; //// 8ns * 2^17 = 1,048,576ns = 1048㎲ = 1.048ms
+    always @(posedge clk) clk_1ms = clk_1ms + 1;
     
     ring_count_fnd ring1(.clk(clk_1ms[16]), .com(com)); //// 1ms posedge마다 좌시프트
                                                                    //// 1ms 마다 CT 순대로 LED가 점멸한다.

@@ -3,46 +3,52 @@
 
 # XDC: imports/digilent-xdc-master/Basys-3-Master.xdc
 
-# Block Designs: bd/mblaze_PWM_1000x/mblaze_PWM_1000x.bd
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_PWM_1000x || ORIG_REF_NAME==mblaze_PWM_1000x} -quiet] -quiet
+# Block Designs: bd/mblaze_switch_intc/mblaze_switch_intc.bd
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_switch_intc || ORIG_REF_NAME==mblaze_switch_intc} -quiet] -quiet
 
-# IP: bd/mblaze_PWM_1000x/ip/mblaze_PWM_1000x_myip_PWM_1000x_0_0/mblaze_PWM_1000x_myip_PWM_1000x_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_PWM_1000x_myip_PWM_1000x_0_0 || ORIG_REF_NAME==mblaze_PWM_1000x_myip_PWM_1000x_0_0} -quiet] -quiet
+# IP: bd/mblaze_switch_intc/ip/mblaze_switch_intc_clk_wiz_0_0/mblaze_switch_intc_clk_wiz_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_switch_intc_clk_wiz_0_0 || ORIG_REF_NAME==mblaze_switch_intc_clk_wiz_0_0} -quiet] -quiet
 
-# IP: bd/mblaze_PWM_1000x/ip/mblaze_PWM_1000x_clk_wiz_0_0/mblaze_PWM_1000x_clk_wiz_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_PWM_1000x_clk_wiz_0_0 || ORIG_REF_NAME==mblaze_PWM_1000x_clk_wiz_0_0} -quiet] -quiet
+# IP: bd/mblaze_switch_intc/ip/mblaze_switch_intc_microblaze_0_0/mblaze_switch_intc_microblaze_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_switch_intc_microblaze_0_0 || ORIG_REF_NAME==mblaze_switch_intc_microblaze_0_0} -quiet] -quiet
 
-# IP: bd/mblaze_PWM_1000x/ip/mblaze_PWM_1000x_microblaze_0_0/mblaze_PWM_1000x_microblaze_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_PWM_1000x_microblaze_0_0 || ORIG_REF_NAME==mblaze_PWM_1000x_microblaze_0_0} -quiet] -quiet
+# IP: bd/mblaze_switch_intc/ip/mblaze_switch_intc_dlmb_v10_0/mblaze_switch_intc_dlmb_v10_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_switch_intc_dlmb_v10_0 || ORIG_REF_NAME==mblaze_switch_intc_dlmb_v10_0} -quiet] -quiet
 
-# IP: bd/mblaze_PWM_1000x/ip/mblaze_PWM_1000x_dlmb_v10_0/mblaze_PWM_1000x_dlmb_v10_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_PWM_1000x_dlmb_v10_0 || ORIG_REF_NAME==mblaze_PWM_1000x_dlmb_v10_0} -quiet] -quiet
+# IP: bd/mblaze_switch_intc/ip/mblaze_switch_intc_ilmb_v10_0/mblaze_switch_intc_ilmb_v10_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_switch_intc_ilmb_v10_0 || ORIG_REF_NAME==mblaze_switch_intc_ilmb_v10_0} -quiet] -quiet
 
-# IP: bd/mblaze_PWM_1000x/ip/mblaze_PWM_1000x_ilmb_v10_0/mblaze_PWM_1000x_ilmb_v10_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_PWM_1000x_ilmb_v10_0 || ORIG_REF_NAME==mblaze_PWM_1000x_ilmb_v10_0} -quiet] -quiet
+# IP: bd/mblaze_switch_intc/ip/mblaze_switch_intc_dlmb_bram_if_cntlr_0/mblaze_switch_intc_dlmb_bram_if_cntlr_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_switch_intc_dlmb_bram_if_cntlr_0 || ORIG_REF_NAME==mblaze_switch_intc_dlmb_bram_if_cntlr_0} -quiet] -quiet
 
-# IP: bd/mblaze_PWM_1000x/ip/mblaze_PWM_1000x_dlmb_bram_if_cntlr_0/mblaze_PWM_1000x_dlmb_bram_if_cntlr_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_PWM_1000x_dlmb_bram_if_cntlr_0 || ORIG_REF_NAME==mblaze_PWM_1000x_dlmb_bram_if_cntlr_0} -quiet] -quiet
+# IP: bd/mblaze_switch_intc/ip/mblaze_switch_intc_ilmb_bram_if_cntlr_0/mblaze_switch_intc_ilmb_bram_if_cntlr_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_switch_intc_ilmb_bram_if_cntlr_0 || ORIG_REF_NAME==mblaze_switch_intc_ilmb_bram_if_cntlr_0} -quiet] -quiet
 
-# IP: bd/mblaze_PWM_1000x/ip/mblaze_PWM_1000x_ilmb_bram_if_cntlr_0/mblaze_PWM_1000x_ilmb_bram_if_cntlr_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_PWM_1000x_ilmb_bram_if_cntlr_0 || ORIG_REF_NAME==mblaze_PWM_1000x_ilmb_bram_if_cntlr_0} -quiet] -quiet
+# IP: bd/mblaze_switch_intc/ip/mblaze_switch_intc_lmb_bram_0/mblaze_switch_intc_lmb_bram_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_switch_intc_lmb_bram_0 || ORIG_REF_NAME==mblaze_switch_intc_lmb_bram_0} -quiet] -quiet
 
-# IP: bd/mblaze_PWM_1000x/ip/mblaze_PWM_1000x_lmb_bram_0/mblaze_PWM_1000x_lmb_bram_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_PWM_1000x_lmb_bram_0 || ORIG_REF_NAME==mblaze_PWM_1000x_lmb_bram_0} -quiet] -quiet
+# IP: bd/mblaze_switch_intc/ip/mblaze_switch_intc_xbar_0/mblaze_switch_intc_xbar_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_switch_intc_xbar_0 || ORIG_REF_NAME==mblaze_switch_intc_xbar_0} -quiet] -quiet
 
-# IP: bd/mblaze_PWM_1000x/ip/mblaze_PWM_1000x_mdm_1_0/mblaze_PWM_1000x_mdm_1_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_PWM_1000x_mdm_1_0 || ORIG_REF_NAME==mblaze_PWM_1000x_mdm_1_0} -quiet] -quiet
+# IP: bd/mblaze_switch_intc/ip/mblaze_switch_intc_microblaze_0_axi_periph_0/mblaze_switch_intc_microblaze_0_axi_periph_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_switch_intc_microblaze_0_axi_periph_0 || ORIG_REF_NAME==mblaze_switch_intc_microblaze_0_axi_periph_0} -quiet] -quiet
 
-# IP: bd/mblaze_PWM_1000x/ip/mblaze_PWM_1000x_rst_clk_wiz_0_100M_0/mblaze_PWM_1000x_rst_clk_wiz_0_100M_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_PWM_1000x_rst_clk_wiz_0_100M_0 || ORIG_REF_NAME==mblaze_PWM_1000x_rst_clk_wiz_0_100M_0} -quiet] -quiet
+# IP: bd/mblaze_switch_intc/ip/mblaze_switch_intc_microblaze_0_axi_intc_0/mblaze_switch_intc_microblaze_0_axi_intc_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_switch_intc_microblaze_0_axi_intc_0 || ORIG_REF_NAME==mblaze_switch_intc_microblaze_0_axi_intc_0} -quiet] -quiet
 
-# IP: bd/mblaze_PWM_1000x/ip/mblaze_PWM_1000x_axi_uartlite_0_0/mblaze_PWM_1000x_axi_uartlite_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_PWM_1000x_axi_uartlite_0_0 || ORIG_REF_NAME==mblaze_PWM_1000x_axi_uartlite_0_0} -quiet] -quiet
+# IP: bd/mblaze_switch_intc/ip/mblaze_switch_intc_microblaze_0_xlconcat_0/mblaze_switch_intc_microblaze_0_xlconcat_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_switch_intc_microblaze_0_xlconcat_0 || ORIG_REF_NAME==mblaze_switch_intc_microblaze_0_xlconcat_0} -quiet] -quiet
 
-# IP: bd/mblaze_PWM_1000x/ip/mblaze_PWM_1000x_xbar_0/mblaze_PWM_1000x_xbar_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_PWM_1000x_xbar_0 || ORIG_REF_NAME==mblaze_PWM_1000x_xbar_0} -quiet] -quiet
+# IP: bd/mblaze_switch_intc/ip/mblaze_switch_intc_mdm_1_0/mblaze_switch_intc_mdm_1_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_switch_intc_mdm_1_0 || ORIG_REF_NAME==mblaze_switch_intc_mdm_1_0} -quiet] -quiet
 
-# IP: bd/mblaze_PWM_1000x/ip/mblaze_PWM_1000x_microblaze_0_axi_periph_0/mblaze_PWM_1000x_microblaze_0_axi_periph_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_PWM_1000x_microblaze_0_axi_periph_0 || ORIG_REF_NAME==mblaze_PWM_1000x_microblaze_0_axi_periph_0} -quiet] -quiet
+# IP: bd/mblaze_switch_intc/ip/mblaze_switch_intc_rst_clk_wiz_0_100M_0/mblaze_switch_intc_rst_clk_wiz_0_100M_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_switch_intc_rst_clk_wiz_0_100M_0 || ORIG_REF_NAME==mblaze_switch_intc_rst_clk_wiz_0_100M_0} -quiet] -quiet
 
-# XDC: bd/mblaze_PWM_1000x/mblaze_PWM_1000x_ooc.xdc
+# IP: bd/mblaze_switch_intc/ip/mblaze_switch_intc_axi_gpio_0_0/mblaze_switch_intc_axi_gpio_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_switch_intc_axi_gpio_0_0 || ORIG_REF_NAME==mblaze_switch_intc_axi_gpio_0_0} -quiet] -quiet
+
+# IP: bd/mblaze_switch_intc/ip/mblaze_switch_intc_axi_uartlite_0_0/mblaze_switch_intc_axi_uartlite_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==mblaze_switch_intc_axi_uartlite_0_0 || ORIG_REF_NAME==mblaze_switch_intc_axi_uartlite_0_0} -quiet] -quiet
+
+# XDC: bd/mblaze_switch_intc/mblaze_switch_intc_ooc.xdc

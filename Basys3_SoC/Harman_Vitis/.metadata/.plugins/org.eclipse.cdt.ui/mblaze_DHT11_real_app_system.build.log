@@ -1,0 +1,6 @@
+15:38:49 **** Build of configuration Debug for project mblaze_DHT11_real_app_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+
+15:38:49 Build Finished (took 226ms)
+

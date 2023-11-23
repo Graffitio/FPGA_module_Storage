@@ -1,0 +1,32 @@
+2023-11-23T15:24:36.518561800255-15:24:36 **** Build of project mblaze_DHT11_real_hw ****
+000-buildplatform.bat 51939 mblaze_DHT11_real_hw  
+000-XSDB Server Channel: tcfchan#5
+000-Building the BSP Library for domain  - standalone_domain on processor microblaze_0
+000-"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+000-
+000-make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+000-R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+000-MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+000-
+000-"Running Make include in microblaze_0/libsrc/cpu_v2_10/src"
+000-
+000-make -C microblaze_0/libsrc/cpu_v2_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+000-R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+000-MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+000-
+000-"Running Make include in microblaze_0/libsrc/myip_DHT11_v1_0/src"
+000-
+000-make -C microblaze_0/libsrc/myip_DHT11_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+000-OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EX
+000-TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+000-
+000-"Running Make include in microblaze_0/libsrc/standalone_v7_1/src"
+000-
+000-make -C microblaze_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+000-OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EX
+000-TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+000-
+000-Command canceled
+00255-
+15:24:39 Build Cancelled (took 2s.482ms)
+

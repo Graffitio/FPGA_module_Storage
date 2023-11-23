@@ -239,7 +239,7 @@ module ring_count_fnd(  //// 라운드 로그인 방식
     input clk,
     output [3:0] com
 );
-    reg [3:0] temp; //// 초기값을 정해줘야 하므로 temp 선언
+    reg [3:0] temp = 4'b1110; //// 초기값을 정해줘야 하므로 temp 선언
     
     always @ (posedge clk) begin /// FND가 common anode type
         if(temp != 4'b1110 && temp != 4'b1101 && temp != 4'b1011 && temp != 4'b0111) temp = 4'b1110; // 

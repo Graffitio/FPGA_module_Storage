@@ -1,0 +1,30 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: F:/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto c9ae2be6ec73419bad3f373ab3b5c3dd --incr --debug typical --relax --mt 2 -L xil_defaultlib -L axi_infrastructure_v1_1_0 -L axi_vip_v1_1_6 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_FND_IP_behav xil_defaultlib.tb_FND_IP xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'value' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.ip_user_files/bd/FND_IP_test/ipshared/284c/hdl/myip_FND_cntr_v1_0_S00_AXI.v:448]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xilinx_vip.axi_vip_pkg
+Compiling package xilinx_vip.xil_common_vip_pkg
+Compiling package std.std
+Compiling module xilinx_vip.axi_vip_axi4pc(WDATA_WIDTH=32,RD...
+Compiling module xilinx_vip.cb
+Compiling module xilinx_vip.axi_vip_if(C_AXI_PROTOCOL=2,C_AX...
+Compiling module axi_vip_v1_1_6.axi_vip_v1_1_6_top(C_AXI_PROTOCO...
+Compiling module xil_defaultlib.FND_IP_test_axi_vip_0_0
+Compiling module xil_defaultlib.ring_count_fnd
+Compiling module xil_defaultlib.decoder_7seg
+Compiling module xil_defaultlib.FND_4digit_cntr
+Compiling module xil_defaultlib.myip_FND_cntr_v1_0_S00_AXI_defau...
+Compiling module xil_defaultlib.myip_FND_cntr_v1_0
+Compiling module xil_defaultlib.FND_IP_test_myip_FND_cntr_0_0
+Compiling module xil_defaultlib.FND_IP_test
+Compiling module xil_defaultlib.FND_IP_test_wrapper
+Compiling module xil_defaultlib.tb_FND_IP
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_FND_IP_behav

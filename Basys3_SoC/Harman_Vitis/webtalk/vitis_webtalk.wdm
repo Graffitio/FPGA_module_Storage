@@ -20,87 +20,33 @@ clients =
 	{ client_name = "vitis"; 
 		rules = (
 			{
-				context="vitis\\\\platform/1700533652416";
-				xml_map="vitis\\\\platform/1700533652416";
-				html_map="vitis\\\\platform/1700533652416";
+				context="vitis\\\\platform/1700717402311";
+				xml_map="vitis\\\\platform/1700717402311";
+				html_map="vitis\\\\platform/1700717402311";
 				html_format="UnisimStatsStyle";
 			},
 			{
-				context="vitis\\\\application/1700533770883";
-				xml_map="vitis\\\\application/1700533770883";
-				html_map="vitis\\\\application/1700533770883";
+				context="vitis\\\\application/1700717500722";
+				xml_map="vitis\\\\application/1700717500722";
+				html_map="vitis\\\\application/1700717500722";
 				html_format="UnisimStatsStyle";
 			},
 			{
-				context="vitis\\\\platform/1700542702424";
-				xml_map="vitis\\\\platform/1700542702424";
-				html_map="vitis\\\\platform/1700542702424";
+				context="vitis\\\\platform/1700723277439";
+				xml_map="vitis\\\\platform/1700723277439";
+				html_map="vitis\\\\platform/1700723277439";
 				html_format="UnisimStatsStyle";
 			},
 			{
-				context="vitis\\\\application/1700542765667";
-				xml_map="vitis\\\\application/1700542765667";
-				html_map="vitis\\\\application/1700542765667";
+				context="vitis\\\\application/1700723339323";
+				xml_map="vitis\\\\application/1700723339323";
+				html_map="vitis\\\\application/1700723339323";
 				html_format="UnisimStatsStyle";
 			},
 			{
-				context="vitis\\\\platform/1700544552414";
-				xml_map="vitis\\\\platform/1700544552414";
-				html_map="vitis\\\\platform/1700544552414";
-				html_format="UnisimStatsStyle";
-			},
-			{
-				context="vitis\\\\platform/1700545324838";
-				xml_map="vitis\\\\platform/1700545324838";
-				html_map="vitis\\\\platform/1700545324838";
-				html_format="UnisimStatsStyle";
-			},
-			{
-				context="vitis\\\\platform/1700545500457";
-				xml_map="vitis\\\\platform/1700545500457";
-				html_map="vitis\\\\platform/1700545500457";
-				html_format="UnisimStatsStyle";
-			},
-			{
-				context="vitis\\\\application/1700545543766";
-				xml_map="vitis\\\\application/1700545543766";
-				html_map="vitis\\\\application/1700545543766";
-				html_format="UnisimStatsStyle";
-			},
-			{
-				context="vitis\\\\platform/1700546320929";
-				xml_map="vitis\\\\platform/1700546320929";
-				html_map="vitis\\\\platform/1700546320929";
-				html_format="UnisimStatsStyle";
-			},
-			{
-				context="vitis\\\\platform/1700547025259";
-				xml_map="vitis\\\\platform/1700547025259";
-				html_map="vitis\\\\platform/1700547025259";
-				html_format="UnisimStatsStyle";
-			},
-			{
-				context="vitis\\\\application/1700547075749";
-				xml_map="vitis\\\\application/1700547075749";
-				html_map="vitis\\\\application/1700547075749";
-				html_format="UnisimStatsStyle";
-			},
-			{
-				context="vitis\\\\platform/1700549942090";
-				xml_map="vitis\\\\platform/1700549942090";
-				html_map="vitis\\\\platform/1700549942090";
-				html_format="UnisimStatsStyle";
-			},
-			{
-				context="vitis\\\\application/1700549987938";
-				xml_map="vitis\\\\application/1700549987938";
-				html_map="vitis\\\\application/1700549987938";
-				html_format="UnisimStatsStyle";
-			},
-			{
-				context="vitis\\\\tool/1700550733614";
-				xml_map="vitis\\\\tool/1700550733614";
-				html_map="vitis\\\\tool/1700550733614";
+				context="vitis\\\\tool/1700726797101";
+				xml_map="vitis\\\\tool/1700726797101";
+				html_map="vitis\\\\tool/1700726797101";
 				html_format="UnisimStatsStyle";
 			}
 		);

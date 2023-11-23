@@ -1,0 +1,26 @@
+16:55:41 **** Incremental Build of configuration Debug for project mblaze_switch_intc_app ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IF:/Ian_Jung/workplace/Harman_Vitis/mblaze_switch_intc_hw/export/mblaze_switch_intc_hw/sw/mblaze_switch_intc_hw/standalone_domain/bspinclude/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:116:9: warning: implicit declaration of function 'MB_Sleep'; did you mean 'mb_sleep'? [-Wimplicit-function-declaration]
+         MB_Sleep(1000);                 // 1000밀리초 동안 대기
+         ^~~~~~~~
+         mb_sleep
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: mblaze_switch_intc_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LF:/Ian_Jung/workplace/Harman_Vitis/mblaze_switch_intc_hw/export/mblaze_switch_intc_hw/sw/mblaze_switch_intc_hw/standalone_domain/bsplib/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mblaze_switch_intc_app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mblaze_switch_intc_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mblaze_switch_intc_app.elf  |tee "mblaze_switch_intc_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  67348	   1744	   3340	  72432	  11af0	mblaze_switch_intc_app.elf
+'Finished building: mblaze_switch_intc_app.elf.size'
+' '
+
+16:55:43 Build Finished (took 2s.175ms)
+

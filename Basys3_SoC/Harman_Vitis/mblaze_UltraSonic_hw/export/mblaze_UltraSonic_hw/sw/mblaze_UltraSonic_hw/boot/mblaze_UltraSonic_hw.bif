@@ -1,0 +1,6 @@
+/*mblaze_UltraSonic_hw*/
+the_ROM_image:
+{
+   <bitstream> 
+   <elf> 
+}
