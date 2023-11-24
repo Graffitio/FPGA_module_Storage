@@ -1,0 +1,25 @@
+#ifndef I2C_H_
+#define I2C_H_
+
+#define F_CPU 16000000UL
+#include <stdio.h>
+#include "platform.h"
+#include "xil_printf.h"
+#include "xparameters.h"
+#include "xiic.h"
+
+#define I2C_DDR	DDRD
+#define I2C_SCL	PORTD0 // SCL : Clock Line
+#define I2C_SDA	PORTD1 // SDA : Data Line
+
+XIic iic_device;
+
+// 함수 원형 선언 //
+void I2C_Init();
+void I2C_Start();
+void I2C_Stop();
+void I2C_TxData(uint8_t data);
+void I2C_TxByte(uint8_t devAddrRW, uint8_t data);
+
+
+#endif /* I2C_H_ */

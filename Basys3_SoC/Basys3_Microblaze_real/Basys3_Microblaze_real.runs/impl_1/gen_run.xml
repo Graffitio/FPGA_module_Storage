@@ -1,84 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1700722425">
-  <File Type="BITSTR-BMM" Name="mblaze_switch_intc_wrapper_bd.bmm"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="mblaze_switch_intc_wrapper_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="mblaze_switch_intc_wrapper_timing_summary_init.rpt"/>
-  <File Type="ROUTE-PWR" Name="mblaze_switch_intc_wrapper_power_routed.rpt"/>
-  <File Type="PA-TCL" Name="mblaze_switch_intc_wrapper.tcl"/>
-  <File Type="OPT-TIMING" Name="mblaze_switch_intc_wrapper_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="mblaze_switch_intc_wrapper_opt.dcp"/>
-  <File Type="ROUTE-PWR-SUM" Name="mblaze_switch_intc_wrapper_power_summary_routed.pb"/>
-  <File Type="REPORTS-TCL" Name="mblaze_switch_intc_wrapper_reports.tcl"/>
-  <File Type="OPT-DRC" Name="mblaze_switch_intc_wrapper_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="mblaze_switch_intc_wrapper.hwdef"/>
-  <File Type="PWROPT-DCP" Name="mblaze_switch_intc_wrapper_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="mblaze_switch_intc_wrapper_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="mblaze_switch_intc_wrapper_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="mblaze_switch_intc_wrapper_placed.dcp"/>
-  <File Type="PLACE-IO" Name="mblaze_switch_intc_wrapper_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="mblaze_switch_intc_wrapper_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="mblaze_switch_intc_wrapper_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="mblaze_switch_intc_wrapper_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="mblaze_switch_intc_wrapper_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="mblaze_switch_intc_wrapper_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="mblaze_switch_intc_wrapper_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PLACE-TIMING" Name="mblaze_switch_intc_wrapper_timing_summary_placed.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="mblaze_switch_intc_wrapper_postplace_pwropt.dcp"/>
-  <File Type="BG-BIN" Name="mblaze_switch_intc_wrapper.bin"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="mblaze_switch_intc_wrapper_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="mblaze_switch_intc_wrapper_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="mblaze_switch_intc_wrapper_drc_physopted.rpt"/>
-  <File Type="BITSTR-MSK" Name="mblaze_switch_intc_wrapper.msk"/>
-  <File Type="PHYSOPT-TIMING" Name="mblaze_switch_intc_wrapper_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="mblaze_switch_intc_wrapper_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="mblaze_switch_intc_wrapper_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="mblaze_switch_intc_wrapper_routed_bb.dcp"/>
-  <File Type="ROUTE-DRC" Name="mblaze_switch_intc_wrapper_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="mblaze_switch_intc_wrapper_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="mblaze_switch_intc_wrapper_drc_routed.rpx"/>
-  <File Type="BITSTR-MMI" Name="mblaze_switch_intc_wrapper.mmi"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="mblaze_switch_intc_wrapper_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="mblaze_switch_intc_wrapper_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="mblaze_switch_intc_wrapper_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="mblaze_switch_intc_wrapper_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="mblaze_switch_intc_wrapper_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="mblaze_switch_intc_wrapper_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="mblaze_switch_intc_wrapper_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="mblaze_switch_intc_wrapper_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="mblaze_switch_intc_wrapper_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="mblaze_switch_intc_wrapper_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="mblaze_switch_intc_wrapper_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="mblaze_switch_intc_wrapper_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="mblaze_switch_intc_wrapper_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="mblaze_switch_intc_wrapper_bus_skew_routed.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="mblaze_switch_intc_wrapper_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="mblaze_switch_intc_wrapper_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="mblaze_switch_intc_wrapper_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="mblaze_switch_intc_wrapper_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="mblaze_switch_intc_wrapper_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="mblaze_switch_intc_wrapper_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="mblaze_switch_intc_wrapper_bus_skew_postroute_physopted.pb"/>
-  <File Type="BG-BIT" Name="mblaze_switch_intc_wrapper.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="mblaze_switch_intc_wrapper_bus_skew_postroute_physopted.rpx"/>
-  <File Type="BITSTR-RBT" Name="mblaze_switch_intc_wrapper.rbt"/>
-  <File Type="BITSTR-NKY" Name="mblaze_switch_intc_wrapper.nky"/>
-  <File Type="PDI-FILE" Name="mblaze_switch_intc_wrapper.pdi"/>
-  <File Type="RCFI_FILE" Name="mblaze_switch_intc_wrapper.rcfi"/>
-  <File Type="CFI_FILE" Name="mblaze_switch_intc_wrapper.cfi"/>
-  <File Type="RNPI_FILE" Name="mblaze_switch_intc_wrapper.rnpi"/>
-  <File Type="NPI_FILE" Name="mblaze_switch_intc_wrapper.npi"/>
-  <File Type="RBD_FILE" Name="mblaze_switch_intc_wrapper.rbd"/>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1700788782">
+  <File Type="BITSTR-BMM" Name="mblaze_I2C_wrapper_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="mblaze_I2C_wrapper_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="mblaze_I2C_wrapper_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="mblaze_I2C_wrapper_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="mblaze_I2C_wrapper.tcl"/>
+  <File Type="OPT-TIMING" Name="mblaze_I2C_wrapper_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="mblaze_I2C_wrapper_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="mblaze_I2C_wrapper_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="mblaze_I2C_wrapper_reports.tcl"/>
+  <File Type="OPT-DRC" Name="mblaze_I2C_wrapper_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="mblaze_I2C_wrapper.hwdef"/>
+  <File Type="PWROPT-DCP" Name="mblaze_I2C_wrapper_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="mblaze_I2C_wrapper_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="mblaze_I2C_wrapper_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="mblaze_I2C_wrapper_placed.dcp"/>
+  <File Type="PLACE-IO" Name="mblaze_I2C_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="mblaze_I2C_wrapper_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="mblaze_I2C_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="mblaze_I2C_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="mblaze_I2C_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="mblaze_I2C_wrapper_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="mblaze_I2C_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="mblaze_I2C_wrapper_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="mblaze_I2C_wrapper_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="mblaze_I2C_wrapper.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="mblaze_I2C_wrapper_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="mblaze_I2C_wrapper_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="mblaze_I2C_wrapper_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="mblaze_I2C_wrapper.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="mblaze_I2C_wrapper_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="mblaze_I2C_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="mblaze_I2C_wrapper_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="mblaze_I2C_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="mblaze_I2C_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="mblaze_I2C_wrapper_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="mblaze_I2C_wrapper_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="mblaze_I2C_wrapper.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="mblaze_I2C_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="mblaze_I2C_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="mblaze_I2C_wrapper_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="mblaze_I2C_wrapper_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="mblaze_I2C_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="mblaze_I2C_wrapper_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="mblaze_I2C_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="mblaze_I2C_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="mblaze_I2C_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="mblaze_I2C_wrapper_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="mblaze_I2C_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="mblaze_I2C_wrapper_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="mblaze_I2C_wrapper_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="mblaze_I2C_wrapper_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="mblaze_I2C_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="mblaze_I2C_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="mblaze_I2C_wrapper_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="mblaze_I2C_wrapper_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="mblaze_I2C_wrapper_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="mblaze_I2C_wrapper_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="mblaze_I2C_wrapper_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="mblaze_I2C_wrapper.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="mblaze_I2C_wrapper_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="mblaze_I2C_wrapper.rbt"/>
+  <File Type="BITSTR-NKY" Name="mblaze_I2C_wrapper.nky"/>
+  <File Type="PDI-FILE" Name="mblaze_I2C_wrapper.pdi"/>
+  <File Type="RCFI_FILE" Name="mblaze_I2C_wrapper.rcfi"/>
+  <File Type="CFI_FILE" Name="mblaze_I2C_wrapper.cfi"/>
+  <File Type="RNPI_FILE" Name="mblaze_I2C_wrapper.rnpi"/>
+  <File Type="NPI_FILE" Name="mblaze_I2C_wrapper.npi"/>
+  <File Type="RBD_FILE" Name="mblaze_I2C_wrapper.rbd"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="mblaze_switch_intc_wrapper.ltx"/>
-  <File Type="BITSTR-SYSDEF" Name="mblaze_switch_intc_wrapper.sysdef"/>
-  <File Type="BG-BGN" Name="mblaze_switch_intc_wrapper.bgn"/>
-  <File Type="BG-DRC" Name="mblaze_switch_intc_wrapper.drc"/>
-  <File Type="RDI-RDI" Name="mblaze_switch_intc_wrapper.vdi"/>
+  <File Type="BITSTR-LTX" Name="mblaze_I2C_wrapper.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="mblaze_I2C_wrapper.sysdef"/>
+  <File Type="BG-BGN" Name="mblaze_I2C_wrapper.bgn"/>
+  <File Type="BG-DRC" Name="mblaze_I2C_wrapper.drc"/>
+  <File Type="RDI-RDI" Name="mblaze_I2C_wrapper.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/mblaze_I2C/mblaze_I2C.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/mblaze_I2C/hdl/mblaze_I2C_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/bd/mblaze_switch_intc/mblaze_switch_intc.bd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -86,6 +101,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/bd/mblaze_switch_intc/hdl/mblaze_switch_intc_wrapper.v">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -337,7 +353,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="mblaze_switch_intc_wrapper"/>
+      <Option Name="TopModule" Val="mblaze_I2C_wrapper"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
@@ -407,4 +423,8 @@
   <BlockFileSet Type="BlockSrcs" Name="mblaze_switch_intc_clk_wiz_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mblaze_switch_intc_lmb_bram_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mblaze_switch_intc_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mblaze_I2C_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mblaze_I2C_lmb_bram_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mblaze_I2C_axi_iic_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mblaze_I2C_clk_wiz_0_0"/>
 </GenRun>

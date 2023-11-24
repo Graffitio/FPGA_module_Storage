@@ -42,6 +42,6 @@ EAStep()
 
 # pre-commands:
 /bin/touch .init_design.begin.rst
-EAStep vivado -log mblaze_switch_intc_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source mblaze_switch_intc_wrapper.tcl -notrace
+EAStep vivado -log mblaze_I2C_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source mblaze_I2C_wrapper.tcl -notrace
 
 

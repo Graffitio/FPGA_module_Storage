@@ -3,3 +3,6 @@
 1700546818917	Delete resource 'mblaze_PWM_hw_real'
 1700546822953	Delete resource 'mblaze_PWM_jjin_real'
 1700546832546	Delete resource 'mblaze_PWM_app_system'
+1700800553997	Delete resource 'mblaze_I2C_app/src/I2C_LCD.c'
+1700800557210	Delete resource 'mblaze_I2C_app/src/I2C_LCD.h'
+1700800560901	Delete resource 'mblaze_I2C_app/src/I2C.h'

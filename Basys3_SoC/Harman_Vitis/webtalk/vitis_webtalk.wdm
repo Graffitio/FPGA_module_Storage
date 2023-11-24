@@ -20,33 +20,27 @@ clients =
 	{ client_name = "vitis"; 
 		rules = (
 			{
-				context="vitis\\\\platform/1700717402311";
-				xml_map="vitis\\\\platform/1700717402311";
-				html_map="vitis\\\\platform/1700717402311";
+				context="vitis\\\\application/1700784957826";
+				xml_map="vitis\\\\application/1700784957826";
+				html_map="vitis\\\\application/1700784957826";
 				html_format="UnisimStatsStyle";
 			},
 			{
-				context="vitis\\\\application/1700717500722";
-				xml_map="vitis\\\\application/1700717500722";
-				html_map="vitis\\\\application/1700717500722";
+				context="vitis\\\\platform/1700789248046";
+				xml_map="vitis\\\\platform/1700789248046";
+				html_map="vitis\\\\platform/1700789248046";
 				html_format="UnisimStatsStyle";
 			},
 			{
-				context="vitis\\\\platform/1700723277439";
-				xml_map="vitis\\\\platform/1700723277439";
-				html_map="vitis\\\\platform/1700723277439";
+				context="vitis\\\\application/1700789303275";
+				xml_map="vitis\\\\application/1700789303275";
+				html_map="vitis\\\\application/1700789303275";
 				html_format="UnisimStatsStyle";
 			},
 			{
-				context="vitis\\\\application/1700723339323";
-				xml_map="vitis\\\\application/1700723339323";
-				html_map="vitis\\\\application/1700723339323";
-				html_format="UnisimStatsStyle";
-			},
-			{
-				context="vitis\\\\tool/1700726797101";
-				xml_map="vitis\\\\tool/1700726797101";
-				html_map="vitis\\\\tool/1700726797101";
+				context="vitis\\\\tool/1700811868976";
+				xml_map="vitis\\\\tool/1700811868976";
+				html_map="vitis\\\\tool/1700811868976";
 				html_format="UnisimStatsStyle";
 			}
 		);

@@ -1,0 +1,30 @@
+16:38:16 **** Incremental Build of configuration Debug for project mblaze_I2C_app ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IF:/Ian_Jung/workplace/Harman_Vitis/mblaze_I2C_hw/export/mblaze_I2C_hw/sw/mblaze_I2C_hw/standalone_domain/bspinclude/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'Iic_LCD_init':
+../src/helloworld.c:218:2: warning: implicit declaration of function 'MB_Sleep'; did you mean 'mb_sleep'? [-Wimplicit-function-declaration]
+  MB_Sleep(15);
+  ^~~~~~~~
+  mb_sleep
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:253:10: warning: unused variable 'buf' [-Wunused-variable]
+     char buf[30];
+          ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: mblaze_I2C_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LF:/Ian_Jung/workplace/Harman_Vitis/mblaze_I2C_hw/export/mblaze_I2C_hw/sw/mblaze_I2C_hw/standalone_domain/bsplib/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mblaze_I2C_app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mblaze_I2C_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mblaze_I2C_app.elf  |tee "mblaze_I2C_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   4900	    340	   3216	   8456	   2108	mblaze_I2C_app.elf
+'Finished building: mblaze_I2C_app.elf.size'
+' '
+
+16:38:17 Build Finished (took 1s.606ms)
+

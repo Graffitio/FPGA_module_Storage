@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="mblaze_I2C_app" location="F:/Ian_Jung/workplace/Harman_Vitis/mblaze_I2C_app" platform="F:/Ian_Jung/workplace/Harman_Vitis/mblaze_I2C_hw/export/mblaze_I2C_hw/mblaze_I2C_hw.xpfm" platformUID="xilinx:basys3::0.0(custom)" systemProject="mblaze_I2C_app_system" sysConfig="mblaze_I2C_hw" runtime="C/C++" cpu="standalone_domain" cpuInstance="microblaze_0" os="standalone" mssSignature="2b2d496f5c27a5fa2f671b7c38e99c54">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.1448226410">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1728789526" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

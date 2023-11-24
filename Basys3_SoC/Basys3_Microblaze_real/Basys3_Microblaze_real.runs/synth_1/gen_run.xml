@@ -1,18 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1700722421">
-  <File Type="PA-TCL" Name="mblaze_switch_intc_wrapper.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="mblaze_switch_intc_wrapper_drc_synth.rpt"/>
-  <File Type="REPORTS-TCL" Name="mblaze_switch_intc_wrapper_reports.tcl"/>
-  <File Type="RDS-RDS" Name="mblaze_switch_intc_wrapper.vds"/>
-  <File Type="RDS-UTIL" Name="mblaze_switch_intc_wrapper_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="mblaze_switch_intc_wrapper_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="mblaze_switch_intc_wrapper.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="mblaze_switch_intc_wrapper_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="mblaze_switch_intc_wrapper_timing_summary_synth.pb"/>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1700788781">
+  <File Type="PA-TCL" Name="mblaze_I2C_wrapper.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="mblaze_I2C_wrapper_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="mblaze_I2C_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="mblaze_I2C_wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="mblaze_I2C_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="mblaze_I2C_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="mblaze_I2C_wrapper.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="mblaze_I2C_wrapper_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="mblaze_I2C_wrapper_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/mblaze_I2C/mblaze_I2C.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/mblaze_I2C/hdl/mblaze_I2C_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/bd/mblaze_switch_intc/mblaze_switch_intc.bd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -20,6 +35,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/bd/mblaze_switch_intc/hdl/mblaze_switch_intc_wrapper.v">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -271,7 +287,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="mblaze_switch_intc_wrapper"/>
+      <Option Name="TopModule" Val="mblaze_I2C_wrapper"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
@@ -333,4 +349,8 @@
   <BlockFileSet Type="BlockSrcs" Name="mblaze_switch_intc_clk_wiz_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mblaze_switch_intc_lmb_bram_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mblaze_switch_intc_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mblaze_I2C_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mblaze_I2C_lmb_bram_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mblaze_I2C_axi_iic_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mblaze_I2C_clk_wiz_0_0"/>
 </GenRun>
