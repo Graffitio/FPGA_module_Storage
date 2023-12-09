@@ -98,8 +98,16 @@ module PWM_1000(
     output reg pwm_1000pc // pc : % -> 하나당 센티(1/100)이라는 뜻
     );
     
-    parameter sys_clk_freq = 125_000_000; // cora boadr의 시스템 클락
+    parameter sys_clk_freq = 100_000_000; // cora boadr의 시스템 클락
 //    parameter pwm_freq = 1000; // 1000Hz짜리 pwm을 만들기 위한 define
+    
+    wire clk_usec;
+    reg [17:0] pwm_temp;
+    clock_usec usec_clk(.clk(clk), .reset_p(rst), .clk_usec(clk_usec));
+    always @(posedge clk) begin
+        pwm_temp = 50000 / pwm_freq;
+    end
+    
     
     reg [26:0] cnt;
     reg clk_freqX1000; // pwm 주기의 1000배된 클럭 주기 생성을 위한 변수 
@@ -113,7 +121,9 @@ module PWM_1000(
 //            if(cnt >= 124_999) begin  // 1000Hz짜리를 만들 것이기 때문에 sys clk를 1000으로 나눔
 //            if(cnt >= (sys_clk_freq / pwm_freq / 2)) begin // 토글시켜서 사용할 것이니까 2로 나눔
 //            if(cnt >= (sys_clk_freq / pwm_freq / 2 / 100)) begin // 듀티비를 계산하기 위해 100 나눠주고 clk_freqX100을 카운트하여 0과 1을 부여한다.
-            if(cnt >= (sys_clk_freq / pwm_freq / 2000)) begin // always문 들어 올때마다 나누기 연산하게 되므로, Negative Slack 발생 가능성 높아짐. 간단하게 바꿔주자
+//            if(cnt >= (sys_clk_freq / pwm_freq / 2000)) begin // always문 들어 올때마다 나누기 연산하게 되므로, Negative Slack 발생 가능성 높아짐. 간단하게 바꿔주자
+//            if(cnt >= (50000 / pwm_freq)) begin // always문 들어 올때마다 나누기 연산하게 되므로, Negative Slack 발생 가능성 높아짐. 간단하게 바꿔주자
+            if(cnt >= pwm_temp) begin // always문 들어 올때마다 나누기 연산하게 되므로, Negative Slack 발생 가능성 높아짐. 간단하게 바꿔주자
                 cnt = 0;
                 clk_freqX1000 = ~clk_freqX1000; // pwm 한 주기를 만들기 위한 문장
             end

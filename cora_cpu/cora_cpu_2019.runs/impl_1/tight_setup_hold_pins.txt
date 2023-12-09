@@ -1,0 +1,10 @@
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|       Launch Clock       |      Capture Clock       |                                                 Pin                                                      |
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|              sys_clk_pin |              sys_clk_pin |                                                    cpu/alu_acc/U_acc/acc_high/h_cc/register_temp_reg[3]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                    cpu/alu_acc/U_acc/acc_high/h_cc/register_temp_reg[2]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                      cpu/pc/pc_reg/register_temp_reg[7]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                    cpu/alu_acc/U_acc/acc_high/h_cc/register_temp_reg[0]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                      cpu/pc/pc_reg/register_temp_reg[6]/D|
+|              sys_clk_pin |              sys_clk_pin |                                                    cpu/alu_acc/U_acc/acc_high/h_cc/register_temp_reg[1]/D|
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+

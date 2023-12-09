@@ -1,0 +1,13 @@
+vhdl xil_defaultlib  \
+"../../../bd/mblaze_Multifunction_Fan/ip/mblaze_Multifunction_Fan_microblaze_0_1/sim/mblaze_Multifunction_Fan_microblaze_0_1.vhd" \
+"../../../bd/mblaze_Multifunction_Fan/ip/mblaze_Multifunction_Fan_dlmb_v10_1/sim/mblaze_Multifunction_Fan_dlmb_v10_1.vhd" \
+"../../../bd/mblaze_Multifunction_Fan/ip/mblaze_Multifunction_Fan_ilmb_v10_1/sim/mblaze_Multifunction_Fan_ilmb_v10_1.vhd" \
+"../../../bd/mblaze_Multifunction_Fan/ip/mblaze_Multifunction_Fan_dlmb_bram_if_cntlr_1/sim/mblaze_Multifunction_Fan_dlmb_bram_if_cntlr_1.vhd" \
+"../../../bd/mblaze_Multifunction_Fan/ip/mblaze_Multifunction_Fan_ilmb_bram_if_cntlr_1/sim/mblaze_Multifunction_Fan_ilmb_bram_if_cntlr_1.vhd" \
+"../../../bd/mblaze_Multifunction_Fan/ip/mblaze_Multifunction_Fan_mdm_1_1/sim/mblaze_Multifunction_Fan_mdm_1_1.vhd" \
+"../../../bd/mblaze_Multifunction_Fan/ip/mblaze_Multifunction_Fan_rst_clk_wiz_0_100M_1/sim/mblaze_Multifunction_Fan_rst_clk_wiz_0_100M_1.vhd" \
+"../../../bd/mblaze_Multifunction_Fan/ip/mblaze_Multifunction_Fan_axi_gpio_0_2/sim/mblaze_Multifunction_Fan_axi_gpio_0_2.vhd" \
+"../../../bd/mblaze_Multifunction_Fan/ip/mblaze_Multifunction_Fan_axi_gpio_0_3/sim/mblaze_Multifunction_Fan_axi_gpio_0_3.vhd" \
+"../../../bd/mblaze_Multifunction_Fan/ip/mblaze_Multifunction_Fan_axi_uartlite_0_1/sim/mblaze_Multifunction_Fan_axi_uartlite_0_1.vhd" \
+
+nosort

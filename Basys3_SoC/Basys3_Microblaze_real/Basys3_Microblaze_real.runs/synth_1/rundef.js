@@ -23,7 +23,7 @@ eval( EAInclude(ISEJScriptLib) );
 
 
 ISEStep( "vivado",
-         "-log mblaze_I2C_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source mblaze_I2C_wrapper.tcl" );
+         "-log DHT11_Top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source DHT11_Top.tcl" );
 
 
 

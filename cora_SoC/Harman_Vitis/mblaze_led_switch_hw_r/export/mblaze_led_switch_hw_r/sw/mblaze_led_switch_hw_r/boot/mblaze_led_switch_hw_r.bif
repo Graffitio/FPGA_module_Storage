@@ -1,6 +1,0 @@
-/*mblaze_led_switch_hw_r*/
-the_ROM_image:
-{
-   <bitstream> 
-   <elf> 
-}

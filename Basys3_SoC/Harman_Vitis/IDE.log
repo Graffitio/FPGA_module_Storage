@@ -6257,3 +6257,918 @@ con
 
 16:38:28 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_i2c_app_system_standalone.tcl'
 16:44:28 INFO  : Disconnected from the channel tcfchan#47.
+09:19:14 INFO  : Launching XSCT server: xsct.bat -n  -interactive F:\Ian_Jung\workplace\Harman_Vitis\temp_xsdb_launch_script.tcl
+09:19:29 INFO  : XSCT server has started successfully.
+09:19:38 INFO  : Registering command handlers for Vitis TCF services
+09:19:41 INFO  : plnx-install-location is set to ''
+09:19:41 INFO  : Successfully done setting XSCT server connection channel  
+09:19:41 INFO  : Successfully done query RDI_DATADIR 
+09:19:41 INFO  : Successfully done setting workspace for the tool. 
+10:01:23 INFO  : Successfully done sdx_reload_mss "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_hw/microblaze_0/standalone_domain/bsp/system.mss"
+10:51:39 INFO  : Removed 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_hw/export/mblaze_stopwatch_hw' from custom platform repositories.
+10:52:07 INFO  : Successfully done sdx_reload_mss "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_hw/microblaze_0/standalone_domain/bsp/system.mss"
+10:52:45 INFO  : The hardware specfication used by project 'mblaze_stopwatch_app' is out of sync with the platform. Resource files extracted from the hardware specfiication will be updated.
+10:52:45 INFO  : The file 'F:\Ian_Jung\workplace\Harman_Vitis\mblaze_stopwatch_app\_ide\bitstream\mblaze_stopwatch.bit' stored in project is removed.
+10:52:45 INFO  : The file 'F:\Ian_Jung\workplace\Harman_Vitis\mblaze_stopwatch_app\_ide\bitstream\mblaze_stopwatch.mmi' stored in project is removed.
+10:52:45 INFO  : The updated bitstream files are copied from platform to folder 'F:\Ian_Jung\workplace\Harman_Vitis\mblaze_stopwatch_app\_ide\bitstream' in project 'mblaze_stopwatch_app'.
+10:54:03 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_stopwatch_app'...
+10:54:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:54:16 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+10:54:16 INFO  : 'jtag frequency' command is executed.
+10:54:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+10:54:17 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_final.bit"
+10:54:17 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:54:18 INFO  : Context for processor 'microblaze_0' is selected.
+10:54:18 INFO  : System reset is completed.
+10:54:21 INFO  : 'after 3000' command is executed.
+10:54:21 INFO  : Context for processor 'microblaze_0' is selected.
+10:54:21 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf' is downloaded to processor 'microblaze_0'.
+10:54:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_final.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf
+----------------End of Script----------------
+
+10:54:22 INFO  : Memory regions updated for context MicroBlaze #0
+10:54:22 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+10:54:22 INFO  : Context for processor 'microblaze_0' is selected.
+10:54:22 INFO  : 'con' command is executed.
+10:54:22 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:54:23 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_stopwatch_app_system_standalone.tcl'
+11:22:26 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_stopwatch_app'...
+11:22:34 INFO  : Disconnected from the channel tcfchan#3.
+11:22:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:22:34 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+11:22:34 INFO  : 'jtag frequency' command is executed.
+11:22:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+11:22:35 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_final.bit"
+11:22:35 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:22:35 INFO  : Context for processor 'microblaze_0' is selected.
+11:22:35 INFO  : System reset is completed.
+11:22:38 INFO  : 'after 3000' command is executed.
+11:22:38 INFO  : Context for processor 'microblaze_0' is selected.
+11:22:38 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf' is downloaded to processor 'microblaze_0'.
+11:22:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_final.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf
+----------------End of Script----------------
+
+11:22:38 INFO  : Memory regions updated for context MicroBlaze #0
+11:22:38 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+11:22:38 INFO  : Context for processor 'microblaze_0' is selected.
+11:22:38 INFO  : 'con' command is executed.
+11:22:38 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:22:38 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_stopwatch_app_system_standalone.tcl'
+11:30:17 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_stopwatch_app'...
+11:30:23 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_stopwatch_app'...
+11:30:29 INFO  : Disconnected from the channel tcfchan#4.
+11:30:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:30:29 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+11:30:29 INFO  : 'jtag frequency' command is executed.
+11:30:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+11:30:30 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_final.bit"
+11:30:30 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:30:30 INFO  : Context for processor 'microblaze_0' is selected.
+11:30:30 INFO  : System reset is completed.
+11:30:33 INFO  : 'after 3000' command is executed.
+11:30:33 INFO  : Context for processor 'microblaze_0' is selected.
+11:30:33 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf' is downloaded to processor 'microblaze_0'.
+11:30:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_final.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf
+----------------End of Script----------------
+
+11:30:33 INFO  : Memory regions updated for context MicroBlaze #0
+11:30:33 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+11:30:33 INFO  : Context for processor 'microblaze_0' is selected.
+11:30:33 INFO  : 'con' command is executed.
+11:30:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:30:33 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_stopwatch_app_system_standalone.tcl'
+11:35:22 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_stopwatch_app'...
+11:35:30 INFO  : Disconnected from the channel tcfchan#5.
+11:35:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:35:30 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+11:35:30 INFO  : 'jtag frequency' command is executed.
+11:35:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+11:35:31 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_final.bit"
+11:35:31 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:35:31 INFO  : Context for processor 'microblaze_0' is selected.
+11:35:31 INFO  : System reset is completed.
+11:35:34 INFO  : 'after 3000' command is executed.
+11:35:34 INFO  : Context for processor 'microblaze_0' is selected.
+11:35:34 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf' is downloaded to processor 'microblaze_0'.
+11:35:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_final.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf
+----------------End of Script----------------
+
+11:35:34 INFO  : Memory regions updated for context MicroBlaze #0
+11:35:34 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+11:35:34 INFO  : Context for processor 'microblaze_0' is selected.
+11:35:34 INFO  : 'con' command is executed.
+11:35:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:35:34 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_stopwatch_app_system_standalone.tcl'
+11:37:23 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_stopwatch_app'...
+11:37:30 INFO  : Disconnected from the channel tcfchan#6.
+11:37:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:37:31 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+11:37:31 INFO  : 'jtag frequency' command is executed.
+11:37:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+11:37:31 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_final.bit"
+11:37:31 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:37:31 INFO  : Context for processor 'microblaze_0' is selected.
+11:37:31 INFO  : System reset is completed.
+11:37:34 INFO  : 'after 3000' command is executed.
+11:37:34 INFO  : Context for processor 'microblaze_0' is selected.
+11:37:34 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf' is downloaded to processor 'microblaze_0'.
+11:37:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_final.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf
+----------------End of Script----------------
+
+11:37:34 INFO  : Memory regions updated for context MicroBlaze #0
+11:37:34 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+11:37:34 INFO  : Context for processor 'microblaze_0' is selected.
+11:37:34 INFO  : 'con' command is executed.
+11:37:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:37:34 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_stopwatch_app_system_standalone.tcl'
+11:40:02 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_stopwatch_app'...
+11:40:12 INFO  : Disconnected from the channel tcfchan#7.
+11:40:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:40:12 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+11:40:12 INFO  : 'jtag frequency' command is executed.
+11:40:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+11:40:12 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_final.bit"
+11:40:12 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:40:12 INFO  : Context for processor 'microblaze_0' is selected.
+11:40:12 INFO  : System reset is completed.
+11:40:15 INFO  : 'after 3000' command is executed.
+11:40:15 INFO  : Context for processor 'microblaze_0' is selected.
+11:40:15 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf' is downloaded to processor 'microblaze_0'.
+11:40:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_final.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf
+----------------End of Script----------------
+
+11:40:15 INFO  : Memory regions updated for context MicroBlaze #0
+11:40:15 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+11:40:15 INFO  : Context for processor 'microblaze_0' is selected.
+11:40:15 INFO  : 'con' command is executed.
+11:40:15 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:40:15 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_stopwatch_app_system_standalone.tcl'
+11:41:41 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_stopwatch_app'...
+11:41:49 INFO  : Disconnected from the channel tcfchan#8.
+11:41:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:41:49 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+11:41:49 INFO  : 'jtag frequency' command is executed.
+11:41:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+11:41:50 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_final.bit"
+11:41:50 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:41:50 INFO  : Context for processor 'microblaze_0' is selected.
+11:41:50 INFO  : System reset is completed.
+11:41:53 INFO  : 'after 3000' command is executed.
+11:41:53 INFO  : Context for processor 'microblaze_0' is selected.
+11:41:53 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf' is downloaded to processor 'microblaze_0'.
+11:41:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_final.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf
+----------------End of Script----------------
+
+11:41:53 INFO  : Memory regions updated for context MicroBlaze #0
+11:41:53 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+11:41:53 INFO  : Context for processor 'microblaze_0' is selected.
+11:41:53 INFO  : 'con' command is executed.
+11:41:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:41:53 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_stopwatch_app_system_standalone.tcl'
+11:51:26 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_stopwatch_app'...
+11:51:35 INFO  : Disconnected from the channel tcfchan#9.
+11:51:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:51:35 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+11:51:35 INFO  : 'jtag frequency' command is executed.
+11:51:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+11:51:36 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_final.bit"
+11:51:36 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:51:36 INFO  : Context for processor 'microblaze_0' is selected.
+11:51:36 INFO  : System reset is completed.
+11:51:39 INFO  : 'after 3000' command is executed.
+11:51:39 INFO  : Context for processor 'microblaze_0' is selected.
+11:51:39 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf' is downloaded to processor 'microblaze_0'.
+11:51:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_final.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf
+----------------End of Script----------------
+
+11:51:39 INFO  : Memory regions updated for context MicroBlaze #0
+11:51:39 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+11:51:39 INFO  : Context for processor 'microblaze_0' is selected.
+11:51:39 INFO  : 'con' command is executed.
+11:51:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:51:39 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_stopwatch_app_system_standalone.tcl'
+11:53:23 INFO  : Removed 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_hw/export/mblaze_stopwatch_hw' from custom platform repositories.
+11:59:23 INFO  : Successfully done sdx_reload_mss "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_real/microblaze_0/standalone_domain/bsp/system.mss"
+12:00:01 INFO  : The hardware specfication used by project 'mblaze_stopwatch_app' is out of sync with the platform. Resource files extracted from the hardware specfiication will be updated.
+12:00:01 INFO  : The file 'F:\Ian_Jung\workplace\Harman_Vitis\mblaze_stopwatch_app\_ide\bitstream\mblaze_stopwatch_final.bit' stored in project is removed.
+12:00:01 INFO  : The file 'F:\Ian_Jung\workplace\Harman_Vitis\mblaze_stopwatch_app\_ide\bitstream\mblaze_stopwatch_final.mmi' stored in project is removed.
+12:00:01 INFO  : The updated bitstream files are copied from platform to folder 'F:\Ian_Jung\workplace\Harman_Vitis\mblaze_stopwatch_app\_ide\bitstream' in project 'mblaze_stopwatch_app'.
+12:00:10 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_stopwatch_app'...
+12:00:16 INFO  : Disconnected from the channel tcfchan#10.
+12:00:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:00:16 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+12:00:16 INFO  : 'jtag frequency' command is executed.
+12:00:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+12:00:16 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_real.bit"
+12:00:17 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:00:17 INFO  : Context for processor 'microblaze_0' is selected.
+12:00:17 INFO  : System reset is completed.
+12:00:20 INFO  : 'after 3000' command is executed.
+12:00:20 INFO  : Context for processor 'microblaze_0' is selected.
+12:00:20 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf' is downloaded to processor 'microblaze_0'.
+12:00:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_real.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf
+----------------End of Script----------------
+
+12:00:20 INFO  : Memory regions updated for context MicroBlaze #0
+12:00:20 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+12:00:20 INFO  : Context for processor 'microblaze_0' is selected.
+12:00:20 INFO  : 'con' command is executed.
+12:00:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:00:20 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_stopwatch_app_system_standalone.tcl'
+12:10:36 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_stopwatch_app'...
+12:10:44 INFO  : Disconnected from the channel tcfchan#12.
+12:10:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:10:44 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+12:10:44 INFO  : 'jtag frequency' command is executed.
+12:10:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+12:10:45 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_real.bit"
+12:10:45 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:10:45 INFO  : Context for processor 'microblaze_0' is selected.
+12:10:45 INFO  : System reset is completed.
+12:10:48 INFO  : 'after 3000' command is executed.
+12:10:48 INFO  : Context for processor 'microblaze_0' is selected.
+12:10:48 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf' is downloaded to processor 'microblaze_0'.
+12:10:48 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_real.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf
+----------------End of Script----------------
+
+12:10:48 INFO  : Memory regions updated for context MicroBlaze #0
+12:10:48 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+12:10:48 INFO  : Context for processor 'microblaze_0' is selected.
+12:10:48 INFO  : 'con' command is executed.
+12:10:48 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:10:48 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_stopwatch_app_system_standalone.tcl'
+12:11:07 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_stopwatch_app'...
+12:11:14 INFO  : Disconnected from the channel tcfchan#13.
+12:11:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:11:14 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+12:11:14 INFO  : 'jtag frequency' command is executed.
+12:11:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+12:11:15 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_real.bit"
+12:11:15 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:11:15 INFO  : Context for processor 'microblaze_0' is selected.
+12:11:15 INFO  : System reset is completed.
+12:11:18 INFO  : 'after 3000' command is executed.
+12:11:18 INFO  : Context for processor 'microblaze_0' is selected.
+12:11:18 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf' is downloaded to processor 'microblaze_0'.
+12:11:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_real.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf
+----------------End of Script----------------
+
+12:11:18 INFO  : Memory regions updated for context MicroBlaze #0
+12:11:18 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+12:11:18 INFO  : Context for processor 'microblaze_0' is selected.
+12:11:18 INFO  : 'con' command is executed.
+12:11:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:11:18 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_stopwatch_app_system_standalone.tcl'
+12:13:38 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_stopwatch_app'...
+12:13:45 INFO  : Disconnected from the channel tcfchan#14.
+12:13:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:13:45 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+12:13:45 INFO  : 'jtag frequency' command is executed.
+12:13:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+12:13:45 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_real.bit"
+12:13:45 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:13:45 INFO  : Context for processor 'microblaze_0' is selected.
+12:13:45 INFO  : System reset is completed.
+12:13:48 INFO  : 'after 3000' command is executed.
+12:13:49 INFO  : Context for processor 'microblaze_0' is selected.
+12:13:49 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf' is downloaded to processor 'microblaze_0'.
+12:13:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_real.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf
+----------------End of Script----------------
+
+12:13:49 INFO  : Memory regions updated for context MicroBlaze #0
+12:13:49 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+12:13:49 INFO  : Context for processor 'microblaze_0' is selected.
+12:13:49 INFO  : 'con' command is executed.
+12:13:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:13:49 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_stopwatch_app_system_standalone.tcl'
+12:25:15 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_stopwatch_app'...
+12:25:23 INFO  : Disconnected from the channel tcfchan#15.
+12:25:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:25:23 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+12:25:23 INFO  : 'jtag frequency' command is executed.
+12:25:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+12:25:24 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_real.bit"
+12:25:24 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:25:24 INFO  : Context for processor 'microblaze_0' is selected.
+12:25:24 INFO  : System reset is completed.
+12:25:27 INFO  : 'after 3000' command is executed.
+12:25:27 INFO  : Context for processor 'microblaze_0' is selected.
+12:25:27 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf' is downloaded to processor 'microblaze_0'.
+12:25:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_real.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf
+----------------End of Script----------------
+
+12:25:27 INFO  : Memory regions updated for context MicroBlaze #0
+12:25:27 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+12:25:27 INFO  : Context for processor 'microblaze_0' is selected.
+12:25:27 INFO  : 'con' command is executed.
+12:25:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:25:27 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_stopwatch_app_system_standalone.tcl'
+12:31:38 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_stopwatch_app'...
+12:31:45 INFO  : Disconnected from the channel tcfchan#16.
+12:31:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:31:46 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+12:31:46 INFO  : 'jtag frequency' command is executed.
+12:31:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+12:31:46 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_real.bit"
+12:31:46 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:31:46 INFO  : Context for processor 'microblaze_0' is selected.
+12:31:46 INFO  : System reset is completed.
+12:31:49 INFO  : 'after 3000' command is executed.
+12:31:49 INFO  : Context for processor 'microblaze_0' is selected.
+12:31:49 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf' is downloaded to processor 'microblaze_0'.
+12:31:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_real.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf
+----------------End of Script----------------
+
+12:31:49 INFO  : Memory regions updated for context MicroBlaze #0
+12:31:49 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+12:31:49 INFO  : Context for processor 'microblaze_0' is selected.
+12:31:49 INFO  : 'con' command is executed.
+12:31:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:31:49 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_stopwatch_app_system_standalone.tcl'
+12:47:29 INFO  : Removed 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_real/export/mblaze_stopwatch_real' from custom platform repositories.
+12:48:03 ERROR : Failed to create platform.
+12:49:06 INFO  : Successfully done sdx_reload_mss "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_final/microblaze_0/standalone_domain/bsp/system.mss"
+12:49:32 INFO  : The hardware specfication used by project 'mblaze_stopwatch_app' is out of sync with the platform. Resource files extracted from the hardware specfiication will be updated.
+12:49:32 INFO  : The file 'F:\Ian_Jung\workplace\Harman_Vitis\mblaze_stopwatch_app\_ide\bitstream\mblaze_stopwatch_real.bit' stored in project is removed.
+12:49:32 INFO  : The file 'F:\Ian_Jung\workplace\Harman_Vitis\mblaze_stopwatch_app\_ide\bitstream\mblaze_stopwatch_real.mmi' stored in project is removed.
+12:49:32 INFO  : The updated bitstream files are copied from platform to folder 'F:\Ian_Jung\workplace\Harman_Vitis\mblaze_stopwatch_app\_ide\bitstream' in project 'mblaze_stopwatch_app'.
+12:49:39 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_stopwatch_app'...
+12:49:47 INFO  : Disconnected from the channel tcfchan#17.
+12:49:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:49:47 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+12:49:47 INFO  : 'jtag frequency' command is executed.
+12:49:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+12:49:47 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_fin.bit"
+12:49:47 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:49:47 INFO  : Context for processor 'microblaze_0' is selected.
+12:49:47 INFO  : System reset is completed.
+12:49:50 INFO  : 'after 3000' command is executed.
+12:49:50 INFO  : Context for processor 'microblaze_0' is selected.
+12:49:50 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf' is downloaded to processor 'microblaze_0'.
+12:49:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_fin.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf
+----------------End of Script----------------
+
+12:49:50 INFO  : Memory regions updated for context MicroBlaze #0
+12:49:50 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+12:49:51 INFO  : Context for processor 'microblaze_0' is selected.
+12:49:51 INFO  : 'con' command is executed.
+12:49:51 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:49:51 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_stopwatch_app_system_standalone.tcl'
+12:50:28 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_stopwatch_app'...
+12:50:36 INFO  : Disconnected from the channel tcfchan#19.
+12:50:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:50:36 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+12:50:36 INFO  : 'jtag frequency' command is executed.
+12:50:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+12:50:36 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_fin.bit"
+12:50:36 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:50:36 INFO  : Context for processor 'microblaze_0' is selected.
+12:50:36 INFO  : System reset is completed.
+12:50:39 INFO  : 'after 3000' command is executed.
+12:50:39 INFO  : Context for processor 'microblaze_0' is selected.
+12:50:39 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf' is downloaded to processor 'microblaze_0'.
+12:50:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_fin.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf
+----------------End of Script----------------
+
+12:50:39 INFO  : Memory regions updated for context MicroBlaze #0
+12:50:39 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+12:50:39 INFO  : Context for processor 'microblaze_0' is selected.
+12:50:39 INFO  : 'con' command is executed.
+12:50:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:50:39 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_stopwatch_app_system_standalone.tcl'
+12:52:19 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_stopwatch_app'...
+12:52:28 INFO  : Disconnected from the channel tcfchan#20.
+12:52:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:52:28 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+12:52:28 INFO  : 'jtag frequency' command is executed.
+12:52:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+12:52:28 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_fin.bit"
+12:52:28 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:52:29 INFO  : Context for processor 'microblaze_0' is selected.
+12:52:29 INFO  : System reset is completed.
+12:52:32 INFO  : 'after 3000' command is executed.
+12:52:32 INFO  : Context for processor 'microblaze_0' is selected.
+12:52:32 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf' is downloaded to processor 'microblaze_0'.
+12:52:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_fin.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf
+----------------End of Script----------------
+
+12:52:32 INFO  : Memory regions updated for context MicroBlaze #0
+12:52:32 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+12:52:32 INFO  : Context for processor 'microblaze_0' is selected.
+12:52:32 INFO  : 'con' command is executed.
+12:52:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:52:32 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_stopwatch_app_system_standalone.tcl'
+12:59:00 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_stopwatch_app'...
+12:59:08 INFO  : Disconnected from the channel tcfchan#21.
+12:59:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:59:08 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+12:59:08 INFO  : 'jtag frequency' command is executed.
+12:59:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+12:59:09 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_fin.bit"
+12:59:09 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:59:09 INFO  : Context for processor 'microblaze_0' is selected.
+12:59:09 INFO  : System reset is completed.
+12:59:12 INFO  : 'after 3000' command is executed.
+12:59:12 INFO  : Context for processor 'microblaze_0' is selected.
+12:59:12 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf' is downloaded to processor 'microblaze_0'.
+12:59:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_fin.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf
+----------------End of Script----------------
+
+12:59:12 INFO  : Memory regions updated for context MicroBlaze #0
+12:59:12 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+12:59:12 INFO  : Context for processor 'microblaze_0' is selected.
+12:59:12 INFO  : 'con' command is executed.
+12:59:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:59:12 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_stopwatch_app_system_standalone.tcl'
+13:47:50 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_stopwatch_app'...
+13:47:58 INFO  : Disconnected from the channel tcfchan#22.
+13:47:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:47:58 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+13:47:58 INFO  : 'jtag frequency' command is executed.
+13:47:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+13:47:59 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_fin.bit"
+13:47:59 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:47:59 INFO  : Context for processor 'microblaze_0' is selected.
+13:47:59 INFO  : System reset is completed.
+13:48:02 INFO  : 'after 3000' command is executed.
+13:48:02 INFO  : Context for processor 'microblaze_0' is selected.
+13:48:02 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf' is downloaded to processor 'microblaze_0'.
+13:48:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_fin.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf
+----------------End of Script----------------
+
+13:48:02 INFO  : Memory regions updated for context MicroBlaze #0
+13:48:02 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+13:48:02 INFO  : Context for processor 'microblaze_0' is selected.
+13:48:02 INFO  : 'con' command is executed.
+13:48:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:48:02 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_stopwatch_app_system_standalone.tcl'
+13:48:31 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_stopwatch_app'...
+13:48:39 INFO  : Disconnected from the channel tcfchan#23.
+13:48:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:48:39 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+13:48:39 INFO  : 'jtag frequency' command is executed.
+13:48:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+13:48:40 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_fin.bit"
+13:48:40 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:48:40 INFO  : Context for processor 'microblaze_0' is selected.
+13:48:40 INFO  : System reset is completed.
+13:48:43 INFO  : 'after 3000' command is executed.
+13:48:43 INFO  : Context for processor 'microblaze_0' is selected.
+13:48:43 ERROR : Cannot stop MicroBlaze. Stalled on instruction fetch. PC=0x4
+13:48:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_fin.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf
+----------------End of Script----------------
+
+13:48:43 ERROR : Cannot stop MicroBlaze. Stalled on instruction fetch. PC=0x4
+13:48:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:48:48 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+13:48:48 INFO  : 'jtag frequency' command is executed.
+13:48:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+13:48:48 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_fin.bit"
+13:48:48 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:48:48 INFO  : Context for processor 'microblaze_0' is selected.
+13:48:48 INFO  : System reset is completed.
+13:48:51 INFO  : 'after 3000' command is executed.
+13:48:51 INFO  : Context for processor 'microblaze_0' is selected.
+13:48:51 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf' is downloaded to processor 'microblaze_0'.
+13:48:51 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_fin.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf
+----------------End of Script----------------
+
+13:48:52 INFO  : Memory regions updated for context MicroBlaze #0
+13:48:52 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+13:48:52 INFO  : Context for processor 'microblaze_0' is selected.
+13:48:52 INFO  : 'con' command is executed.
+13:48:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:48:52 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_stopwatch_app_system_standalone.tcl'
+14:13:10 INFO  : Successfully done sdx_reload_mss "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_edit_hw/microblaze_0/standalone_domain/bsp/system.mss"
+14:13:43 INFO  : The hardware specfication used by project 'mblaze_stopwatch_app' is out of sync with the platform. Resource files extracted from the hardware specfiication will be updated.
+14:13:43 INFO  : The file 'F:\Ian_Jung\workplace\Harman_Vitis\mblaze_stopwatch_app\_ide\bitstream\mblaze_stopwatch_fin.bit' stored in project is removed.
+14:13:43 INFO  : The file 'F:\Ian_Jung\workplace\Harman_Vitis\mblaze_stopwatch_app\_ide\bitstream\mblaze_stopwatch_fin.mmi' stored in project is removed.
+14:13:43 INFO  : The updated bitstream files are copied from platform to folder 'F:\Ian_Jung\workplace\Harman_Vitis\mblaze_stopwatch_app\_ide\bitstream' in project 'mblaze_stopwatch_app'.
+14:13:50 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_stopwatch_app'...
+14:13:59 INFO  : Disconnected from the channel tcfchan#24.
+14:13:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:13:59 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+14:13:59 INFO  : 'jtag frequency' command is executed.
+14:13:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+14:14:00 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_edit.bit"
+14:14:00 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:14:00 INFO  : Context for processor 'microblaze_0' is selected.
+14:14:00 INFO  : System reset is completed.
+14:14:03 INFO  : 'after 3000' command is executed.
+14:14:03 INFO  : Context for processor 'microblaze_0' is selected.
+14:14:03 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf' is downloaded to processor 'microblaze_0'.
+14:14:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/_ide/bitstream/mblaze_stopwatch_edit.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_app/Debug/mblaze_stopwatch_app.elf
+----------------End of Script----------------
+
+14:14:03 INFO  : Memory regions updated for context MicroBlaze #0
+14:14:03 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+14:14:03 INFO  : Context for processor 'microblaze_0' is selected.
+14:14:03 INFO  : 'con' command is executed.
+14:14:03 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:14:03 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_stopwatch_app_system_standalone.tcl'
+16:27:43 INFO  : Successfully done sdx_reload_mss "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss"
+16:38:35 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_stopwatch_cntr_app'...
+16:41:13 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_stopwatch_cntr_app'...
+16:41:43 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_stopwatch_cntr_app'...
+16:41:53 INFO  : Disconnected from the channel tcfchan#26.
+16:41:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:41:54 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+16:41:54 INFO  : 'jtag frequency' command is executed.
+16:41:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+16:41:54 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_app/_ide/bitstream/mblaze_stopwatch_cntr.bit"
+16:41:54 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:41:54 INFO  : Context for processor 'microblaze_0' is selected.
+16:41:54 INFO  : System reset is completed.
+16:41:57 INFO  : 'after 3000' command is executed.
+16:41:57 INFO  : Context for processor 'microblaze_0' is selected.
+16:41:57 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_app/Debug/mblaze_stopwatch_cntr_app.elf' is downloaded to processor 'microblaze_0'.
+16:41:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_app/_ide/bitstream/mblaze_stopwatch_cntr.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_app/Debug/mblaze_stopwatch_cntr_app.elf
+----------------End of Script----------------
+
+16:41:58 INFO  : Memory regions updated for context MicroBlaze #0
+16:41:58 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+16:41:58 INFO  : Context for processor 'microblaze_0' is selected.
+16:41:58 INFO  : 'con' command is executed.
+16:41:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:41:58 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_stopwatch_cntr_app_system_standalone.tcl'
+16:43:23 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_stopwatch_cntr_app'...
+16:43:31 INFO  : Disconnected from the channel tcfchan#28.
+16:43:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:43:31 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+16:43:31 INFO  : 'jtag frequency' command is executed.
+16:43:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+16:43:32 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_app/_ide/bitstream/mblaze_stopwatch_cntr.bit"
+16:43:32 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:43:32 INFO  : Context for processor 'microblaze_0' is selected.
+16:43:32 INFO  : System reset is completed.
+16:43:35 INFO  : 'after 3000' command is executed.
+16:43:35 INFO  : Context for processor 'microblaze_0' is selected.
+16:43:35 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_app/Debug/mblaze_stopwatch_cntr_app.elf' is downloaded to processor 'microblaze_0'.
+16:43:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_app/_ide/bitstream/mblaze_stopwatch_cntr.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_app/Debug/mblaze_stopwatch_cntr_app.elf
+----------------End of Script----------------
+
+16:43:35 INFO  : Memory regions updated for context MicroBlaze #0
+16:43:35 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+16:43:35 INFO  : Context for processor 'microblaze_0' is selected.
+16:43:35 INFO  : 'con' command is executed.
+16:43:35 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:43:35 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_stopwatch_cntr_app_system_standalone.tcl'
+16:44:06 INFO  : Checking for BSP changes to sync application flags for project 'mblaze_stopwatch_cntr_app'...
+16:44:15 INFO  : Disconnected from the channel tcfchan#29.
+16:44:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:44:15 INFO  : Jtag cable 'Digilent Basys3 210183B9A602A' is selected.
+16:44:15 INFO  : 'jtag frequency' command is executed.
+16:44:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0' command is executed.
+16:44:16 INFO  : FPGA configured successfully with bitstream "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_app/_ide/bitstream/mblaze_stopwatch_cntr.bit"
+16:44:16 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:44:16 INFO  : Context for processor 'microblaze_0' is selected.
+16:44:16 INFO  : System reset is completed.
+16:44:19 INFO  : 'after 3000' command is executed.
+16:44:19 INFO  : Context for processor 'microblaze_0' is selected.
+16:44:19 INFO  : The application 'F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_app/Debug/mblaze_stopwatch_cntr_app.elf' is downloaded to processor 'microblaze_0'.
+16:44:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A602A" && level==0} -index 0
+fpga -file F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_app/_ide/bitstream/mblaze_stopwatch_cntr.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_app/Debug/mblaze_stopwatch_cntr_app.elf
+----------------End of Script----------------
+
+16:44:19 INFO  : Memory regions updated for context MicroBlaze #0
+16:44:19 INFO  : Memory regions updated for context MicroBlaze Debug Module at USER2
+16:44:19 INFO  : Context for processor 'microblaze_0' is selected.
+16:44:19 INFO  : 'con' command is executed.
+16:44:19 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:44:19 INFO  : Launch script is exported to file 'F:\Ian_Jung\workplace\Harman_Vitis\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_stopwatch_cntr_app_system_standalone.tcl'
+17:01:47 INFO  : Disconnected from the channel tcfchan#30.
+16:36:18 INFO  : Launching XSCT server: xsct.bat -n  -interactive F:\Ian_Jung\workplace\Harman_Vitis\temp_xsdb_launch_script.tcl
+16:36:29 INFO  : XSCT server has started successfully.
+16:36:29 INFO  : Successfully done setting XSCT server connection channel  
+16:36:29 INFO  : plnx-install-location is set to ''
+16:36:29 INFO  : Successfully done setting workspace for the tool. 
+16:36:47 INFO  : Successfully done query RDI_DATADIR 
+16:36:48 INFO  : Registering command handlers for Vitis TCF services
+16:37:31 INFO  : Successfully done sdx_reload_mss "F:/Ian_Jung/workplace/Harman_Vitis/mblaze_multifunction_fan_hw/microblaze_0/standalone_domain/bsp/system.mss"
+09:16:39 INFO  : Launching XSCT server: xsct.bat -n  -interactive F:\Ian_Jung\workplace\Harman_Vitis\temp_xsdb_launch_script.tcl
+09:16:49 INFO  : XSCT server has started successfully.
+09:16:49 INFO  : Successfully done setting XSCT server connection channel  
+09:16:49 INFO  : plnx-install-location is set to ''
+09:16:49 INFO  : Successfully done setting workspace for the tool. 
+09:17:10 INFO  : Successfully done query RDI_DATADIR 
+09:17:12 INFO  : Registering command handlers for Vitis TCF services

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Oct 16 16:13:15 2023
+# Process ID: 18816
+# Current directory: F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/cora_cpu_2019/cora_cpu_2019.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/cora_cpu_2019/cora_cpu_2019.sim/sim_1/behav/xsim/xsim.dir/tb_processor_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/cora_cpu_2019/cora_cpu_2019.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/cora_cpu_2019/cora_cpu_2019.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/cora_cpu_2019/cora_cpu_2019.sim/sim_1/behav/xsim/xsim.dir/tb_processor_behav/webtalk/xsim_webtalk.tcl -notrace

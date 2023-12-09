@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../cora_cpu_2019.srcs/sources_1/new/acc.v" \
+"../../../../cora_cpu_2019.srcs/sources_1/new/alu.v" \
+"../../../../cora_cpu_2019.srcs/sources_1/imports/new/exam01_combinational_Logic.v" \
+"../../../../cora_cpu_2019.srcs/sources_1/imports/new/exam02_sequential_logic.v" \
+"../../../../cora_cpu_2019.srcs/sim_1/new/tb_block_alu_acc.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,18 @@
+verilog xil_defaultlib --include "../../../../Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_stopwatch/ipshared/4fba" --include "../../../../Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_stopwatch/ipshared/ec67/hdl" \
+"../../../bd/mblaze_stopwatch/ip/mblaze_stopwatch_clk_wiz_0_0/mblaze_stopwatch_clk_wiz_0_0_clk_wiz.v" \
+"../../../bd/mblaze_stopwatch/ip/mblaze_stopwatch_clk_wiz_0_0/mblaze_stopwatch_clk_wiz_0_0.v" \
+"../../../bd/mblaze_stopwatch/ip/mblaze_stopwatch_lmb_bram_0/sim/mblaze_stopwatch_lmb_bram_0.v" \
+"../../../bd/mblaze_stopwatch/ip/mblaze_stopwatch_xbar_0/sim/mblaze_stopwatch_xbar_0.v" \
+"../../../bd/mblaze_stopwatch/ipshared/29cc/src/Clock_Library_.v" \
+"../../../bd/mblaze_stopwatch/ipshared/29cc/src/FND_4digit_cntr.v" \
+"../../../bd/mblaze_stopwatch/ipshared/29cc/src/Stop_Watch_top_.v" \
+"../../../bd/mblaze_stopwatch/ipshared/29cc/src/exam01_combinational_Logic.v" \
+"../../../bd/mblaze_stopwatch/ipshared/29cc/src/exam02_sequential_logic.v" \
+"../../../bd/mblaze_stopwatch/ipshared/29cc/hdl/myip_stopwatch_v1_0_S00_AXI.v" \
+"../../../bd/mblaze_stopwatch/ipshared/29cc/hdl/myip_stopwatch_v1_0.v" \
+"../../../bd/mblaze_stopwatch/ip/mblaze_stopwatch_myip_stopwatch_0_0/sim/mblaze_stopwatch_myip_stopwatch_0_0.v" \
+"../../../bd/mblaze_stopwatch/sim/mblaze_stopwatch.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

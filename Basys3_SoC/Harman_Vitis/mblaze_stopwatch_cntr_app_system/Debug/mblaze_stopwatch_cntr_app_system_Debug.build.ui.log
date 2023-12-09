@@ -1,0 +1,6 @@
+2023-11-27T16:44:08.822181400255-16:44:08 **** Incremental Build of configuration Debug for project mblaze_stopwatch_cntr_app_system ****
+000-make all 
+000-Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+00255-
+16:44:09 Build Finished (took 227ms)
+

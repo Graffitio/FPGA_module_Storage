@@ -1,6 +1,6 @@
 
 *** Running vivado
-    with args -log mblaze_I2C_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source mblaze_I2C_wrapper.tcl
+    with args -log DHT11_Top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source DHT11_Top.tcl
 
 
 ****** Vivado v2019.2 (64-bit)
@@ -8,8 +8,12 @@
   **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
     ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 
-source mblaze_I2C_wrapper.tcl -notrace
+source DHT11_Top.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/ip_repo/myip_multifunction_fan_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/ip_repo/myip_stopwatch_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/ip_repo/myip_stopwatch_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/ip_repo/myip_stopwatch_1.0'.
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/ip_repo/myip_DHT11_1.0'.
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/ip_repo/myip_UltraSonic_1.0'.
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/ip_repo/myip_PWM_1000x_1.0'.
@@ -18,174 +22,54 @@ INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Ian_Jung/workplace/cora_z7
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Vivado/2019.2/data/ip'.
 WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
 Current IP cache path is f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.cache/ip 
-Command: synth_design -top mblaze_I2C_wrapper -part xc7a35tcpg236-1
+Command: synth_design -top DHT11_Top -part xc7a35tcpg236-1
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 26564 
+INFO: Helper process launched with PID 16960 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1027.215 ; gain = 234.219
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1003.414 ; gain = 234.246
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'mblaze_I2C_wrapper' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/hdl/mblaze_I2C_wrapper.v:12]
-INFO: [Synth 8-6157] synthesizing module 'IOBUF' [F:/Vivado/2019.2/scripts/rt/data/unisim_comp.v:36196]
-	Parameter DRIVE bound to: 12 - type: integer 
-	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
-	Parameter IOSTANDARD bound to: DEFAULT - type: string 
-	Parameter SLEW bound to: SLOW - type: string 
-INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (1#1) [F:/Vivado/2019.2/scripts/rt/data/unisim_comp.v:36196]
-INFO: [Synth 8-6157] synthesizing module 'mblaze_I2C' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/synth/mblaze_I2C.v:541]
-INFO: [Synth 8-6157] synthesizing module 'mblaze_I2C_axi_gpio_0_0' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/.Xil/Vivado-904-DESKTOP-CPLDPO1/realtime/mblaze_I2C_axi_gpio_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'mblaze_I2C_axi_gpio_0_0' (2#1) [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/.Xil/Vivado-904-DESKTOP-CPLDPO1/realtime/mblaze_I2C_axi_gpio_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'mblaze_I2C_axi_iic_0_0' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/.Xil/Vivado-904-DESKTOP-CPLDPO1/realtime/mblaze_I2C_axi_iic_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'mblaze_I2C_axi_iic_0_0' (3#1) [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/.Xil/Vivado-904-DESKTOP-CPLDPO1/realtime/mblaze_I2C_axi_iic_0_0_stub.v:6]
-WARNING: [Synth 8-7023] instance 'axi_iic_0' of module 'mblaze_I2C_axi_iic_0_0' has 27 connections declared, but only 25 given [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/synth/mblaze_I2C.v:737]
-INFO: [Synth 8-6157] synthesizing module 'mblaze_I2C_axi_uartlite_0_0' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/.Xil/Vivado-904-DESKTOP-CPLDPO1/realtime/mblaze_I2C_axi_uartlite_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'mblaze_I2C_axi_uartlite_0_0' (4#1) [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/.Xil/Vivado-904-DESKTOP-CPLDPO1/realtime/mblaze_I2C_axi_uartlite_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'mblaze_I2C_clk_wiz_0_0' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/.Xil/Vivado-904-DESKTOP-CPLDPO1/realtime/mblaze_I2C_clk_wiz_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mblaze_I2C_clk_wiz_0_0' (5#1) [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/.Xil/Vivado-904-DESKTOP-CPLDPO1/realtime/mblaze_I2C_clk_wiz_0_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mblaze_I2C_mdm_1_0' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/.Xil/Vivado-904-DESKTOP-CPLDPO1/realtime/mblaze_I2C_mdm_1_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'mblaze_I2C_mdm_1_0' (6#1) [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/.Xil/Vivado-904-DESKTOP-CPLDPO1/realtime/mblaze_I2C_mdm_1_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'mblaze_I2C_microblaze_0_0' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/.Xil/Vivado-904-DESKTOP-CPLDPO1/realtime/mblaze_I2C_microblaze_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'mblaze_I2C_microblaze_0_0' (7#1) [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/.Xil/Vivado-904-DESKTOP-CPLDPO1/realtime/mblaze_I2C_microblaze_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'mblaze_I2C_microblaze_0_axi_intc_0' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/.Xil/Vivado-904-DESKTOP-CPLDPO1/realtime/mblaze_I2C_microblaze_0_axi_intc_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'mblaze_I2C_microblaze_0_axi_intc_0' (8#1) [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/.Xil/Vivado-904-DESKTOP-CPLDPO1/realtime/mblaze_I2C_microblaze_0_axi_intc_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'mblaze_I2C_microblaze_0_axi_periph_0' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/synth/mblaze_I2C.v:1020]
-INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_1NXXH7K' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/synth/mblaze_I2C.v:12]
-INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_1NXXH7K' (9#1) [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/synth/mblaze_I2C.v:12]
-INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_1GK69EU' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/synth/mblaze_I2C.v:144]
-INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_1GK69EU' (10#1) [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/synth/mblaze_I2C.v:144]
-INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_57KC18' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/synth/mblaze_I2C.v:276]
-INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_57KC18' (11#1) [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/synth/mblaze_I2C.v:276]
-INFO: [Synth 8-6157] synthesizing module 'm03_couplers_imp_X6WOTM' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/synth/mblaze_I2C.v:408]
-INFO: [Synth 8-6155] done synthesizing module 'm03_couplers_imp_X6WOTM' (12#1) [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/synth/mblaze_I2C.v:408]
-INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_1FOVP29' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/synth/mblaze_I2C.v:1960]
-INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_1FOVP29' (13#1) [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/synth/mblaze_I2C.v:1960]
-INFO: [Synth 8-6157] synthesizing module 'mblaze_I2C_xbar_0' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/.Xil/Vivado-904-DESKTOP-CPLDPO1/realtime/mblaze_I2C_xbar_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'mblaze_I2C_xbar_0' (14#1) [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/.Xil/Vivado-904-DESKTOP-CPLDPO1/realtime/mblaze_I2C_xbar_0_stub.v:6]
-WARNING: [Synth 8-7023] instance 'xbar' of module 'mblaze_I2C_xbar_0' has 40 connections declared, but only 38 given [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/synth/mblaze_I2C.v:1685]
-INFO: [Synth 8-6155] done synthesizing module 'mblaze_I2C_microblaze_0_axi_periph_0' (15#1) [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/synth/mblaze_I2C.v:1020]
-INFO: [Synth 8-6157] synthesizing module 'microblaze_0_local_memory_imp_1TZCODM' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/synth/mblaze_I2C.v:1726]
-INFO: [Synth 8-6157] synthesizing module 'mblaze_I2C_dlmb_bram_if_cntlr_0' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/.Xil/Vivado-904-DESKTOP-CPLDPO1/realtime/mblaze_I2C_dlmb_bram_if_cntlr_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'mblaze_I2C_dlmb_bram_if_cntlr_0' (16#1) [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/.Xil/Vivado-904-DESKTOP-CPLDPO1/realtime/mblaze_I2C_dlmb_bram_if_cntlr_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'mblaze_I2C_dlmb_v10_0' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/.Xil/Vivado-904-DESKTOP-CPLDPO1/realtime/mblaze_I2C_dlmb_v10_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'mblaze_I2C_dlmb_v10_0' (17#1) [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/.Xil/Vivado-904-DESKTOP-CPLDPO1/realtime/mblaze_I2C_dlmb_v10_0_stub.v:6]
-WARNING: [Synth 8-7023] instance 'dlmb_v10' of module 'mblaze_I2C_dlmb_v10_0' has 25 connections declared, but only 24 given [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/synth/mblaze_I2C.v:1872]
-INFO: [Synth 8-6157] synthesizing module 'mblaze_I2C_ilmb_bram_if_cntlr_0' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/.Xil/Vivado-904-DESKTOP-CPLDPO1/realtime/mblaze_I2C_ilmb_bram_if_cntlr_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'mblaze_I2C_ilmb_bram_if_cntlr_0' (18#1) [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/.Xil/Vivado-904-DESKTOP-CPLDPO1/realtime/mblaze_I2C_ilmb_bram_if_cntlr_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'mblaze_I2C_ilmb_v10_0' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/.Xil/Vivado-904-DESKTOP-CPLDPO1/realtime/mblaze_I2C_ilmb_v10_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'mblaze_I2C_ilmb_v10_0' (19#1) [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/.Xil/Vivado-904-DESKTOP-CPLDPO1/realtime/mblaze_I2C_ilmb_v10_0_stub.v:6]
-WARNING: [Synth 8-7023] instance 'ilmb_v10' of module 'mblaze_I2C_ilmb_v10_0' has 25 connections declared, but only 24 given [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/synth/mblaze_I2C.v:1918]
-INFO: [Synth 8-6157] synthesizing module 'mblaze_I2C_lmb_bram_0' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/.Xil/Vivado-904-DESKTOP-CPLDPO1/realtime/mblaze_I2C_lmb_bram_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'mblaze_I2C_lmb_bram_0' (20#1) [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/.Xil/Vivado-904-DESKTOP-CPLDPO1/realtime/mblaze_I2C_lmb_bram_0_stub.v:6]
-WARNING: [Synth 8-7023] instance 'lmb_bram' of module 'mblaze_I2C_lmb_bram_0' has 16 connections declared, but only 14 given [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/synth/mblaze_I2C.v:1943]
-INFO: [Synth 8-6155] done synthesizing module 'microblaze_0_local_memory_imp_1TZCODM' (21#1) [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/synth/mblaze_I2C.v:1726]
-INFO: [Synth 8-6157] synthesizing module 'mblaze_I2C_microblaze_0_xlconcat_0' [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_microblaze_0_xlconcat_0/synth/mblaze_I2C_microblaze_0_xlconcat_0.v:58]
-INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_3_xlconcat' [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ipshared/442e/hdl/xlconcat_v2_1_vl_rfs.v:14]
-	Parameter IN0_WIDTH bound to: 1 - type: integer 
-	Parameter IN1_WIDTH bound to: 1 - type: integer 
-	Parameter IN2_WIDTH bound to: 1 - type: integer 
-	Parameter IN3_WIDTH bound to: 1 - type: integer 
-	Parameter IN4_WIDTH bound to: 1 - type: integer 
-	Parameter IN5_WIDTH bound to: 1 - type: integer 
-	Parameter IN6_WIDTH bound to: 1 - type: integer 
-	Parameter IN7_WIDTH bound to: 1 - type: integer 
-	Parameter IN8_WIDTH bound to: 1 - type: integer 
-	Parameter IN9_WIDTH bound to: 1 - type: integer 
-	Parameter IN10_WIDTH bound to: 1 - type: integer 
-	Parameter IN11_WIDTH bound to: 1 - type: integer 
-	Parameter IN12_WIDTH bound to: 1 - type: integer 
-	Parameter IN13_WIDTH bound to: 1 - type: integer 
-	Parameter IN14_WIDTH bound to: 1 - type: integer 
-	Parameter IN15_WIDTH bound to: 1 - type: integer 
-	Parameter IN16_WIDTH bound to: 1 - type: integer 
-	Parameter IN17_WIDTH bound to: 1 - type: integer 
-	Parameter IN18_WIDTH bound to: 1 - type: integer 
-	Parameter IN19_WIDTH bound to: 1 - type: integer 
-	Parameter IN20_WIDTH bound to: 1 - type: integer 
-	Parameter IN21_WIDTH bound to: 1 - type: integer 
-	Parameter IN22_WIDTH bound to: 1 - type: integer 
-	Parameter IN23_WIDTH bound to: 1 - type: integer 
-	Parameter IN24_WIDTH bound to: 1 - type: integer 
-	Parameter IN25_WIDTH bound to: 1 - type: integer 
-	Parameter IN26_WIDTH bound to: 1 - type: integer 
-	Parameter IN27_WIDTH bound to: 1 - type: integer 
-	Parameter IN28_WIDTH bound to: 1 - type: integer 
-	Parameter IN29_WIDTH bound to: 1 - type: integer 
-	Parameter IN30_WIDTH bound to: 1 - type: integer 
-	Parameter IN31_WIDTH bound to: 1 - type: integer 
-	Parameter dout_width bound to: 2 - type: integer 
-	Parameter NUM_PORTS bound to: 2 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_3_xlconcat' (22#1) [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ipshared/442e/hdl/xlconcat_v2_1_vl_rfs.v:14]
-INFO: [Synth 8-6155] done synthesizing module 'mblaze_I2C_microblaze_0_xlconcat_0' (23#1) [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_microblaze_0_xlconcat_0/synth/mblaze_I2C_microblaze_0_xlconcat_0.v:58]
-INFO: [Synth 8-6157] synthesizing module 'mblaze_I2C_rst_clk_wiz_0_100M_0' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/.Xil/Vivado-904-DESKTOP-CPLDPO1/realtime/mblaze_I2C_rst_clk_wiz_0_100M_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'mblaze_I2C_rst_clk_wiz_0_100M_0' (24#1) [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/.Xil/Vivado-904-DESKTOP-CPLDPO1/realtime/mblaze_I2C_rst_clk_wiz_0_100M_0_stub.v:6]
-WARNING: [Synth 8-7023] instance 'rst_clk_wiz_0_100M' of module 'mblaze_I2C_rst_clk_wiz_0_100M_0' has 10 connections declared, but only 8 given [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/synth/mblaze_I2C.v:1009]
-INFO: [Synth 8-6155] done synthesizing module 'mblaze_I2C' (25#1) [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/synth/mblaze_I2C.v:541]
-INFO: [Synth 8-6155] done synthesizing module 'mblaze_I2C_wrapper' (26#1) [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/hdl/mblaze_I2C_wrapper.v:12]
-WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In2[0]
-WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In3[0]
-WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In4[0]
-WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In5[0]
-WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In6[0]
-WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In7[0]
-WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In8[0]
-WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In9[0]
-WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In10[0]
-WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In11[0]
-WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In12[0]
-WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In13[0]
-WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In14[0]
-WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In15[0]
-WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In16[0]
-WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In17[0]
-WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In18[0]
-WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In19[0]
-WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In20[0]
-WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In21[0]
-WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In22[0]
-WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In23[0]
-WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In24[0]
-WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In25[0]
-WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In26[0]
-WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In27[0]
-WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In28[0]
-WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In29[0]
-WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In30[0]
-WARNING: [Synth 8-3331] design xlconcat_v2_1_3_xlconcat has unconnected port In31[0]
-WARNING: [Synth 8-3331] design s00_couplers_imp_1FOVP29 has unconnected port M_ACLK
-WARNING: [Synth 8-3331] design s00_couplers_imp_1FOVP29 has unconnected port M_ARESETN
-WARNING: [Synth 8-3331] design s00_couplers_imp_1FOVP29 has unconnected port S_ACLK
-WARNING: [Synth 8-3331] design s00_couplers_imp_1FOVP29 has unconnected port S_ARESETN
-WARNING: [Synth 8-3331] design m03_couplers_imp_X6WOTM has unconnected port M_ACLK
-WARNING: [Synth 8-3331] design m03_couplers_imp_X6WOTM has unconnected port M_ARESETN
-WARNING: [Synth 8-3331] design m03_couplers_imp_X6WOTM has unconnected port S_ACLK
-WARNING: [Synth 8-3331] design m03_couplers_imp_X6WOTM has unconnected port S_ARESETN
-WARNING: [Synth 8-3331] design m02_couplers_imp_57KC18 has unconnected port M_ACLK
-WARNING: [Synth 8-3331] design m02_couplers_imp_57KC18 has unconnected port M_ARESETN
-WARNING: [Synth 8-3331] design m02_couplers_imp_57KC18 has unconnected port S_ACLK
-WARNING: [Synth 8-3331] design m02_couplers_imp_57KC18 has unconnected port S_ARESETN
-WARNING: [Synth 8-3331] design m01_couplers_imp_1GK69EU has unconnected port M_ACLK
-WARNING: [Synth 8-3331] design m01_couplers_imp_1GK69EU has unconnected port M_ARESETN
-WARNING: [Synth 8-3331] design m01_couplers_imp_1GK69EU has unconnected port S_ACLK
-WARNING: [Synth 8-3331] design m01_couplers_imp_1GK69EU has unconnected port S_ARESETN
-WARNING: [Synth 8-3331] design m00_couplers_imp_1NXXH7K has unconnected port M_ACLK
-WARNING: [Synth 8-3331] design m00_couplers_imp_1NXXH7K has unconnected port M_ARESETN
-WARNING: [Synth 8-3331] design m00_couplers_imp_1NXXH7K has unconnected port S_ACLK
-WARNING: [Synth 8-3331] design m00_couplers_imp_1NXXH7K has unconnected port S_ARESETN
-WARNING: [Synth 8-3331] design mblaze_I2C_microblaze_0_axi_periph_0 has unconnected port M00_ACLK
-WARNING: [Synth 8-3331] design mblaze_I2C_microblaze_0_axi_periph_0 has unconnected port M00_ARESETN
-WARNING: [Synth 8-3331] design mblaze_I2C_microblaze_0_axi_periph_0 has unconnected port M01_ACLK
-WARNING: [Synth 8-3331] design mblaze_I2C_microblaze_0_axi_periph_0 has unconnected port M01_ARESETN
-WARNING: [Synth 8-3331] design mblaze_I2C_microblaze_0_axi_periph_0 has unconnected port M02_ACLK
-WARNING: [Synth 8-3331] design mblaze_I2C_microblaze_0_axi_periph_0 has unconnected port M02_ARESETN
-WARNING: [Synth 8-3331] design mblaze_I2C_microblaze_0_axi_periph_0 has unconnected port M03_ACLK
-WARNING: [Synth 8-3331] design mblaze_I2C_microblaze_0_axi_periph_0 has unconnected port M03_ARESETN
-WARNING: [Synth 8-3331] design mblaze_I2C_microblaze_0_axi_periph_0 has unconnected port S00_ACLK
-WARNING: [Synth 8-3331] design mblaze_I2C_microblaze_0_axi_periph_0 has unconnected port S00_ARESETN
+INFO: [Synth 8-6157] synthesizing module 'DHT11_Top' [F:/Ian_Jung/workplace/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/DHT11_Top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'DHT11' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/DHT11_Thermo_hum_sens.v:23]
+	Parameter S_IDLE bound to: 6'b000001 
+	Parameter S_LOW_18MS bound to: 6'b000010 
+	Parameter S_HIGH_20US bound to: 6'b000100 
+	Parameter S_LOW_80US bound to: 6'b001000 
+	Parameter S_HIGH_80US bound to: 6'b010000 
+	Parameter S_READ_DATA bound to: 6'b100000 
+	Parameter S_WAIT_PEDGE bound to: 2'b01 
+	Parameter S_WAIT_NEDGE bound to: 2'b10 
+INFO: [Synth 8-6157] synthesizing module 'clock_usec' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/Clock_Library_.v:53]
+INFO: [Synth 8-6157] synthesizing module 'edge_detector_n' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/exam02_sequential_logic.v:282]
+INFO: [Synth 8-6155] done synthesizing module 'edge_detector_n' (1#1) [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/exam02_sequential_logic.v:282]
+WARNING: [Synth 8-7023] instance 'edg' of module 'edge_detector_n' has 5 connections declared, but only 4 given [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/Clock_Library_.v:71]
+INFO: [Synth 8-6155] done synthesizing module 'clock_usec' (2#1) [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/Clock_Library_.v:53]
+INFO: [Synth 8-6157] synthesizing module 'edge_detector_p' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/exam02_sequential_logic.v:306]
+INFO: [Synth 8-6155] done synthesizing module 'edge_detector_p' (3#1) [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/exam02_sequential_logic.v:306]
+WARNING: [Synth 8-5788] Register count_usec_e_reg in module DHT11 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/DHT11_Thermo_hum_sens.v:86]
+WARNING: [Synth 8-5788] Register next_state_reg in module DHT11 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/DHT11_Thermo_hum_sens.v:87]
+WARNING: [Synth 8-5788] Register temp_data_reg in module DHT11 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/DHT11_Thermo_hum_sens.v:196]
+WARNING: [Synth 8-5788] Register humidity_reg in module DHT11 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/DHT11_Thermo_hum_sens.v:213]
+WARNING: [Synth 8-5788] Register temperature_reg in module DHT11 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/DHT11_Thermo_hum_sens.v:214]
+INFO: [Synth 8-6155] done synthesizing module 'DHT11' (4#1) [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/DHT11_Thermo_hum_sens.v:23]
+INFO: [Synth 8-6157] synthesizing module 'bin_to_dec' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/exam01_combinational_Logic.v:491]
+INFO: [Synth 8-6155] done synthesizing module 'bin_to_dec' (5#1) [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/exam01_combinational_Logic.v:491]
+INFO: [Synth 8-6157] synthesizing module 'FND_4digit_cntr' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/FND_4digit_cntr.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ring_count_fnd' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/exam02_sequential_logic.v:238]
+INFO: [Synth 8-6155] done synthesizing module 'ring_count_fnd' (6#1) [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/exam02_sequential_logic.v:238]
+INFO: [Synth 8-6157] synthesizing module 'decoder_7seg' [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/exam01_combinational_Logic.v:335]
+INFO: [Synth 8-6155] done synthesizing module 'decoder_7seg' (7#1) [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/exam01_combinational_Logic.v:335]
+INFO: [Synth 8-155] case statement is not full and has no default [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/FND_4digit_cntr.v:42]
+INFO: [Synth 8-6155] done synthesizing module 'FND_4digit_cntr' (8#1) [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/imports/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/FND_4digit_cntr.v:23]
+WARNING: [Synth 8-7023] instance 'fnd_cntr' of module 'FND_4digit_cntr' has 6 connections declared, but only 5 given [F:/Ian_Jung/workplace/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/DHT11_Top.v:41]
+INFO: [Synth 8-6155] done synthesizing module 'DHT11_Top' (9#1) [F:/Ian_Jung/workplace/cora_z7/cora_z7_07s_exam/cora_z7_07s_exam.srcs/sources_1/new/DHT11_Top.v:23]
+WARNING: [Synth 8-3331] design FND_4digit_cntr has unconnected port rst
+WARNING: [Synth 8-3331] design FND_4digit_cntr has unconnected port lap
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1105.117 ; gain = 312.121
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1076.891 ; gain = 307.723
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -198,101 +82,102 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1105.117 ; gain = 312.121
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1076.891 ; gain = 307.723
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1105.117 ; gain = 312.121
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1076.891 ; gain = 307.723
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 1105.117 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1076.891 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_clk_wiz_0_0/mblaze_I2C_clk_wiz_0_0/mblaze_I2C_clk_wiz_0_0_in_context.xdc] for cell 'mblaze_I2C_i/clk_wiz_0'
-Finished Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_clk_wiz_0_0/mblaze_I2C_clk_wiz_0_0/mblaze_I2C_clk_wiz_0_0_in_context.xdc] for cell 'mblaze_I2C_i/clk_wiz_0'
-Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_microblaze_0_0/mblaze_I2C_microblaze_0_0/mblaze_btn_intc_microblaze_0_2_in_context.xdc] for cell 'mblaze_I2C_i/microblaze_0'
-Finished Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_microblaze_0_0/mblaze_I2C_microblaze_0_0/mblaze_btn_intc_microblaze_0_2_in_context.xdc] for cell 'mblaze_I2C_i/microblaze_0'
-Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_dlmb_v10_0/mblaze_I2C_dlmb_v10_0/Microblaze_hello_dlmb_v10_0_in_context.xdc] for cell 'mblaze_I2C_i/microblaze_0_local_memory/dlmb_v10'
-Finished Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_dlmb_v10_0/mblaze_I2C_dlmb_v10_0/Microblaze_hello_dlmb_v10_0_in_context.xdc] for cell 'mblaze_I2C_i/microblaze_0_local_memory/dlmb_v10'
-Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_ilmb_v10_0/mblaze_I2C_ilmb_v10_0/Microblaze_hello_dlmb_v10_0_in_context.xdc] for cell 'mblaze_I2C_i/microblaze_0_local_memory/ilmb_v10'
-Finished Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_ilmb_v10_0/mblaze_I2C_ilmb_v10_0/Microblaze_hello_dlmb_v10_0_in_context.xdc] for cell 'mblaze_I2C_i/microblaze_0_local_memory/ilmb_v10'
-Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_dlmb_bram_if_cntlr_0/mblaze_I2C_dlmb_bram_if_cntlr_0/mblaze_led_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'mblaze_I2C_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
-Finished Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_dlmb_bram_if_cntlr_0/mblaze_I2C_dlmb_bram_if_cntlr_0/mblaze_led_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'mblaze_I2C_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
-Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_ilmb_bram_if_cntlr_0/mblaze_I2C_ilmb_bram_if_cntlr_0/Microblaze_hello_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'mblaze_I2C_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
-Finished Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_ilmb_bram_if_cntlr_0/mblaze_I2C_ilmb_bram_if_cntlr_0/Microblaze_hello_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'mblaze_I2C_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
-Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_lmb_bram_0/mblaze_I2C_lmb_bram_0/mblaze_I2C_lmb_bram_0_in_context.xdc] for cell 'mblaze_I2C_i/microblaze_0_local_memory/lmb_bram'
-Finished Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_lmb_bram_0/mblaze_I2C_lmb_bram_0/mblaze_I2C_lmb_bram_0_in_context.xdc] for cell 'mblaze_I2C_i/microblaze_0_local_memory/lmb_bram'
-Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_xbar_0/mblaze_I2C_xbar_0/mblaze_I2C_xbar_0_in_context.xdc] for cell 'mblaze_I2C_i/microblaze_0_axi_periph/xbar'
-Finished Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_xbar_0/mblaze_I2C_xbar_0/mblaze_I2C_xbar_0_in_context.xdc] for cell 'mblaze_I2C_i/microblaze_0_axi_periph/xbar'
-Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_microblaze_0_axi_intc_0/mblaze_I2C_microblaze_0_axi_intc_0/mblaze_btn_intc_microblaze_0_axi_intc_0_in_context.xdc] for cell 'mblaze_I2C_i/microblaze_0_axi_intc'
-Finished Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_microblaze_0_axi_intc_0/mblaze_I2C_microblaze_0_axi_intc_0/mblaze_btn_intc_microblaze_0_axi_intc_0_in_context.xdc] for cell 'mblaze_I2C_i/microblaze_0_axi_intc'
-Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_mdm_1_0/mblaze_I2C_mdm_1_0/Microblaze_hello_mdm_1_0_in_context.xdc] for cell 'mblaze_I2C_i/mdm_1'
-Finished Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_mdm_1_0/mblaze_I2C_mdm_1_0/Microblaze_hello_mdm_1_0_in_context.xdc] for cell 'mblaze_I2C_i/mdm_1'
-Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_rst_clk_wiz_0_100M_0/mblaze_I2C_rst_clk_wiz_0_100M_0/Microblaze_hello_rst_clk_wiz_0_100M_0_in_context.xdc] for cell 'mblaze_I2C_i/rst_clk_wiz_0_100M'
-Finished Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_rst_clk_wiz_0_100M_0/mblaze_I2C_rst_clk_wiz_0_100M_0/Microblaze_hello_rst_clk_wiz_0_100M_0_in_context.xdc] for cell 'mblaze_I2C_i/rst_clk_wiz_0_100M'
-Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_axi_gpio_0_0/mblaze_I2C_axi_gpio_0_0/mblaze_btn_intc_axi_gpio_0_0_in_context.xdc] for cell 'mblaze_I2C_i/axi_gpio_btn'
-Finished Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_axi_gpio_0_0/mblaze_I2C_axi_gpio_0_0/mblaze_btn_intc_axi_gpio_0_0_in_context.xdc] for cell 'mblaze_I2C_i/axi_gpio_btn'
-Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_axi_uartlite_0_0/mblaze_I2C_axi_uartlite_0_0/Microblaze_hello_axi_uartlite_0_0_in_context.xdc] for cell 'mblaze_I2C_i/axi_uartlite_0'
-Finished Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_axi_uartlite_0_0/mblaze_I2C_axi_uartlite_0_0/Microblaze_hello_axi_uartlite_0_0_in_context.xdc] for cell 'mblaze_I2C_i/axi_uartlite_0'
-Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_axi_iic_0_0/mblaze_I2C_axi_iic_0_0/mblaze_I2C_axi_iic_0_0_in_context.xdc] for cell 'mblaze_I2C_i/axi_iic_0'
-Finished Parsing XDC File [f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_axi_iic_0_0/mblaze_I2C_axi_iic_0_0/mblaze_I2C_axi_iic_0_0_in_context.xdc] for cell 'mblaze_I2C_i/axi_iic_0'
 Parsing XDC File [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc]
-WARNING: [Vivado 12-584] No ports matched 'clk'. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:7]
-WARNING: [Vivado 12-584] No ports matched 'clk'. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:8]
+WARNING: [Vivado 12-584] No ports matched 'timer_led_0[0]'. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'timer_led_0[1]'. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'timer_led_0[2]'. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'emcy_LED_0'. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'red_0'. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'green_0'. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'blue_0'. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_bar_0[0]'. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_bar_0[1]'. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_bar_0[2]'. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_bar_0[3]'. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'trig_0'. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'echo_0'. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'speed_0'. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'song_0'. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:79]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:79]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'RX_0'. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:80]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc:80]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
 Finished Parsing XDC File [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc]
-WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/mblaze_I2C_wrapper_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/mblaze_I2C_wrapper_propImpl.xdc].
-Resolution: To avoid this warning, move constraints listed in [.Xil/mblaze_I2C_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Parsing XDC File [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/dont_touch.xdc]
-Finished Parsing XDC File [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/constrs_1/imports/digilent-xdc-master/Basys-3-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/DHT11_Top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/DHT11_Top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1168.855 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1178.480 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 2 instances were transformed.
-  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1168.855 ; gain = 0.000
-WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'mblaze_I2C_i/microblaze_0_local_memory/lmb_bram' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1178.480 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1171.836 ; gain = 378.840
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1178.480 ; gain = 409.313
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1171.836 ; gain = 378.840
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1178.480 ; gain = 409.313
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property IO_BUFFER_TYPE = NONE for sys_clock. (constraint file  f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_clk_wiz_0_0/mblaze_I2C_clk_wiz_0_0/mblaze_I2C_clk_wiz_0_0_in_context.xdc, line 3).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clock. (constraint file  f:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.srcs/sources_1/bd/mblaze_I2C/ip/mblaze_I2C_clk_wiz_0_0/mblaze_I2C_clk_wiz_0_0/mblaze_I2C_clk_wiz_0_0_in_context.xdc, line 4).
-Applied set_property DONT_TOUCH = true for mblaze_I2C_i. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for mblaze_I2C_i/clk_wiz_0. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for mblaze_I2C_i/microblaze_0. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for mblaze_I2C_i/microblaze_0_local_memory/dlmb_v10. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for mblaze_I2C_i/microblaze_0_local_memory/ilmb_v10. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for mblaze_I2C_i/microblaze_0_local_memory/dlmb_bram_if_cntlr. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for mblaze_I2C_i/microblaze_0_local_memory/ilmb_bram_if_cntlr. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for mblaze_I2C_i/microblaze_0_local_memory/lmb_bram. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for mblaze_I2C_i/microblaze_0_axi_periph/xbar. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for mblaze_I2C_i/microblaze_0_axi_periph. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for mblaze_I2C_i/microblaze_0_axi_intc. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for mblaze_I2C_i/microblaze_0_xlconcat. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for mblaze_I2C_i/mdm_1. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for mblaze_I2C_i/rst_clk_wiz_0_100M. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for mblaze_I2C_i/axi_gpio_btn. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for mblaze_I2C_i/axi_uartlite_0. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for mblaze_I2C_i/axi_iic_0. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1171.836 ; gain = 378.840
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1178.480 ; gain = 409.313
 ---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'read_state_reg' in module 'DHT11'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+            S_WAIT_PEDGE |                               01 |                               01
+            S_WAIT_NEDGE |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'read_state_reg' in module 'DHT11'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1171.836 ; gain = 378.840
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1178.480 ; gain = 409.313
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -304,6 +189,35 @@ Report RTL Partitions:
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
++---Adders : 
+	   4 Input      8 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 50    
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	               40 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 3     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     40 Bit        Muxes := 2     
+	   3 Input     40 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	   3 Input      6 Bit        Muxes := 10    
+	   7 Input      6 Bit        Muxes := 9     
+	   2 Input      6 Bit        Muxes := 13    
+	   3 Input      5 Bit        Muxes := 9     
+	   2 Input      4 Bit        Muxes := 37    
+	   5 Input      4 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 4     
+	   7 Input      1 Bit        Muxes := 7     
+	   3 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -311,6 +225,64 @@ Finished RTL Component Statistics
 Start RTL Hierarchical Component Statistics 
 ---------------------------------------------------------------------------------
 Hierarchical RTL Component report 
+Module edge_detector_n 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module clock_usec 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+Module edge_detector_p 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module DHT11 
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input      8 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               40 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                6 Bit    Registers := 3     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     40 Bit        Muxes := 2     
+	   3 Input     40 Bit        Muxes := 1     
+	   3 Input      6 Bit        Muxes := 10    
+	   7 Input      6 Bit        Muxes := 9     
+	   2 Input      6 Bit        Muxes := 13    
+	   3 Input      5 Bit        Muxes := 9     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 4     
+	   7 Input      1 Bit        Muxes := 7     
+	   3 Input      1 Bit        Muxes := 2     
+Module bin_to_dec 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 25    
+	   2 Input      3 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 18    
+Module ring_count_fnd 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+Module FND_4digit_cntr 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   5 Input      4 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Hierarchical Component Statistics
 ---------------------------------------------------------------------------------
@@ -327,18 +299,18 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
-WARNING: [Synth 8-3331] design mblaze_I2C_microblaze_0_axi_periph_0 has unconnected port M00_ACLK
-WARNING: [Synth 8-3331] design mblaze_I2C_microblaze_0_axi_periph_0 has unconnected port M00_ARESETN
-WARNING: [Synth 8-3331] design mblaze_I2C_microblaze_0_axi_periph_0 has unconnected port M01_ACLK
-WARNING: [Synth 8-3331] design mblaze_I2C_microblaze_0_axi_periph_0 has unconnected port M01_ARESETN
-WARNING: [Synth 8-3331] design mblaze_I2C_microblaze_0_axi_periph_0 has unconnected port M02_ACLK
-WARNING: [Synth 8-3331] design mblaze_I2C_microblaze_0_axi_periph_0 has unconnected port M02_ARESETN
-WARNING: [Synth 8-3331] design mblaze_I2C_microblaze_0_axi_periph_0 has unconnected port M03_ACLK
-WARNING: [Synth 8-3331] design mblaze_I2C_microblaze_0_axi_periph_0 has unconnected port M03_ARESETN
-WARNING: [Synth 8-3331] design mblaze_I2C_microblaze_0_axi_periph_0 has unconnected port S00_ACLK
-WARNING: [Synth 8-3331] design mblaze_I2C_microblaze_0_axi_periph_0 has unconnected port S00_ARESETN
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\dht/dht11_buffer_tristate_oe_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\dht/next_state_reg[0]_LDC )
+WARNING: [Synth 8-3332] Sequential element (dht/next_state_reg[0]_LDC) is unused and will be removed from module DHT11_Top.
+WARNING: [Synth 8-3332] Sequential element (dht/next_state_reg[0]_C) is unused and will be removed from module DHT11_Top.
+WARNING: [Synth 8-3332] Sequential element (dht/next_state_reg[5]_P) is unused and will be removed from module DHT11_Top.
+WARNING: [Synth 8-3332] Sequential element (dht/next_state_reg[4]_P) is unused and will be removed from module DHT11_Top.
+WARNING: [Synth 8-3332] Sequential element (dht/next_state_reg[3]_P) is unused and will be removed from module DHT11_Top.
+WARNING: [Synth 8-3332] Sequential element (dht/next_state_reg[2]_P) is unused and will be removed from module DHT11_Top.
+WARNING: [Synth 8-3332] Sequential element (dht/next_state_reg[1]_P) is unused and will be removed from module DHT11_Top.
+WARNING: [Synth 8-3332] Sequential element (dht/count_usec_e_reg_P) is unused and will be removed from module DHT11_Top.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1171.836 ; gain = 378.840
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1178.480 ; gain = 409.313
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -350,13 +322,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1171.836 ; gain = 378.840
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1178.480 ; gain = 409.313
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1171.836 ; gain = 378.840
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1182.980 ; gain = 413.813
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -368,7 +340,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1174.598 ; gain = 381.602
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1192.836 ; gain = 423.668
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -392,13 +364,13 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1189.410 ; gain = 396.414
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1199.629 ; gain = 430.461
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1189.410 ; gain = 396.414
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1199.629 ; gain = 430.461
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -417,107 +389,94 @@ Report Check Netlist:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1189.410 ; gain = 396.414
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1199.629 ; gain = 430.461
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1189.410 ; gain = 396.414
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1199.629 ; gain = 430.461
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1189.410 ; gain = 396.414
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1199.629 ; gain = 430.461
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1189.410 ; gain = 396.414
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1199.629 ; gain = 430.461
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
 ---------------------------------------------------------------------------------
 
 Report BlackBoxes: 
-+------+-----------------------------------+----------+
-|      |BlackBox name                      |Instances |
-+------+-----------------------------------+----------+
-|1     |mblaze_I2C_xbar_0                  |         1|
-|2     |mblaze_I2C_axi_gpio_0_0            |         1|
-|3     |mblaze_I2C_axi_iic_0_0             |         1|
-|4     |mblaze_I2C_axi_uartlite_0_0        |         1|
-|5     |mblaze_I2C_clk_wiz_0_0             |         1|
-|6     |mblaze_I2C_mdm_1_0                 |         1|
-|7     |mblaze_I2C_microblaze_0_0          |         1|
-|8     |mblaze_I2C_microblaze_0_axi_intc_0 |         1|
-|9     |mblaze_I2C_rst_clk_wiz_0_100M_0    |         1|
-|10    |mblaze_I2C_dlmb_bram_if_cntlr_0    |         1|
-|11    |mblaze_I2C_dlmb_v10_0              |         1|
-|12    |mblaze_I2C_ilmb_bram_if_cntlr_0    |         1|
-|13    |mblaze_I2C_ilmb_v10_0              |         1|
-|14    |mblaze_I2C_lmb_bram_0              |         1|
-+------+-----------------------------------+----------+
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
 
 Report Cell Usage: 
-+------+-----------------------------------+------+
-|      |Cell                               |Count |
-+------+-----------------------------------+------+
-|1     |mblaze_I2C_axi_gpio_0_0            |     1|
-|2     |mblaze_I2C_axi_iic_0_0             |     1|
-|3     |mblaze_I2C_axi_uartlite_0_0        |     1|
-|4     |mblaze_I2C_clk_wiz_0_0             |     1|
-|5     |mblaze_I2C_dlmb_bram_if_cntlr_0    |     1|
-|6     |mblaze_I2C_dlmb_v10_0              |     1|
-|7     |mblaze_I2C_ilmb_bram_if_cntlr_0    |     1|
-|8     |mblaze_I2C_ilmb_v10_0              |     1|
-|9     |mblaze_I2C_lmb_bram_0              |     1|
-|10    |mblaze_I2C_mdm_1_0                 |     1|
-|11    |mblaze_I2C_microblaze_0_0          |     1|
-|12    |mblaze_I2C_microblaze_0_axi_intc_0 |     1|
-|13    |mblaze_I2C_rst_clk_wiz_0_100M_0    |     1|
-|14    |mblaze_I2C_xbar_0                  |     1|
-|15    |IBUF                               |     6|
-|16    |IOBUF                              |     2|
-|17    |OBUF                               |     1|
-+------+-----------------------------------+------+
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    13|
+|3     |LUT1   |     3|
+|4     |LUT2   |    11|
+|5     |LUT3   |     7|
+|6     |LUT4   |    47|
+|7     |LUT5   |    33|
+|8     |LUT6   |   127|
+|9     |FDCE   |    51|
+|10    |FDPE   |     4|
+|11    |FDRE   |    78|
+|12    |FDSE   |     3|
+|13    |IBUF   |     2|
+|14    |IOBUF  |     1|
+|15    |OBUF   |    12|
++------+-------+------+
 
 Report Instance Areas: 
-+------+------------------------------+--------------------------------------+------+
-|      |Instance                      |Module                                |Cells |
-+------+------------------------------+--------------------------------------+------+
-|1     |top                           |                                      |  1438|
-|2     |  mblaze_I2C_i                |mblaze_I2C                            |  1429|
-|3     |    microblaze_0_axi_periph   |mblaze_I2C_microblaze_0_axi_periph_0  |   485|
-|4     |    microblaze_0_xlconcat     |mblaze_I2C_microblaze_0_xlconcat_0    |     0|
-|5     |    microblaze_0_local_memory |microblaze_0_local_memory_imp_1TZCODM |   496|
-+------+------------------------------+--------------------------------------+------+
++------+---------------+----------------+------+
+|      |Instance       |Module          |Cells |
++------+---------------+----------------+------+
+|1     |top            |                |   393|
+|2     |  dht          |DHT11           |   334|
+|3     |    edg_dht    |edge_detector_p |   104|
+|4     |    usec_clk   |clock_usec      |    50|
+|5     |      edg      |edge_detector_n |    34|
+|6     |  fnd_cntr     |FND_4digit_cntr |    41|
+|7     |    ring1      |ring_count_fnd  |     7|
+|8     |    ring_seg_7 |decoder_7seg    |     7|
++------+---------------+----------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1189.410 ; gain = 396.414
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1199.629 ; gain = 430.461
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 10 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 1189.410 ; gain = 329.695
-Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1189.410 ; gain = 396.414
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 1199.629 ; gain = 328.871
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1199.629 ; gain = 430.461
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1189.410 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1208.531 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 14 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1208.566 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1208.531 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 2 instances were transformed.
-  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+  A total of 1 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 1 instance 
 
 INFO: [Common 17-83] Releasing license: Synthesis
-73 Infos, 81 Warnings, 0 Critical Warnings and 0 Errors encountered.
+45 Infos, 35 Warnings, 16 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 1208.566 ; gain = 696.059
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1208.566 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1208.531 ; gain = 710.879
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1208.531 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint 'F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/mblaze_I2C_wrapper.dcp' has been generated.
-INFO: [runtcl-4] Executing : report_utilization -file mblaze_I2C_wrapper_utilization_synth.rpt -pb mblaze_I2C_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri Nov 24 10:21:43 2023...
+INFO: [Common 17-1381] The checkpoint 'F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/Basys3_Microblaze_real.runs/synth_1/DHT11_Top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file DHT11_Top_utilization_synth.rpt -pb DHT11_Top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Dec  4 09:37:48 2023...

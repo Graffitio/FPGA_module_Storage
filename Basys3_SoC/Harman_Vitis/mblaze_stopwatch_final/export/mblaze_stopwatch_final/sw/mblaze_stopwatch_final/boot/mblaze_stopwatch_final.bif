@@ -1,0 +1,6 @@
+/*mblaze_stopwatch_final*/
+the_ROM_image:
+{
+   <bitstream> 
+   <elf> 
+}

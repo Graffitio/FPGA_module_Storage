@@ -1,0 +1,1098 @@
+TRACE::2023-11-27.16:27:40::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:40::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:40::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-11-27.16:27:40::SCWPlatform::Opened new HwDB with name mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:40::SCWWriter::formatted JSON is {
+	"platformName":	"mblaze_stopwatch_cntr_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mblaze_stopwatch_cntr_hw",
+	"platHandOff":	"F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/mblaze_stopwatch_cntr.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mblaze_stopwatch_cntr.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2023-11-27.16:27:40::SCWWriter::formatted JSON is {
+	"platformName":	"mblaze_stopwatch_cntr_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mblaze_stopwatch_cntr_hw",
+	"platHandOff":	"F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/mblaze_stopwatch_cntr.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mblaze_stopwatch_cntr.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mblaze_stopwatch_cntr_hw",
+	"systems":	[{
+			"systemName":	"mblaze_stopwatch_cntr_hw",
+			"systemDesc":	"mblaze_stopwatch_cntr_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mblaze_stopwatch_cntr_hw"
+		}]
+}
+TRACE::2023-11-27.16:27:40::SCWPlatform::Boot application domains not present, creating them
+TRACE::2023-11-27.16:27:40::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2023-11-27.16:27:40::SCWWriter::formatted JSON is {
+	"platformName":	"mblaze_stopwatch_cntr_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mblaze_stopwatch_cntr_hw",
+	"platHandOff":	"F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/mblaze_stopwatch_cntr.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mblaze_stopwatch_cntr.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mblaze_stopwatch_cntr_hw",
+	"systems":	[{
+			"systemName":	"mblaze_stopwatch_cntr_hw",
+			"systemDesc":	"mblaze_stopwatch_cntr_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mblaze_stopwatch_cntr_hw"
+		}]
+}
+TRACE::2023-11-27.16:27:40::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:40::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:40::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:40::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:40::SCWDomain::checking for install qemu data   : 
+TRACE::2023-11-27.16:27:40::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:40::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:40::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:40::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:40::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:40::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:40::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:40::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:40::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:40::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_edit_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_final/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-27.16:27:40::SCWMssOS::No sw design opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:40::SCWMssOS::mss does not exists at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:40::SCWMssOS::Creating sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:40::SCWMssOS::Adding the swdes entry, created swdb F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss with des name F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:40::SCWMssOS::updating the scw layer changes to swdes at   F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:40::SCWMssOS::Writing mss at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:40::SCWMssOS::Completed writing the mss file at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp
+TRACE::2023-11-27.16:27:40::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2023-11-27.16:27:40::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2023-11-27.16:27:40::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:40::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:40::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:40::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:40::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:40::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_edit_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_final/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-27.16:27:40::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:40::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:40::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:40::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:40::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:40::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:40::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_edit_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_final/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-27.16:27:40::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:40::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:40::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:40::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:40::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:40::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:40::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_edit_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_final/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-27.16:27:40::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:40::SCWWriter::formatted JSON is {
+	"platformName":	"mblaze_stopwatch_cntr_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mblaze_stopwatch_cntr_hw",
+	"platHandOff":	"F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/mblaze_stopwatch_cntr.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mblaze_stopwatch_cntr.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mblaze_stopwatch_cntr_hw",
+	"systems":	[{
+			"systemName":	"mblaze_stopwatch_cntr_hw",
+			"systemDesc":	"mblaze_stopwatch_cntr_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mblaze_stopwatch_cntr_hw",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-11-27.16:27:40::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:40::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:40::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:40::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:40::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:40::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:40::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_edit_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_final/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-27.16:27:40::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:40::SCWMssOS::Completed writing the mss file at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp
+TRACE::2023-11-27.16:27:40::SCWMssOS::Forcing BSP Sources regeneration.
+LOG::2023-11-27.16:27:41::SCWPlatform::Started generating the artifacts platform mblaze_stopwatch_cntr_hw
+TRACE::2023-11-27.16:27:41::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-11-27.16:27:41::SCWPlatform::Started generating the artifacts for system configuration mblaze_stopwatch_cntr_hw
+LOG::2023-11-27.16:27:41::SCWSystem::Checking the domain standalone_domain
+LOG::2023-11-27.16:27:41::SCWSystem::Not a boot domain 
+LOG::2023-11-27.16:27:41::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-11-27.16:27:41::SCWDomain::Generating domain artifcats
+TRACE::2023-11-27.16:27:41::SCWMssOS::Generating standalone artifcats
+TRACE::2023-11-27.16:27:41::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-11-27.16:27:41::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:41::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:41::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:41::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:41::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:41::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_edit_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_final/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+KEYINFO::2023-11-27.16:27:41::SCWMssOS::Could not open the swdb for F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+KEYINFO::2023-11-27.16:27:41::SCWMssOS::Could not open the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss is not found
+
+TRACE::2023-11-27.16:27:41::SCWMssOS::Cleared the swdb table entry
+TRACE::2023-11-27.16:27:41::SCWMssOS::No sw design opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:41::SCWMssOS::mss exists loading the mss file  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:41::SCWMssOS::Opened the sw design from mss  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:41::SCWMssOS::Adding the swdes entry F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss with des name system_1
+TRACE::2023-11-27.16:27:41::SCWMssOS::updating the scw layer about changes
+TRACE::2023-11-27.16:27:41::SCWMssOS::Opened the sw design.  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:41::SCWMssOS::Completed writing the mss file at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp
+TRACE::2023-11-27.16:27:41::SCWMssOS::Mss edits present, copying mssfile into export location F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:41::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-11-27.16:27:41::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-11-27.16:27:41::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2023-11-27.16:27:41::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-11-27.16:27:41::SCWMssOS::Copying to export directory.
+TRACE::2023-11-27.16:27:41::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-11-27.16:27:41::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-11-27.16:27:41::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-11-27.16:27:41::SCWSystem::Completed Processing the sysconfig mblaze_stopwatch_cntr_hw
+LOG::2023-11-27.16:27:41::SCWPlatform::Completed generating the artifacts for system configuration mblaze_stopwatch_cntr_hw
+TRACE::2023-11-27.16:27:41::SCWPlatform::Started preparing the platform 
+TRACE::2023-11-27.16:27:41::SCWSystem::Writing the bif file for system config mblaze_stopwatch_cntr_hw
+TRACE::2023-11-27.16:27:41::SCWSystem::dir created 
+TRACE::2023-11-27.16:27:41::SCWSystem::Writing the bif 
+TRACE::2023-11-27.16:27:41::SCWPlatform::Started writing the spfm file 
+TRACE::2023-11-27.16:27:41::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-11-27.16:27:41::SCWPlatform::Completed generating the platform
+TRACE::2023-11-27.16:27:41::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:41::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:41::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:41::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:41::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:41::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_edit_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_final/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-27.16:27:41::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:41::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:41::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:41::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:41::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:41::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:41::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_edit_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_final/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-27.16:27:41::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:41::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:41::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:41::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:41::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:41::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:41::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_edit_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_final/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-27.16:27:41::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:41::SCWWriter::formatted JSON is {
+	"platformName":	"mblaze_stopwatch_cntr_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mblaze_stopwatch_cntr_hw",
+	"platHandOff":	"F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/mblaze_stopwatch_cntr.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mblaze_stopwatch_cntr.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mblaze_stopwatch_cntr_hw",
+	"systems":	[{
+			"systemName":	"mblaze_stopwatch_cntr_hw",
+			"systemDesc":	"mblaze_stopwatch_cntr_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mblaze_stopwatch_cntr_hw",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"014f09aa243a9c860dc58c4f989b44fe",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-11-27.16:27:41::SCWPlatform::updated the xpfm file.
+TRACE::2023-11-27.16:27:41::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:41::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:41::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:41::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:41::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:41::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_edit_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_final/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-27.16:27:41::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:41::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:41::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:41::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:41::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:41::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:41::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_edit_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_final/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-27.16:27:41::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:41::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:41::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:41::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:41::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:41::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:41::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_edit_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_final/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-27.16:27:41::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:41::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:41::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:41::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:41::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:41::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:41::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_edit_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_final/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-27.16:27:41::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:41::SCWWriter::formatted JSON is {
+	"platformName":	"mblaze_stopwatch_cntr_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mblaze_stopwatch_cntr_hw",
+	"platHandOff":	"F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/mblaze_stopwatch_cntr.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mblaze_stopwatch_cntr.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mblaze_stopwatch_cntr_hw",
+	"systems":	[{
+			"systemName":	"mblaze_stopwatch_cntr_hw",
+			"systemDesc":	"mblaze_stopwatch_cntr_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mblaze_stopwatch_cntr_hw",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"014f09aa243a9c860dc58c4f989b44fe",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-11-27.16:27:41::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:41::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:41::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:41::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:41::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:41::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_edit_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_final/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-27.16:27:41::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:41::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:41::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:41::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:41::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:41::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:41::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_edit_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_final/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-27.16:27:41::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:41::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:41::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:42::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:42::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:42::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:42::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:42::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:42::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_edit_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_final/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-27.16:27:42::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:42::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:42::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:42::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:42::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:42::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:42::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:42::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:42::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:42::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:42::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_edit_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_final/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-27.16:27:42::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:42::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:42::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:42::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:42::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:42::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:42::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:42::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:42::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:42::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:42::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_edit_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_final/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-27.16:27:42::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:42::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:42::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:42::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:42::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:42::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:42::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:42::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:42::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:42::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:42::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_edit_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_final/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-27.16:27:42::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:42::SCWWriter::formatted JSON is {
+	"platformName":	"mblaze_stopwatch_cntr_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mblaze_stopwatch_cntr_hw",
+	"platHandOff":	"F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/mblaze_stopwatch_cntr.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mblaze_stopwatch_cntr.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mblaze_stopwatch_cntr_hw",
+	"systems":	[{
+			"systemName":	"mblaze_stopwatch_cntr_hw",
+			"systemDesc":	"mblaze_stopwatch_cntr_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mblaze_stopwatch_cntr_hw",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"014f09aa243a9c860dc58c4f989b44fe",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-11-27.16:27:42::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:42::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:42::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:42::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:42::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:42::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:42::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:42::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:42::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:42::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_edit_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_final/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-27.16:27:42::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:42::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:42::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:42::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:42::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:42::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:42::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:42::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:42::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:42::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:42::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_edit_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_final/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-27.16:27:42::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:42::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:42::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:42::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:42::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:42::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:42::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:42::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:42::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_22
+TRACE::2023-11-27.16:27:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:42::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:42::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_edit_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_final/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-27.16:27:42::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:42::SCWWriter::formatted JSON is {
+	"platformName":	"mblaze_stopwatch_cntr_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mblaze_stopwatch_cntr_hw",
+	"platHandOff":	"F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/mblaze_stopwatch_cntr.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mblaze_stopwatch_cntr.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mblaze_stopwatch_cntr_hw",
+	"systems":	[{
+			"systemName":	"mblaze_stopwatch_cntr_hw",
+			"systemDesc":	"mblaze_stopwatch_cntr_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mblaze_stopwatch_cntr_hw",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"014f09aa243a9c860dc58c4f989b44fe",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-11-27.16:27:43::SCWPlatform::Clearing the existing platform
+TRACE::2023-11-27.16:27:43::SCWSystem::Clearing the existing sysconfig
+TRACE::2023-11-27.16:27:43::SCWMssOS::Removing the swdes entry for  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:43::SCWSystem::Clearing the domains completed.
+TRACE::2023-11-27.16:27:43::SCWPlatform::Clearing the opened hw db.
+TRACE::2023-11-27.16:27:43::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform:: Platform location is F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:43::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:43::SCWPlatform::Removing the HwDB with name F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:43::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:43::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-11-27.16:27:43::SCWPlatform::Opened new HwDB with name mblaze_stopwatch_wrapper_23
+TRACE::2023-11-27.16:27:43::SCWReader::Active system found as  mblaze_stopwatch_cntr_hw
+TRACE::2023-11-27.16:27:43::SCWReader::Handling sysconfig mblaze_stopwatch_cntr_hw
+TRACE::2023-11-27.16:27:43::SCWDomain::checking for install qemu data   : 
+TRACE::2023-11-27.16:27:43::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:43::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:43::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_23
+TRACE::2023-11-27.16:27:43::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_23
+TRACE::2023-11-27.16:27:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:43::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:43::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:43::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_23
+TRACE::2023-11-27.16:27:43::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_23
+TRACE::2023-11-27.16:27:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:43::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:43::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:43::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_23
+TRACE::2023-11-27.16:27:43::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_23
+TRACE::2023-11-27.16:27:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:43::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:43::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_edit_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_final/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-27.16:27:43::SCWMssOS::No sw design opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:43::SCWMssOS::mss exists loading the mss file  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:43::SCWMssOS::Opened the sw design from mss  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:43::SCWMssOS::Adding the swdes entry F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss with des name system_1
+TRACE::2023-11-27.16:27:43::SCWMssOS::updating the scw layer about changes
+TRACE::2023-11-27.16:27:43::SCWMssOS::Opened the sw design.  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:43::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-11-27.16:27:43::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-11-27.16:27:43::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:43::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:43::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_23
+TRACE::2023-11-27.16:27:43::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_23
+TRACE::2023-11-27.16:27:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:43::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:43::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_edit_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_final/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-27.16:27:43::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:43::SCWReader::No isolation master present  
+TRACE::2023-11-27.16:27:43::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:43::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:43::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_23
+TRACE::2023-11-27.16:27:43::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_23
+TRACE::2023-11-27.16:27:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:43::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:43::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_edit_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_final/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-27.16:27:43::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:43::SCWMssOS::In reload Mss file.
+TRACE::2023-11-27.16:27:43::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:43::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:43::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_23
+TRACE::2023-11-27.16:27:43::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_23
+TRACE::2023-11-27.16:27:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:43::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:43::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_edit_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_final/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+KEYINFO::2023-11-27.16:27:43::SCWMssOS::Could not open the swdb for system_1
+KEYINFO::2023-11-27.16:27:43::SCWMssOS::Could not open the sw design at  system_1
+ERROR: [Hsi 55-1558] Software Design system_1 is not found
+
+TRACE::2023-11-27.16:27:43::SCWMssOS::Cleared the swdb table entry
+TRACE::2023-11-27.16:27:43::SCWMssOS::No sw design opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:43::SCWMssOS::mss exists loading the mss file  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:43::SCWMssOS::Opened the sw design from mss  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:43::SCWMssOS::Adding the swdes entry F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss with des name system_1
+TRACE::2023-11-27.16:27:43::SCWMssOS::updating the scw layer about changes
+TRACE::2023-11-27.16:27:43::SCWMssOS::Opened the sw design.  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:43::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:43::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:43::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:43::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_23
+TRACE::2023-11-27.16:27:43::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_23
+TRACE::2023-11-27.16:27:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:43::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:43::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_edit_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_final/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-27.16:27:43::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:43::SCWMssOS::Removing the swdes entry for  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+LOG::2023-11-27.16:27:48::SCWPlatform::Started generating the artifacts platform mblaze_stopwatch_cntr_hw
+TRACE::2023-11-27.16:27:48::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-11-27.16:27:48::SCWPlatform::Started generating the artifacts for system configuration mblaze_stopwatch_cntr_hw
+LOG::2023-11-27.16:27:48::SCWSystem::Checking the domain standalone_domain
+LOG::2023-11-27.16:27:48::SCWSystem::Not a boot domain 
+LOG::2023-11-27.16:27:48::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-11-27.16:27:48::SCWDomain::Generating domain artifcats
+TRACE::2023-11-27.16:27:48::SCWMssOS::Generating standalone artifcats
+TRACE::2023-11-27.16:27:48::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-11-27.16:27:48::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:48::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:48::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:48::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:48::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:48::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:48::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_23
+TRACE::2023-11-27.16:27:48::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_23
+TRACE::2023-11-27.16:27:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:48::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:48::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_edit_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_final/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-27.16:27:48::SCWMssOS::No sw design opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:48::SCWMssOS::mss exists loading the mss file  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:48::SCWMssOS::Opened the sw design from mss  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:48::SCWMssOS::Adding the swdes entry F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss with des name system_1
+TRACE::2023-11-27.16:27:48::SCWMssOS::updating the scw layer about changes
+TRACE::2023-11-27.16:27:48::SCWMssOS::Opened the sw design.  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:48::SCWMssOS::Completed writing the mss file at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp
+TRACE::2023-11-27.16:27:48::SCWMssOS::Mss edits present, copying mssfile into export location F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:48::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-11-27.16:27:48::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-11-27.16:27:48::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2023-11-27.16:27:48::SCWMssOS::doing bsp build ... 
+TRACE::2023-11-27.16:27:48::SCWMssOS::System Command Ran  F: & cd  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp & make 
+TRACE::2023-11-27.16:27:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2023-11-27.16:27:48::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-11-27.16:27:48::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2023-11-27.16:27:48::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2023-11-27.16:27:49::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2023-11-27.16:27:49::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-11-27.16:27:49::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2023-11-27.16:27:49::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2023-11-27.16:27:49::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_5/src"
+
+TRACE::2023-11-27.16:27:49::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-11-27.16:27:49::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2023-11-27.16:27:49::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2023-11-27.16:27:49::SCWMssOS::"Running Make include in microblaze_0/libsrc/myip_stopwatch_v1_0/src"
+
+TRACE::2023-11-27.16:27:49::SCWMssOS::make -C microblaze_0/libsrc/myip_stopwatch_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2023-11-27.16:27:49::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare"
+TRACE::2023-11-27.16:27:49::SCWMssOS:: "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2023-11-27.16:27:49::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_1/src"
+
+TRACE::2023-11-27.16:27:49::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2023-11-27.16:27:49::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EX
+TRACE::2023-11-27.16:27:49::SCWMssOS::TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2023-11-27.16:27:50::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2023-11-27.16:27:50::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2023-11-27.16:27:50::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTR
+TRACE::2023-11-27.16:27:50::SCWMssOS::A_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2023-11-27.16:27:50::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2023-11-27.16:27:50::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-11-27.16:27:50::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
+TRACE::2023-11-27.16:27:50::SCWMssOS::LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2023-11-27.16:27:51::SCWMssOS::"Compiling bram"
+
+TRACE::2023-11-27.16:27:52::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2023-11-27.16:27:52::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-11-27.16:27:52::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
+TRACE::2023-11-27.16:27:52::SCWMssOS::LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2023-11-27.16:27:52::SCWMssOS::"Compiling cpu"
+
+TRACE::2023-11-27.16:27:52::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_5/src"
+
+TRACE::2023-11-27.16:27:52::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-11-27.16:27:52::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
+TRACE::2023-11-27.16:27:52::SCWMssOS::LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2023-11-27.16:27:52::SCWMssOS::"Compiling gpio"
+
+TRACE::2023-11-27.16:27:53::SCWMssOS::"Running Make libs in microblaze_0/libsrc/myip_stopwatch_v1_0/src"
+
+TRACE::2023-11-27.16:27:53::SCWMssOS::make -C microblaze_0/libsrc/myip_stopwatch_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2023-11-27.16:27:53::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "E
+TRACE::2023-11-27.16:27:53::SCWMssOS::XTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2023-11-27.16:27:53::SCWMssOS::"Compiling myip_stopwatch..."
+
+TRACE::2023-11-27.16:27:54::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_1/src"
+
+TRACE::2023-11-27.16:27:54::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2023-11-27.16:27:54::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+TRACE::2023-11-27.16:27:54::SCWMssOS::_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2023-11-27.16:27:54::SCWMssOS::"Compiling standalone";
+
+TRACE::2023-11-27.16:27:58::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2023-11-27.16:27:58::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2023-11-27.16:27:58::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2023-11-27.16:27:58::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2023-11-27.16:27:58::SCWMssOS::"Compiling uartlite"
+
+TRACE::2023-11-27.16:27:59::SCWMssOS::'Finished building libraries'
+
+TRACE::2023-11-27.16:27:59::SCWMssOS::Copying to export directory.
+TRACE::2023-11-27.16:27:59::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-11-27.16:27:59::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-11-27.16:27:59::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-11-27.16:27:59::SCWSystem::Completed Processing the sysconfig mblaze_stopwatch_cntr_hw
+LOG::2023-11-27.16:27:59::SCWPlatform::Completed generating the artifacts for system configuration mblaze_stopwatch_cntr_hw
+TRACE::2023-11-27.16:27:59::SCWPlatform::Started preparing the platform 
+TRACE::2023-11-27.16:27:59::SCWSystem::Writing the bif file for system config mblaze_stopwatch_cntr_hw
+TRACE::2023-11-27.16:27:59::SCWSystem::dir created 
+TRACE::2023-11-27.16:27:59::SCWSystem::Writing the bif 
+TRACE::2023-11-27.16:27:59::SCWPlatform::Started writing the spfm file 
+TRACE::2023-11-27.16:27:59::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-11-27.16:27:59::SCWPlatform::Completed generating the platform
+TRACE::2023-11-27.16:27:59::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:59::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:59::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:59::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:27:59::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:27:59::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:27:59::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_23
+TRACE::2023-11-27.16:27:59::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_23
+TRACE::2023-11-27.16:27:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:27:59::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:59::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_edit_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_final/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-27.16:27:59::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:27:59::SCWWriter::formatted JSON is {
+	"platformName":	"mblaze_stopwatch_cntr_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mblaze_stopwatch_cntr_hw",
+	"platHandOff":	"F:/Ian_Jung/workplace/cora_z7/cora_cpu_2019/Basys3_Microblaze_real/mblaze_stopwatch_cntr.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mblaze_stopwatch_cntr.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mblaze_stopwatch_cntr_hw",
+	"systems":	[{
+			"systemName":	"mblaze_stopwatch_cntr_hw",
+			"systemDesc":	"mblaze_stopwatch_cntr_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mblaze_stopwatch_cntr_hw",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"014f09aa243a9c860dc58c4f989b44fe",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-11-27.16:27:59::SCWPlatform::updated the xpfm file.
+TRACE::2023-11-27.16:28:00::SCWPlatform::Trying to open the hw design at F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:28:00::SCWPlatform::DSA given F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:28:00::SCWPlatform::DSA absoulate path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:28:00::SCWPlatform::DSA directory F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw
+TRACE::2023-11-27.16:28:00::SCWPlatform:: Platform Path F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/hw/mblaze_stopwatch_cntr.xsa
+TRACE::2023-11-27.16:28:00::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-11-27.16:28:00::SCWPlatform::Trying to set the existing hwdb with name mblaze_stopwatch_wrapper_23
+TRACE::2023-11-27.16:28:00::SCWPlatform::Opened existing hwdb mblaze_stopwatch_wrapper_23
+TRACE::2023-11-27.16:28:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-27.16:28:00::SCWMssOS::Checking the sw design at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-11-27.16:28:00::SCWMssOS::DEBUG:  swdes dump  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_edit_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_final/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-11-27.16:28:00::SCWMssOS::Sw design exists and opened at  F:/Ian_Jung/workplace/Harman_Vitis/mblaze_stopwatch_cntr_hw/microblaze_0/standalone_domain/bsp/system.mss
